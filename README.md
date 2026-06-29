@@ -1,25 +1,28 @@
-Aggiornamento v22 – Ultimi lavori più grandi e rotazione al passaggio del mouse
+Aggiornamento v23 – Frase del giorno
 
-Cosa cambia nella Home:
-- gli ultimi lavori sono disposti su due colonne;
-- i riquadri sono più grandi;
-- passando il mouse sopra un riquadro scorrono tutti i lavori della raccolta;
-- quando il mouse esce, torna la prima immagine scelta;
-- su telefono le immagini non ruotano automaticamente.
+La Home mostra ora una citazione diversa ogni giorno.
 
-Ordine iniziale mantenuto:
-- 3A: Picasso, poi Ensor;
-- 3B: Franz Marc, poi De Chirico;
-- 3C: Crali, poi Murakami;
-- 3E: La Notte stellata, poi Tuttomondo di Keith Haring.
+Funzionamento:
+- la frase resta uguale per tutta la giornata;
+- cambia automaticamente il giorno successivo;
+- dopo 12 giorni il ciclo ricomincia;
+- non servono aggiornamenti manuali, database o cookie;
+- la frase appare con una lieve dissolvenza;
+- il collegamento “Fonte” apre la fonte indicata.
 
-Dopo le prime due opere scorrono tutte le altre della stessa classe.
+Sono state inserite tutte le 12 citazioni approvate.
 
 File da caricare:
 - index.html
 - assets/css/style.css
-- assets/js/latest-work-rotation.js
+- assets/js/daily-quote.js
 
-Non vengono modificati Archivio, raccolte o immagini.
+Non vengono modificati:
+- Ultimi lavori pubblicati;
+- rotazione delle immagini al passaggio del mouse;
+- Archivio;
+- raccolte;
+- immagini;
+- struttura delle altre pagine.
 
 Dopo il caricamento fai Commit changes e aggiorna il sito con Cmd + Shift + R.

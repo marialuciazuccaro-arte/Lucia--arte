@@ -157,11 +157,12 @@
         <a href="materiali.html"><img class="quick-icon" src="assets/img/icons/quick/materiali-tecniche.png" alt=""><span class="quick-label">Materiali e tecniche</span><b>›</b></a>
       </section>
 
-      <section class="quote-card" aria-live="polite">
-        <div class="quote-mark">“</div>
-        <p id="daily-quote">L’arte non riproduce ciò che è visibile, ma rende visibile ciò che non sempre lo è.</p>
+      <section class="quote-card" aria-live="polite" aria-labelledby="daily-quote-label">
+        <span class="quote-label" id="daily-quote-label">Frase del giorno</span>
+        <div class="quote-mark" aria-hidden="true">“</div>
+        <p id="daily-quote">L’arte non riproduce ciò che è visibile, ma rende visibile.</p>
         <cite id="daily-author">Paul Klee</cite>
-        <div class="mini-dots" aria-hidden="true"><span class="active"></span><span></span><span></span><span></span></div>
+        <a id="daily-source" class="quote-source" href="https://archive.zpk.org/en/exhibitions/review/2017/paul-klee-make-visible-1414.html" target="_blank" rel="noopener">Fonte ↗</a>
       </section>
     </aside>
   </main>
@@ -173,5 +174,6 @@
   </footer>
   <script src="assets/js/main.js"></script>
   <script src="assets/js/latest-work-rotation.js"></script>
+  <script src="assets/js/daily-quote.js"></script>
 </body>
 </html>

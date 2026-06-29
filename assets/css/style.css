@@ -674,3 +674,43 @@ img{max-width:100%;display:block}
     transition:none;
   }
 }
+
+
+/* Frase del giorno */
+.quote-card{
+  position:relative;
+  overflow:hidden;
+}
+.quote-label{
+  display:inline-block;
+  margin-bottom:4px;
+  color:var(--blue);
+  font-size:10px;
+  font-weight:700;
+  letter-spacing:.09em;
+  text-transform:uppercase;
+}
+.quote-card p,
+.quote-card cite,
+.quote-source{
+  transition:opacity .35s ease,transform .35s ease;
+}
+.quote-card.is-loading p,
+.quote-card.is-loading cite,
+.quote-card.is-loading .quote-source{
+  opacity:0;
+  transform:translateY(4px);
+}
+.quote-source{
+  display:inline-block;
+  color:var(--blue);
+  font-size:10px;
+  font-weight:700;
+  letter-spacing:.045em;
+  text-transform:uppercase;
+  border-bottom:1px solid rgba(7,94,168,.32);
+}
+.quote-source:hover,
+.quote-source:focus-visible{
+  border-bottom-color:var(--blue);
+}
