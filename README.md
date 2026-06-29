@@ -1,27 +1,30 @@
-Aggiornamento v18 – Identità della scuola
+Aggiornamento v19 – Classe 3E
 
-Dicitura inserita:
-“Progetto didattico di Arte e Immagine realizzato presso l’Istituto Comprensivo Piero Angela di Roma – Scuola secondaria di primo grado.”
+Aggiunge:
+- nuova raccolta della classe 3E con 19 tele;
+- card 3E attiva nella Home;
+- nuova voce nell’Archivio.
 
-Modifica:
+Ordine iniziale richiesto:
+1. La Notte stellata
+2. Tuttomondo di Keith Haring
+3. tutte le altre opere
+
+Nella Home:
+- prima immagine: La Notte stellata;
+- al passaggio del mouse: Tuttomondo.
+
+Il pacchetto mantiene:
+- gallerie su tre colonne ravvicinate;
+- dicitura dell’Istituto Comprensivo Piero Angela;
+- struttura e stile già approvati.
+
+File da caricare:
 - index.html
 - archivio.html
-- lavori-esame-3a-2026.html
-- lavori-esame-3b-2026.html
-- lavori-esame-3c-2026.html
+- lavori-esame-3e-2026.html
 - assets/css/style.css
+- cartella assets/img/esami-3e-2026
 
-La dicitura compare:
-- nel footer della Home e dell’Archivio;
-- nel footer di ciascuna raccolta;
-- sotto i dati introduttivi delle raccolte 3A, 3B e 3C.
-
-Il testo chiarisce che il sito documenta un progetto didattico svolto
-nell’istituto, senza presentarsi come sito ufficiale della scuola.
-
-Caricamento:
-1. Apri lo ZIP.
-2. Carica i cinque file HTML nella cartella principale del repository.
-3. Sostituisci style.css dentro assets/css.
-4. Fai Commit changes.
-5. Aggiorna il sito con Cmd + Shift + R.
+Carica tutto mantenendo esattamente le cartelle, poi fai Commit changes
+e aggiorna il sito con Cmd + Shift + R.
