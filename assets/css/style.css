@@ -714,3 +714,97 @@ img{max-width:100%;display:block}
 .quote-source:focus-visible{
   border-bottom-color:var(--blue);
 }
+
+
+/* Crediti del progetto e tutela dei materiali */
+.footer-credits{
+  max-width:760px;
+  text-align:center;
+}
+.footer-project{
+  margin:0;
+  max-width:none;
+  line-height:1.45;
+}
+.footer-rights{
+  margin:5px 0 0;
+  color:#65798d;
+  font-size:10px;
+  line-height:1.45;
+}
+@media(max-width:760px){
+  .footer-credits{
+    max-width:none;
+    margin:12px auto;
+  }
+  .footer-rights{
+    font-size:9px;
+  }
+}
+
+
+/* Pagina Contatti e autorizzazioni */
+.contact-page{
+  width:min(100% - 36px,1000px);
+  margin:0 auto;
+  padding:72px 0 90px;
+}
+.contact-intro{
+  max-width:760px;
+}
+.contact-intro h1{
+  margin:6px 0 12px;
+  font-family:"Playfair Display",serif;
+  font-size:clamp(42px,7vw,72px);
+  line-height:1;
+  color:var(--ink);
+  font-weight:600;
+}
+.contact-lead{
+  max-width:720px;
+  margin:22px 0 28px;
+  color:#40566c;
+  font-size:17px;
+  line-height:1.75;
+}
+.contact-box{
+  padding:26px 28px;
+  border:1px solid var(--line);
+  border-radius:8px;
+  background:#f7fbfe;
+}
+.contact-label{
+  display:block;
+  margin-bottom:8px;
+  color:var(--blue);
+  font-size:10px;
+  font-weight:700;
+  letter-spacing:.08em;
+  text-transform:uppercase;
+}
+.contact-placeholder{
+  display:block;
+  color:var(--ink);
+  font-size:clamp(20px,4vw,30px);
+  overflow-wrap:anywhere;
+}
+.contact-box p{
+  margin:10px 0 0;
+  color:#6b7f92;
+  font-size:12px;
+  line-height:1.55;
+}
+.contact-note{
+  margin:22px 0 0;
+  color:#536a80;
+  font-size:13px;
+  line-height:1.65;
+}
+@media(max-width:620px){
+  .contact-page{
+    padding:48px 0 66px;
+  }
+  .contact-box{
+    padding:22px 20px;
+  }
+}
