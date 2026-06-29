@@ -1,17 +1,24 @@
-Aggiornamento v4 – sostituzione icone portali
+AGGIORNAMENTO V5 — ICONE CANVA
 
-Contenuto:
+Questo pacchetto sostituisce soltanto le sei icone della Home con i PNG creati in Canva.
+La fotografia personalizzata della Cupola di Firenze resta collegata al file JPG già caricato.
+
+Associazione delle icone:
+- lente e globo → Esplora
+- cavalletto → Laboratori
+- matite e righello → Strumenti
+- rete di nodi → Mappe
+- cartella → Archivio
+- libri e tocco → Area studenti
+
+COME CARICARE
+1. Apri lo ZIP.
+2. Su GitHub apri il repository e scegli Add file → Upload files.
+3. Trascina tutto il contenuto dello ZIP mantenendo le cartelle.
+4. Conferma con Commit changes.
+5. Attendi la pubblicazione e aggiorna con Cmd + Shift + R.
+
+File modificati:
 - index.html
 - assets/css/style.css
-
-Cosa cambia:
-- nuova serie di icone più pulite e coerenti nella sezione principale della home:
-  Esplora, Laboratori, Strumenti, Mappe, Archivio, Area studenti.
-- mantenuta la dicitura “Sintesi, mappe e risorse”.
-
-Come aggiornare su GitHub:
-1. apri lo ZIP
-2. carica i file mantenendo la struttura delle cartelle
-3. conferma con Commit changes
-4. attendi 1–2 minuti
-5. aggiorna il sito con Cmd + Shift + R
+- assets/img/icons/*.png
