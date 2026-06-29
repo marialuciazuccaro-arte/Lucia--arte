@@ -87,10 +87,14 @@ img{max-width:100%;display:block}
 .feature-card p:not(.eyebrow){margin:0 0 14px;font-size:14px}
 .feature-card a{color:var(--blue);font-weight:700;text-transform:uppercase;font-size:12px}
 .quick-resources{box-shadow:none}
-.quick-resources a{display:grid;grid-template-columns:30px 1fr 14px;align-items:center;gap:9px;padding:11px 0;border-bottom:1px solid #eef3f8;font-size:14px;line-height:1.35}
+.quick-resources a{display:grid;grid-template-columns:30px 1fr 14px;align-items:center;gap:9px;padding:10px 0;border-bottom:1px solid #eef3f8;font-size:14px;line-height:1.35}
 .quick-resources a:last-child{border-bottom:0}
-.quick-resources span{color:var(--blue);font-size:20px}
+.quick-icon{width:26px;height:26px;object-fit:contain;display:block}
+.quick-label{color:var(--ink);font-size:14px}
 .quick-resources b{font-size:20px;color:var(--blue)}
+.quick-resources a:hover .quick-label{color:var(--blue)}
+.quick-resources a:hover .quick-icon{transform:translateX(1px)}
+.quick-icon{transition:transform .18s ease}
 
 .quote-card{
   background:var(--blue-wash) url('../img/watercolor-quote.svg') center/cover no-repeat;text-align:center;border:0;padding:34px 24px;

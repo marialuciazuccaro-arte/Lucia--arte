@@ -1,16 +1,17 @@
-Aggiornamento v6 – allineamento collegamenti della Home
+Pacchetto minimale – solo aggiornamento icone “Risorse veloci”
 
-Questo aggiornamento modifica soltanto:
-assets/css/style.css
+Contiene esclusivamente i file necessari per sostituire le icone piccole della colonna destra:
+- index.html
+- assets/css/style.css
+- assets/img/icons/quick/*.png
 
-Effetto:
-i collegamenti finali delle sei sezioni della Home
-(Esplora, Laboratori, Strumenti, Mappe, Archivio, Area studenti)
-vengono allineati tutti alla stessa altezza.
+Perché non basta caricare solo le immagini?
+Perché il sito attuale deve anche sapere dove leggerle e come visualizzarle.
+Per questo servono anche index.html e style.css.
 
-Caricamento:
+Caricamento su GitHub:
 1. Apri lo ZIP.
-2. Su GitHub entra in assets > css.
-3. Carica style.css sostituendo quello esistente.
-4. Fai Commit changes.
-5. Attendi la pubblicazione e aggiorna con Cmd + Shift + R.
+2. Carica tutto mantenendo le cartelle.
+3. Commit changes.
+4. Attendi 1–2 minuti.
+5. Aggiorna il sito con Cmd + Shift + R.
