@@ -1,17 +1,17 @@
-Aggiornamento v3 – icone portali + nuova dicitura
+Aggiornamento v4 – sostituzione icone portali
 
 Contenuto:
 - index.html
-- mappe.html
 - assets/css/style.css
 
 Cosa cambia:
-- nuove icone illustrate nella sezione Esplora / Laboratori / Strumenti / Mappe / Archivio / Area studenti
-- sostituzione della dicitura con “Sintesi, mappe e risorse”
-- eliminata qualsiasi menzione a BES
+- nuova serie di icone più pulite e coerenti nella sezione principale della home:
+  Esplora, Laboratori, Strumenti, Mappe, Archivio, Area studenti.
+- mantenuta la dicitura “Sintesi, mappe e risorse”.
 
-Caricamento su GitHub:
-1. apri questa cartella
-2. carica i file mantenendo la stessa struttura delle cartelle
-3. fai Commit changes
-4. attendi 1-2 minuti e aggiorna il sito con Cmd + Shift + R
+Come aggiornare su GitHub:
+1. apri lo ZIP
+2. carica i file mantenendo la struttura delle cartelle
+3. conferma con Commit changes
+4. attendi 1–2 minuti
+5. aggiorna il sito con Cmd + Shift + R
