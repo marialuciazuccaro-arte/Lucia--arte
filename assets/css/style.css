@@ -499,3 +499,101 @@ img{max-width:100%;display:block}
     font-size:12px;
   }
 }
+
+
+/* Ultimi lavori pubblicati */
+.latest-published{
+  padding:40px 0 8px;
+}
+.latest-published .section-head{
+  align-items:end;
+  margin-bottom:18px;
+}
+.latest-published .section-head h2{
+  margin:3px 0 0;
+}
+.latest-published .eyebrow{
+  margin:0;
+}
+.latest-grid{
+  display:grid;
+  grid-template-columns:repeat(4,minmax(0,1fr));
+  gap:14px;
+}
+.latest-card{
+  display:block;
+  min-width:0;
+  overflow:hidden;
+  background:#fff;
+  border:1px solid var(--line);
+  border-radius:6px;
+  transition:transform .2s ease,box-shadow .2s ease;
+}
+.latest-card:hover,
+.latest-card:focus-visible{
+  transform:translateY(-2px);
+  box-shadow:0 16px 34px rgba(16,36,63,.09);
+}
+.latest-card img{
+  display:block;
+  width:100%;
+  aspect-ratio:4/3;
+  object-fit:cover;
+}
+.latest-card__copy{
+  display:flex;
+  flex-direction:column;
+  gap:5px;
+  padding:14px 15px 16px;
+}
+.latest-card__copy small{
+  color:#6c8094;
+  font-size:11px;
+  font-weight:700;
+  letter-spacing:.035em;
+  text-transform:uppercase;
+}
+.latest-card__copy strong{
+  color:var(--ink);
+  font-family:"Playfair Display",serif;
+  font-size:21px;
+  font-weight:600;
+}
+.latest-card__copy span{
+  color:var(--blue);
+  font-size:11px;
+  font-weight:700;
+  text-transform:uppercase;
+  letter-spacing:.035em;
+}
+@media(max-width:1050px){
+  .latest-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+}
+@media(max-width:620px){
+  .latest-grid{grid-template-columns:1fr}
+}
+
+
+/* Classi spostate dalla Home all'Archivio */
+.archive-classes{
+  padding:12px 0 46px;
+}
+.archive-classes .section-head{
+  align-items:end;
+  margin-bottom:18px;
+}
+.archive-classes .section-head h2{
+  margin:3px 0 0;
+}
+.archive-classes .eyebrow{
+  margin:0;
+}
+.archive-projects-heading{
+  margin-bottom:18px;
+}
+.archive-projects-heading h2{
+  margin:3px 0 0;
+}
+.archive-projects-heading .eyebrow{
+  margin:0;
+}

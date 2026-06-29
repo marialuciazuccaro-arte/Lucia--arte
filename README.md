@@ -1,30 +1,24 @@
-Aggiornamento v19 – Classe 3E
+Aggiornamento v21 – Le classi spostate nell’Archivio
 
-Aggiunge:
-- nuova raccolta della classe 3E con 19 tele;
-- card 3E attiva nella Home;
-- nuova voce nell’Archivio.
+La Home contiene ora soltanto:
+- Ultimi lavori pubblicati.
 
-Ordine iniziale richiesto:
-1. La Notte stellata
-2. Tuttomondo di Keith Haring
-3. tutte le altre opere
+La sezione “Le classi e i loro lavori” è stata spostata nella pagina Archivio.
 
-Nella Home:
-- prima immagine: La Notte stellata;
-- al passaggio del mouse: Tuttomondo.
+L’Archivio è organizzato in due parti:
+1. Le classi e i loro lavori
+2. Tutte le raccolte
 
-Il pacchetto mantiene:
-- gallerie su tre colonne ravvicinate;
-- dicitura dell’Istituto Comprensivo Piero Angela;
-- struttura e stile già approvati.
+Non vengono modificati:
+- immagini;
+- pagine delle classi;
+- ordine e dimensione delle gallerie;
+- collegamenti alle raccolte;
+- dicitura della scuola.
 
-File da caricare:
+File da sostituire:
 - index.html
 - archivio.html
-- lavori-esame-3e-2026.html
 - assets/css/style.css
-- cartella assets/img/esami-3e-2026
 
-Carica tutto mantenendo esattamente le cartelle, poi fai Commit changes
-e aggiorna il sito con Cmd + Shift + R.
+Dopo il caricamento fai Commit changes e aggiorna il sito con Cmd + Shift + R.
