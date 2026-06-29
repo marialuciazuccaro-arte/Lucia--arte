@@ -1,18 +1,18 @@
-Aggiornamento v8 – dimensionamento icone “Risorse veloci”
+Aggiornamento v10 – Lavori d’esame 2026, classe 3A
 
-Questo pacchetto modifica soltanto:
-assets/css/style.css
+Contiene:
+- index.html con cinque lavori reali nella Home;
+- archivio.html con la prima raccolta;
+- lavori-esame-3a-2026.html con 16 elaborati;
+- assets/css/style.css;
+- assets/img/esami-3a-2026/ con fotografie ottimizzate.
 
-Correzioni:
-- icone portate da 26 a 32 px;
-- colonna leggermente più larga;
-- correzione ottica individuale delle sette icone, perché alcune forme
-  apparivano visivamente più piccole pur avendo lo stesso riquadro;
-- nessuna modifica a immagini, testi, Cupola o icone principali.
+Caricamento su GitHub:
+1. Apri lo ZIP.
+2. Carica tutto mantenendo esattamente la struttura delle cartelle.
+3. Fai Commit changes.
+4. Attendi la pubblicazione.
+5. Aggiorna il sito con Cmd + Shift + R.
 
-Su GitHub:
-1. entra in assets > css;
-2. sostituisci style.css;
-3. fai Commit changes;
-4. attendi la pubblicazione;
-5. aggiorna con Cmd + Shift + R.
+Le fotografie sono state ridimensionate e compresse per il web.
+Cliccando su un lavoro nella galleria si apre l’immagine ingrandita.
