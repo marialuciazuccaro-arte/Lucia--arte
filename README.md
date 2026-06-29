@@ -1,17 +1,23 @@
-Aggiornamento v12 – Ridimensionamento gallerie esami
+Aggiornamento v13 – Le classi e i loro lavori
 
-Contiene solo il file CSS aggiornato per le pagine dei lavori d’esame.
+Questo aggiornamento modifica soltanto:
+- index.html
+- assets/css/style.css
 
-Cosa cambia:
-- le opere non vengono più mostrate troppo grandi;
-- ogni immagine resta interamente visibile nella card;
-- la galleria usa una griglia più ordinata;
-- su desktop: 3 colonne;
-- su tablet: 2 colonne;
-- su telefono: 1 colonna.
+La Home mostra ora 9 riquadri:
+3A, 3B, 3C, 3E, 2A, 2C, 2E, 1A, 1E.
 
-Come caricare:
-1. Apri questo ZIP.
-2. Nel repository GitHub sostituisci il file assets/css/style.css mantenendo lo stesso percorso.
-3. Fai Commit changes.
-4. Aggiorna il sito con Cmd + Shift + R.
+Scelte già inserite:
+- 3A: Picasso come immagine iniziale; Ensor al passaggio del mouse.
+- 3B: Franz Marc come immagine iniziale; De Chirico al passaggio del mouse.
+
+Le altre classi compaiono con un segnaposto discreto e la dicitura
+“Raccolta in preparazione”. Verranno attivate progressivamente quando
+saranno disponibili almeno due immagini per classe.
+
+Caricamento:
+1. Apri lo ZIP.
+2. Carica index.html nella cartella principale del repository.
+3. Carica style.css in assets > css.
+4. Fai Commit changes.
+5. Aggiorna il sito con Cmd + Shift + R.
