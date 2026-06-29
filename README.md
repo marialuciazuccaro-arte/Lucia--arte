@@ -1,16 +1,15 @@
-Aggiornamento v16 – Gallerie più grandi e compatte
+Aggiornamento v17 – Gallerie più affollate su tre colonne
 
 Modifica soltanto:
 assets/css/style.css
 
 Cosa cambia:
-- due colonne invece di tre su computer;
-- opere leggermente più grandi;
-- distanza ridotta fra le immagini;
-- eliminati cornici, fondi chiari e ombre delle card;
-- disposizione continua tipo pagina editoriale, non “vendita di quadri”;
-- le immagini restano interamente visibili;
-- su telefono rimane una sola colonna.
+- tre colonne su computer;
+- distanza tra le opere ridotta a 8 px;
+- stessa altezza massima della versione precedente;
+- due colonne su tablet;
+- una colonna su telefono;
+- nessuna cornice, ombra o fondo da “vendita di quadri”.
 
 Caricamento:
 1. Apri lo ZIP.
