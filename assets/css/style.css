@@ -119,7 +119,7 @@ img{max-width:100%;display:block}
 }
 .portal-card h2{text-transform:uppercase;font-size:16px;color:var(--blue);letter-spacing:.04em;margin:0 0 8px}
 .portal-card p{font-size:13px;margin:0 auto 12px;max-width:165px}
-.portal-card strong{font-size:12px;text-transform:uppercase;color:var(--blue)}
+.portal-card strong{font-size:12px;text-transform:uppercase;color:var(--blue);margin-top:auto}
 .portal-card:hover .portal-icon{transform:translateY(-2px) scale(1.015)}
 
 

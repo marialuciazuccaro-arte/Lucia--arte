@@ -1,24 +1,16 @@
-AGGIORNAMENTO V5 — ICONE CANVA
+Aggiornamento v6 – allineamento collegamenti della Home
 
-Questo pacchetto sostituisce soltanto le sei icone della Home con i PNG creati in Canva.
-La fotografia personalizzata della Cupola di Firenze resta collegata al file JPG già caricato.
+Questo aggiornamento modifica soltanto:
+assets/css/style.css
 
-Associazione delle icone:
-- lente e globo → Esplora
-- cavalletto → Laboratori
-- matite e righello → Strumenti
-- rete di nodi → Mappe
-- cartella → Archivio
-- libri e tocco → Area studenti
+Effetto:
+i collegamenti finali delle sei sezioni della Home
+(Esplora, Laboratori, Strumenti, Mappe, Archivio, Area studenti)
+vengono allineati tutti alla stessa altezza.
 
-COME CARICARE
+Caricamento:
 1. Apri lo ZIP.
-2. Su GitHub apri il repository e scegli Add file → Upload files.
-3. Trascina tutto il contenuto dello ZIP mantenendo le cartelle.
-4. Conferma con Commit changes.
+2. Su GitHub entra in assets > css.
+3. Carica style.css sostituendo quello esistente.
+4. Fai Commit changes.
 5. Attendi la pubblicazione e aggiorna con Cmd + Shift + R.
-
-File modificati:
-- index.html
-- assets/css/style.css
-- assets/img/icons/*.png
