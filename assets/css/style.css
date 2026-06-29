@@ -87,7 +87,7 @@ img{max-width:100%;display:block}
 .feature-card p:not(.eyebrow){margin:0 0 14px;font-size:14px}
 .feature-card a{color:var(--blue);font-weight:700;text-transform:uppercase;font-size:12px}
 .quick-resources{box-shadow:none}
-.quick-resources a{display:grid;grid-template-columns:30px 1fr 14px;align-items:center;gap:9px;padding:11px 0;border-bottom:1px solid #eef3f8;font-size:14px}
+.quick-resources a{display:grid;grid-template-columns:30px 1fr 14px;align-items:center;gap:9px;padding:11px 0;border-bottom:1px solid #eef3f8;font-size:14px;line-height:1.35}
 .quick-resources a:last-child{border-bottom:0}
 .quick-resources span{color:var(--blue);font-size:20px}
 .quick-resources b{font-size:20px;color:var(--blue)}
@@ -114,10 +114,13 @@ img{max-width:100%;display:block}
   height:76px;width:110px;display:flex;align-items:center;justify-content:center;margin-bottom:6px;
   background:url('../img/watercolor-icon.svg') center/contain no-repeat
 }
-.watercolor i{font-style:normal;color:var(--blue);font-size:42px;line-height:1;font-family:"Times New Roman",serif}
+.watercolor svg{width:62px;height:62px;stroke:var(--blue);stroke-width:1.8;fill:none;stroke-linecap:round;stroke-linejoin:round}.watercolor i{display:none}
 .portal-card h2{text-transform:uppercase;font-size:16px;color:var(--blue);letter-spacing:.04em;margin:0 0 8px}
 .portal-card p{font-size:13px;margin:0 auto 12px;max-width:165px}
 .portal-card strong{font-size:12px;text-transform:uppercase;color:var(--blue)}
+.portal-card:hover .watercolor svg{transform:translateY(-1px)}
+.portal-card .watercolor svg{transition:transform .2s ease}
+
 
 .student-work{grid-column:1/2;padding:30px 0 28px}
 .section-head{display:flex;align-items:center;gap:20px;margin-bottom:18px}
