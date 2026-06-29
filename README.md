@@ -1,14 +1,19 @@
-Aggiornamento v15 – Immagini Home classe 3C
+Aggiornamento v16 – Gallerie più grandi e compatte
 
-Modifica soltanto le due immagini del riquadro 3C:
-- prima immagine: Crali;
-- al passaggio del mouse: Murakami.
+Modifica soltanto:
+assets/css/style.css
 
-Non occorre modificare index.html, perché i nomi dei file restano invariati.
+Cosa cambia:
+- due colonne invece di tre su computer;
+- opere leggermente più grandi;
+- distanza ridotta fra le immagini;
+- eliminati cornici, fondi chiari e ombre delle card;
+- disposizione continua tipo pagina editoriale, non “vendita di quadri”;
+- le immagini restano interamente visibili;
+- su telefono rimane una sola colonna.
 
-Caricamento su GitHub:
+Caricamento:
 1. Apri lo ZIP.
-2. Entra nella cartella assets/img/esami-3c-2026.
-3. Carica i due file sostituendo quelli esistenti.
-4. Fai Commit changes.
-5. Aggiorna il sito con Cmd + Shift + R.
+2. Sostituisci assets/css/style.css nel repository.
+3. Fai Commit changes.
+4. Aggiorna il sito con Cmd + Shift + R.
