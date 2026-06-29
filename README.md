@@ -1,17 +1,18 @@
-Pacchetto minimale – solo aggiornamento icone “Risorse veloci”
+Aggiornamento v8 – dimensionamento icone “Risorse veloci”
 
-Contiene esclusivamente i file necessari per sostituire le icone piccole della colonna destra:
-- index.html
-- assets/css/style.css
-- assets/img/icons/quick/*.png
+Questo pacchetto modifica soltanto:
+assets/css/style.css
 
-Perché non basta caricare solo le immagini?
-Perché il sito attuale deve anche sapere dove leggerle e come visualizzarle.
-Per questo servono anche index.html e style.css.
+Correzioni:
+- icone portate da 26 a 32 px;
+- colonna leggermente più larga;
+- correzione ottica individuale delle sette icone, perché alcune forme
+  apparivano visivamente più piccole pur avendo lo stesso riquadro;
+- nessuna modifica a immagini, testi, Cupola o icone principali.
 
-Caricamento su GitHub:
-1. Apri lo ZIP.
-2. Carica tutto mantenendo le cartelle.
-3. Commit changes.
-4. Attendi 1–2 minuti.
-5. Aggiorna il sito con Cmd + Shift + R.
+Su GitHub:
+1. entra in assets > css;
+2. sostituisci style.css;
+3. fai Commit changes;
+4. attendi la pubblicazione;
+5. aggiorna con Cmd + Shift + R.

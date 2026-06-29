@@ -87,14 +87,28 @@ img{max-width:100%;display:block}
 .feature-card p:not(.eyebrow){margin:0 0 14px;font-size:14px}
 .feature-card a{color:var(--blue);font-weight:700;text-transform:uppercase;font-size:12px}
 .quick-resources{box-shadow:none}
-.quick-resources a{display:grid;grid-template-columns:30px 1fr 14px;align-items:center;gap:9px;padding:10px 0;border-bottom:1px solid #eef3f8;font-size:14px;line-height:1.35}
+.quick-resources a{display:grid;grid-template-columns:38px 1fr 14px;align-items:center;gap:9px;padding:9px 0;border-bottom:1px solid #eef3f8;font-size:14px;line-height:1.35}
 .quick-resources a:last-child{border-bottom:0}
-.quick-icon{width:26px;height:26px;object-fit:contain;display:block}
+.quick-icon{width:32px;height:32px;object-fit:contain;display:block;justify-self:center;transition:transform .18s ease}
 .quick-label{color:var(--ink);font-size:14px}
 .quick-resources b{font-size:20px;color:var(--blue)}
 .quick-resources a:hover .quick-label{color:var(--blue)}
 .quick-resources a:hover .quick-icon{transform:translateX(1px)}
-.quick-icon{transition:transform .18s ease}
+/* Correzioni ottiche: le icone hanno forme e ingombri interni differenti. */
+.quick-resources a:nth-of-type(1) .quick-icon{transform:scale(1.06)}
+.quick-resources a:nth-of-type(2) .quick-icon{transform:scale(.98)}
+.quick-resources a:nth-of-type(3) .quick-icon{transform:scale(.98)}
+.quick-resources a:nth-of-type(4) .quick-icon{transform:scale(.96)}
+.quick-resources a:nth-of-type(5) .quick-icon{transform:scale(.98)}
+.quick-resources a:nth-of-type(6) .quick-icon{transform:scale(1.12)}
+.quick-resources a:nth-of-type(7) .quick-icon{transform:scale(1.02)}
+.quick-resources a:nth-of-type(1):hover .quick-icon{transform:scale(1.06) translateX(1px)}
+.quick-resources a:nth-of-type(2):hover .quick-icon{transform:scale(.98) translateX(1px)}
+.quick-resources a:nth-of-type(3):hover .quick-icon{transform:scale(.98) translateX(1px)}
+.quick-resources a:nth-of-type(4):hover .quick-icon{transform:scale(.96) translateX(1px)}
+.quick-resources a:nth-of-type(5):hover .quick-icon{transform:scale(.98) translateX(1px)}
+.quick-resources a:nth-of-type(6):hover .quick-icon{transform:scale(1.12) translateX(1px)}
+.quick-resources a:nth-of-type(7):hover .quick-icon{transform:scale(1.02) translateX(1px)}
 
 .quote-card{
   background:var(--blue-wash) url('../img/watercolor-quote.svg') center/cover no-repeat;text-align:center;border:0;padding:34px 24px;
