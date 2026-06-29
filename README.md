@@ -1,18 +1,17 @@
-Aggiornamento v10 – Lavori d’esame 2026, classe 3A
+Aggiornamento v12 – Ridimensionamento gallerie esami
 
-Contiene:
-- index.html con cinque lavori reali nella Home;
-- archivio.html con la prima raccolta;
-- lavori-esame-3a-2026.html con 16 elaborati;
-- assets/css/style.css;
-- assets/img/esami-3a-2026/ con fotografie ottimizzate.
+Contiene solo il file CSS aggiornato per le pagine dei lavori d’esame.
 
-Caricamento su GitHub:
-1. Apri lo ZIP.
-2. Carica tutto mantenendo esattamente la struttura delle cartelle.
+Cosa cambia:
+- le opere non vengono più mostrate troppo grandi;
+- ogni immagine resta interamente visibile nella card;
+- la galleria usa una griglia più ordinata;
+- su desktop: 3 colonne;
+- su tablet: 2 colonne;
+- su telefono: 1 colonna.
+
+Come caricare:
+1. Apri questo ZIP.
+2. Nel repository GitHub sostituisci il file assets/css/style.css mantenendo lo stesso percorso.
 3. Fai Commit changes.
-4. Attendi la pubblicazione.
-5. Aggiorna il sito con Cmd + Shift + R.
-
-Le fotografie sono state ridimensionate e compresse per il web.
-Cliccando su un lavoro nella galleria si apre l’immagine ingrandita.
+4. Aggiorna il sito con Cmd + Shift + R.
