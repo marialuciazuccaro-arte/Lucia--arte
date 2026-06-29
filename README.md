@@ -1,28 +1,25 @@
-Aggiornamento v23 – Frase del giorno
+Aggiornamento v24 – Archivio senza duplicati
 
-La Home mostra ora una citazione diversa ogni giorno.
+Il controllo del sito pubblico ha confermato che le stesse quattro raccolte
+comparivano due volte:
+- nella sezione “Le classi e i loro lavori”;
+- nella sezione “Tutte le raccolte”.
 
-Funzionamento:
-- la frase resta uguale per tutta la giornata;
-- cambia automaticamente il giorno successivo;
-- dopo 12 giorni il ciclo ricomincia;
-- non servono aggiornamenti manuali, database o cookie;
-- la frase appare con una lieve dissolvenza;
-- il collegamento “Fonte” apre la fonte indicata.
+Questa modifica elimina la seconda sezione e lascia nell’Archivio
+un solo accesso per ciascuna classe.
 
-Sono state inserite tutte le 12 citazioni approvate.
-
-File da caricare:
-- index.html
-- assets/css/style.css
-- assets/js/daily-quote.js
+Modifica soltanto:
+- archivio.html
 
 Non vengono modificati:
-- Ultimi lavori pubblicati;
-- rotazione delle immagini al passaggio del mouse;
-- Archivio;
-- raccolte;
+- Home;
 - immagini;
-- struttura delle altre pagine.
+- pagine delle raccolte;
+- rotazione delle immagini;
+- frase del giorno;
+- foglio di stile.
 
-Dopo il caricamento fai Commit changes e aggiorna il sito con Cmd + Shift + R.
+Caricamento:
+1. Sostituisci archivio.html nella cartella principale del repository.
+2. Fai Commit changes.
+3. Aggiorna la pagina con Cmd + Shift + R.
