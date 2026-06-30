@@ -1,19 +1,14 @@
-Aggiornamento v44 – Sbalzo su lamina di rame
+Aggiornamento v45 – ChatGPT e Gemini con Nano Banana
 
-Aggiunge un nuovo laboratorio per le classi prime (1A e 1E):
-- nuova scheda nella pagina `laboratori.html`;
-- nuova pagina `laboratorio-sbalzo-lamina-rame.html`;
-- cartella immagini `assets/img/laboratorio-sbalzo-rame` con copertina e galleria.
+Nella sezione “Intelligenza artificiale”:
+- ChatGPT resta presente;
+- viene aggiunto Gemini con Nano Banana;
+- la scheda Gemini contiene due collegamenti:
+  - apertura dell’assistente Gemini;
+  - pagina ufficiale dedicata alla generazione e modifica delle immagini.
 
-Contenuti inclusi:
-- descrizione della tecnica (carta lucida, strumenti per il DAS, pennarelli indelebili, cornice nera);
-- spiegazione sintetica del procedimento;
-- galleria di una selezione di lavori;
-- esclusione dell'immagine che mostrava il nome dell'alunna.
+File da sostituire:
+- strumenti.html
 
-File da caricare:
-- `laboratori.html`
-- `laboratorio-sbalzo-lamina-rame.html`
-- l'intera cartella `assets/img/laboratorio-sbalzo-rame`
-
-Non è necessario sostituire `style.css`.
+Non è necessario sostituire style.css.
+Le altre pagine non vengono modificate.
