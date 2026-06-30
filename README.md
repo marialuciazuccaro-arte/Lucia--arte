@@ -1,16 +1,15 @@
-Aggiornamento v40 – Escape room Genially nella Home
+Aggiornamento v41 – Genially
 
-Sostituisce la scheda “Firenze e Brunelleschi” nella colonna
-“In evidenza” con l’escape room Genially “Il Cinquecento”.
+Aggiunge Genially nella sezione:
+“Materiali, presentazioni e libri digitali”.
 
-È stato usato il codice iframe, perché:
-- è più semplice del codice con script;
-- è autonomo e responsive;
-- riduce il rischio di conflitti con gli altri script del sito;
-- permette comunque di aprire l’attività a schermo intero.
+La scheda comprende:
+- anteprima reale del sito;
+- breve descrizione;
+- collegamento al sito ufficiale italiano.
 
 File da sostituire:
-- index.html
+- strumenti.html
 
-Non è necessario modificare style.css.
-Non vengono modificati gli altri laboratori o le altre pagine.
+Non è necessario sostituire style.css.
+Le altre pagine non vengono modificate.
