@@ -1,17 +1,25 @@
-Aggiornamento v34 – Anteprime nelle pagine risorse
+Aggiornamento v35 – Anteprime reali delle pagine web
 
-Questo aggiornamento aggiunge una piccola anteprima grafica in ogni scheda
-delle pagine Esplora e Strumenti.
+Questo aggiornamento SOSTITUISCE il v34, che non va caricato.
 
-Scelta tecnica:
-le anteprime sono file SVG leggeri e statici.
-Questo evita problemi di caricamento e non rende il sito dipendente
-da screenshot esterni o servizi di terze parti.
+Ogni scheda delle pagine Esplora e Strumenti mostra ora una vera
+miniatura della prima pagina del sito collegato.
+
+Le miniature:
+- sono reali, non disegnate;
+- sono caricate in modo ritardato per non rallentare troppo la pagina;
+- mostrano la parte superiore del sito;
+- possono aggiornarsi quando cambia il sito esterno.
+
+Nota tecnica:
+le anteprime sono fornite da un servizio esterno di screenshot.
+Al primo caricamento alcune possono impiegare qualche secondo.
+Se un sito impedisce la cattura, resta visibile un riquadro neutro
+con il nome della risorsa.
 
 File da sostituire:
 - esplora.html
 - strumenti.html
-- cartella assets/img/resource-previews
 
-Non è necessario sostituire style.css.
+Non occorre caricare immagini né sostituire style.css.
 Le altre pagine non vengono modificate.

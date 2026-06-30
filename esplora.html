@@ -9,16 +9,50 @@
 .resource-section__head p{max-width:460px;margin:0;color:#718598;font-size:12px;line-height:1.55;text-align:right}
 .resource-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}
 .resource-card{display:flex;flex-direction:column;min-height:190px;padding:22px;border:1px solid var(--line);border-radius:7px;background:#fff;box-shadow:0 10px 28px rgba(18,44,70,.055)}
-.resource-preview{display:block;width:100%;aspect-ratio:16/9;overflow:hidden;border-radius:8px;margin:0 0 14px;background:#eef3f7;border:1px solid #d8e4ee}
-.resource-preview img{display:block;width:100%;height:100%;object-fit:cover}
+.resource-preview{
+  position:relative;
+  display:block;
+  width:100%;
+  height:122px;
+  overflow:hidden;
+  margin:0 0 14px;
+  border:1px solid #d7e3ec;
+  border-radius:7px;
+  background:#eaf1f6;
+}
+.resource-preview img{
+  position:absolute;
+  inset:0;
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:top center;
+  transition:transform .25s ease;
+}
+.resource-card:hover .resource-preview img{transform:scale(1.025)}
+.preview-fallback{
+  position:absolute;
+  inset:0;
+  display:grid;
+  place-items:center;
+  padding:12px;
+  color:#70879a;
+  font-size:10px;
+  font-weight:700;
+  letter-spacing:.055em;
+  text-align:center;
+  text-transform:uppercase;
+}
+
 .resource-card--wide{grid-column:span 2}
 .resource-tag{display:inline-block;align-self:flex-start;margin-bottom:12px;padding:6px 8px;border-radius:999px;background:#eaf4fb;color:var(--blue);font-size:9px;font-weight:700;letter-spacing:.065em;text-transform:uppercase}
-.resource-card h3{margin:0 0 9px;font-family:'Playfair Display',serif;font-size:22px;line-height:1.12;color:var(--ink);font-weight:600}
+.resource-card h3{margin:0 0 9px;font-family:'Playfair Display',serif;font-size:24px;line-height:1.12;color:var(--ink);font-weight:600}
 .resource-card p{margin:0 0 17px;color:#52697e;font-size:13px;line-height:1.58}
 .resource-links{display:flex;flex-wrap:wrap;gap:7px;margin-top:auto}
 .resource-link{display:inline-flex;align-items:center;padding:8px 10px;border-radius:4px;background:#f2f7fb;color:var(--blue);font-size:10px;font-weight:700;line-height:1.2;letter-spacing:.035em;text-transform:uppercase}
 .resource-link:hover,.resource-link:focus-visible{background:#e3f0f8}
-.resource-note{margin:28px 0 0;padding:17px 19px;border-left:3px solid #87afc9;background:linear-gradient(90deg,#edf5fb 0%, #f8fbfd 100%);color:#556b80;font-size:12px;line-height:1.62}
+.resource-note{margin:28px 0 0;padding:17px 19px;border-left:3px solid #87afc9;background:#f5f9fc;color:#5d7286;font-size:12px;line-height:1.62}
 @media(max-width:900px){
   .resource-grid,.resource-grid--two{grid-template-columns:repeat(2,minmax(0,1fr))}
   .resource-card--wide{grid-column:auto}
@@ -47,7 +81,7 @@
     <div class="resource-grid">
       <article class="resource-card">
         <span class="resource-tag">Atlante storico</span>
-        <span class="resource-preview" aria-hidden="true"><img src="assets/img/resource-previews/geacron.svg" alt=""></span>
+        <span class="resource-preview"><span class="preview-fallback">Anteprima di GeaCron</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fgeacron.com%2F%3Flang%3Dit?w=600" alt="Anteprima della pagina GeaCron" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"></span>
         <h3>GeaCron</h3>
         <p>Mappe e cronologie interattive per seguire nel tempo territori, civiltà ed eventi storici.</p>
         <div class="resource-links">
@@ -57,7 +91,7 @@
 
       <article class="resource-card resource-card--wide">
         <span class="resource-tag">Visite a 360°</span>
-        <span class="resource-preview" aria-hidden="true"><img src="assets/img/resource-previews/milano360.svg" alt=""></span>
+        <span class="resource-preview"><span class="preview-fallback">Anteprima di Milano e le sue architetture</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.360visio.com%2Fmilano-360%2F?w=600" alt="Anteprima della pagina Milano e le sue architetture" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"></span>
         <h3>Milano e le sue architetture</h3>
         <p>Fotografie panoramiche navigabili per osservare piazze e chiese milanesi direttamente dallo spazio virtuale.</p>
         <div class="resource-links">
@@ -82,7 +116,7 @@
     <div class="resource-grid">
       <article class="resource-card">
         <span class="resource-tag">Movimento e design</span>
-        <span class="resource-preview" aria-hidden="true"><img src="assets/img/resource-previews/bauhaus.svg" alt=""></span>
+        <span class="resource-preview"><span class="preview-fallback">Anteprima di Bauhaus</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.bauhaus.de%2Fen%2Fresearch%2Fcollection%2F?w=600" alt="Anteprima della pagina Bauhaus" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"></span>
         <h3>Bauhaus</h3>
         <p>Collezione digitale del Bauhaus-Archiv: architettura, grafica, fotografia, arredi e oggetti.</p>
         <div class="resource-links"><a class="resource-link" href="https://www.bauhaus.de/en/research/collection/" target="_blank" rel="noopener noreferrer">Visita la collezione ↗</a></div>
@@ -90,7 +124,7 @@
 
       <article class="resource-card">
         <span class="resource-tag">Archivio ufficiale</span>
-        <span class="resource-preview" aria-hidden="true"><img src="assets/img/resource-previews/boetti.svg" alt=""></span>
+        <span class="resource-preview"><span class="preview-fallback">Anteprima di Alighiero Boetti</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.archivioalighieroboetti.it%2F?w=600" alt="Anteprima della pagina Alighiero Boetti" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"></span>
         <h3>Alighiero Boetti</h3>
         <p>Documentazione, cataloghi e approfondimenti dedicati alla ricerca dell’artista.</p>
         <div class="resource-links"><a class="resource-link" href="https://www.archivioalighieroboetti.it/" target="_blank" rel="noopener noreferrer">Apri l’archivio ↗</a></div>
@@ -98,7 +132,7 @@
 
       <article class="resource-card">
         <span class="resource-tag">Museo</span>
-        <span class="resource-preview" aria-hidden="true"><img src="assets/img/resource-previews/warhol.svg" alt=""></span>
+        <span class="resource-preview"><span class="preview-fallback">Anteprima di Andy Warhol</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.warhol.org%2Fart?w=600" alt="Anteprima della pagina Andy Warhol" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"></span>
         <h3>Andy Warhol</h3>
         <p>Opere, materiali d’archivio e percorsi nella collezione dell’Andy Warhol Museum.</p>
         <div class="resource-links"><a class="resource-link" href="https://www.warhol.org/art" target="_blank" rel="noopener noreferrer">Esplora la collezione ↗</a></div>
@@ -106,7 +140,7 @@
 
       <article class="resource-card">
         <span class="resource-tag">Sito ufficiale</span>
-        <span class="resource-preview" aria-hidden="true"><img src="assets/img/resource-previews/pistoletto.svg" alt=""></span>
+        <span class="resource-preview"><span class="preview-fallback">Anteprima di Michelangelo Pistoletto</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.pistoletto.it%2F?w=600" alt="Anteprima della pagina Michelangelo Pistoletto" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"></span>
         <h3>Michelangelo Pistoletto</h3>
         <p>Opere, biografia e progetti dell’artista, tra Arte Povera e pratiche contemporanee.</p>
         <div class="resource-links"><a class="resource-link" href="https://www.pistoletto.it/" target="_blank" rel="noopener noreferrer">Visita il sito ↗</a></div>
@@ -114,7 +148,7 @@
 
       <article class="resource-card">
         <span class="resource-tag">Museo</span>
-        <span class="resource-preview" aria-hidden="true"><img src="assets/img/resource-previews/guttuso.svg" alt=""></span>
+        <span class="resource-preview"><span class="preview-fallback">Anteprima di Renato Guttuso</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.museoguttuso.com%2Fmuseo%2F?w=600" alt="Anteprima della pagina Renato Guttuso" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"></span>
         <h3>Renato Guttuso</h3>
         <p>Il Museo Guttuso di Bagheria e il rapporto dell’artista con la sua città e con la pittura italiana del Novecento.</p>
         <div class="resource-links"><a class="resource-link" href="https://www.museoguttuso.com/museo/" target="_blank" rel="noopener noreferrer">Visita il museo ↗</a></div>
@@ -122,7 +156,7 @@
 
       <article class="resource-card">
         <span class="resource-tag">Museo e approfondimento</span>
-        <span class="resource-preview" aria-hidden="true"><img src="assets/img/resource-previews/vangogh.svg" alt=""></span>
+        <span class="resource-preview"><span class="preview-fallback">Anteprima di Vincent van Gogh</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.vangoghmuseum.nl%2Fen%2Fcollection?w=600" alt="Anteprima della pagina Vincent van Gogh" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"></span>
         <h3>Vincent van Gogh</h3>
         <p>La collezione ufficiale del Van Gogh Museum e una biografia in italiano utile per il ripasso.</p>
         <div class="resource-links">
@@ -147,7 +181,7 @@
     <div class="resource-grid resource-grid--two">
       <article class="resource-card">
         <span class="resource-tag">Analisi dell’opera</span>
-        <span class="resource-preview" aria-hidden="true"><img src="assets/img/resource-previews/guernica.svg" alt=""></span>
+        <span class="resource-preview"><span class="preview-fallback">Anteprima di Guernica di Picasso</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.artesvelata.it%2Fguernica-picasso%2F?w=600" alt="Anteprima della pagina Guernica di Picasso" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"></span>
         <h3>Guernica di Picasso</h3>
         <p>Un approfondimento su storia, personaggi, simboli, composizione, forme e colori di una delle opere più importanti del Novecento.</p>
         <div class="resource-links">
@@ -178,7 +212,7 @@
     <div class="resource-grid resource-grid--two">
       <article class="resource-card">
         <span class="resource-tag">Documentari e percorsi</span>
-        <span class="resource-preview" aria-hidden="true"><img src="assets/img/resource-previews/raicultura.svg" alt=""></span>
+        <span class="resource-preview"><span class="preview-fallback">Anteprima di Rai Cultura – Arte</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.raicultura.it%2Fspeciali%2Farte2020?w=600" alt="Anteprima della pagina Rai Cultura – Arte" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"></span>
         <h3>Rai Cultura – Arte</h3>
         <p>Documentari, reportage, materiali d’archivio e percorsi dedicati alla storia dell’arte e al patrimonio italiano.</p>
         <div class="resource-links">
@@ -188,7 +222,7 @@
 
       <article class="resource-card">
         <span class="resource-tag">Video immersivi</span>
-        <span class="resource-preview" aria-hidden="true"><img src="assets/img/resource-previews/google360.svg" alt=""></span>
+        <span class="resource-preview"><span class="preview-fallback">Anteprima di Google Arts & Culture</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fartsandculture.google.com%2Fproject%2F360-videos?w=600" alt="Anteprima della pagina Google Arts & Culture" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"></span>
         <h3>Google Arts &amp; Culture</h3>
         <p>Video a 360°, mostre digitali e visite immersive realizzate con musei e istituzioni culturali internazionali.</p>
         <div class="resource-links">

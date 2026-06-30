@@ -9,16 +9,50 @@
 .resource-section__head p{max-width:460px;margin:0;color:#718598;font-size:12px;line-height:1.55;text-align:right}
 .resource-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}
 .resource-card{display:flex;flex-direction:column;min-height:190px;padding:22px;border:1px solid var(--line);border-radius:7px;background:#fff;box-shadow:0 10px 28px rgba(18,44,70,.055)}
-.resource-preview{display:block;width:100%;aspect-ratio:16/9;overflow:hidden;border-radius:8px;margin:0 0 14px;background:#eef3f7;border:1px solid #d8e4ee}
-.resource-preview img{display:block;width:100%;height:100%;object-fit:cover}
+.resource-preview{
+  position:relative;
+  display:block;
+  width:100%;
+  height:122px;
+  overflow:hidden;
+  margin:0 0 14px;
+  border:1px solid #d7e3ec;
+  border-radius:7px;
+  background:#eaf1f6;
+}
+.resource-preview img{
+  position:absolute;
+  inset:0;
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  object-position:top center;
+  transition:transform .25s ease;
+}
+.resource-card:hover .resource-preview img{transform:scale(1.025)}
+.preview-fallback{
+  position:absolute;
+  inset:0;
+  display:grid;
+  place-items:center;
+  padding:12px;
+  color:#70879a;
+  font-size:10px;
+  font-weight:700;
+  letter-spacing:.055em;
+  text-align:center;
+  text-transform:uppercase;
+}
+
 .resource-card--wide{grid-column:span 2}
 .resource-tag{display:inline-block;align-self:flex-start;margin-bottom:12px;padding:6px 8px;border-radius:999px;background:#eaf4fb;color:var(--blue);font-size:9px;font-weight:700;letter-spacing:.065em;text-transform:uppercase}
-.resource-card h3{margin:0 0 9px;font-family:'Playfair Display',serif;font-size:22px;line-height:1.12;color:var(--ink);font-weight:600}
+.resource-card h3{margin:0 0 9px;font-family:'Playfair Display',serif;font-size:24px;line-height:1.12;color:var(--ink);font-weight:600}
 .resource-card p{margin:0 0 17px;color:#52697e;font-size:13px;line-height:1.58}
 .resource-links{display:flex;flex-wrap:wrap;gap:7px;margin-top:auto}
 .resource-link{display:inline-flex;align-items:center;padding:8px 10px;border-radius:4px;background:#f2f7fb;color:var(--blue);font-size:10px;font-weight:700;line-height:1.2;letter-spacing:.035em;text-transform:uppercase}
 .resource-link:hover,.resource-link:focus-visible{background:#e3f0f8}
-.resource-note{margin:28px 0 0;padding:17px 19px;border-left:3px solid #87afc9;background:linear-gradient(90deg,#edf5fb 0%, #f8fbfd 100%);color:#556b80;font-size:12px;line-height:1.62}
+.resource-note{margin:28px 0 0;padding:17px 19px;border-left:3px solid #87afc9;background:#f5f9fc;color:#5d7286;font-size:12px;line-height:1.62}
 @media(max-width:900px){
   .resource-grid,.resource-grid--two{grid-template-columns:repeat(2,minmax(0,1fr))}
   .resource-card--wide{grid-column:auto}
@@ -46,7 +80,7 @@
     <div class="resource-grid">
       <article class="resource-card">
         <span class="resource-tag">Licenze aperte</span>
-        <span class="resource-preview" aria-hidden="true"><img src="assets/img/resource-previews/openverse.svg" alt=""></span>
+        <span class="resource-preview"><span class="preview-fallback">Anteprima di Openverse</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fopenverse.org%2Fit%2F?w=600" alt="Anteprima della pagina Openverse" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"></span>
         <h3>Openverse</h3>
         <p>Motore di ricerca per immagini e contenuti con licenze Creative Commons o di pubblico dominio.</p>
         <div class="resource-links"><a class="resource-link" href="https://openverse.org/it/" target="_blank" rel="noopener noreferrer">Cerca su Openverse ↗</a></div>
@@ -54,7 +88,7 @@
 
       <article class="resource-card">
         <span class="resource-tag">Foto e illustrazioni</span>
-        <span class="resource-preview" aria-hidden="true"><img src="assets/img/resource-previews/pixabay-pexels.svg" alt=""></span>
+        <span class="resource-preview"><span class="preview-fallback">Anteprima di Pixabay e Pexels</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fpixabay.com%2Fit%2F?w=600" alt="Anteprima della pagina Pixabay e Pexels" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"></span>
         <h3>Pixabay e Pexels</h3>
         <p>Due raccolte facilmente consultabili per cercare fotografie, illustrazioni e video destinati a presentazioni e attività.</p>
         <div class="resource-links">
@@ -65,7 +99,7 @@
 
       <article class="resource-card">
         <span class="resource-tag">Suoni Creative Commons</span>
-        <span class="resource-preview" aria-hidden="true"><img src="assets/img/resource-previews/freesound.svg" alt=""></span>
+        <span class="resource-preview"><span class="preview-fallback">Anteprima di Freesound</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Ffreesound.org%2F?w=600" alt="Anteprima della pagina Freesound" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"></span>
         <h3>Freesound</h3>
         <p>Archivio collaborativo di effetti sonori, registrazioni ambientali e campioni audio con licenze da verificare per ogni file.</p>
         <div class="resource-links"><a class="resource-link" href="https://freesound.org/" target="_blank" rel="noopener noreferrer">Cerca su Freesound ↗</a></div>
@@ -84,21 +118,21 @@
     <div class="resource-grid">
       <article class="resource-card">
         <span class="resource-tag">Bacheche</span>
-        <span class="resource-preview" aria-hidden="true"><img src="assets/img/resource-previews/padlet.svg" alt=""></span>
+        <span class="resource-preview"><span class="preview-fallback">Anteprima di Padlet</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fpadlet.com%2F?w=600" alt="Anteprima della pagina Padlet" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"></span>
         <h3>Padlet</h3>
         <p>Spazi visivi condivisi per raccogliere testi, immagini, video, collegamenti e contributi della classe.</p>
         <div class="resource-links"><a class="resource-link" href="https://padlet.com/" target="_blank" rel="noopener noreferrer">Apri Padlet ↗</a></div>
       </article>
       <article class="resource-card">
         <span class="resource-tag">Raccolte web</span>
-        <span class="resource-preview" aria-hidden="true"><img src="assets/img/resource-previews/wakelet.svg" alt=""></span>
+        <span class="resource-preview"><span class="preview-fallback">Anteprima di Wakelet</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwakelet.com%2F?w=600" alt="Anteprima della pagina Wakelet" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"></span>
         <h3>Wakelet</h3>
         <p>Permette di organizzare in una sequenza ordinata pagine web, immagini, testi e risorse multimediali.</p>
         <div class="resource-links"><a class="resource-link" href="https://wakelet.com/" target="_blank" rel="noopener noreferrer">Apri Wakelet ↗</a></div>
       </article>
       <article class="resource-card">
         <span class="resource-tag">Narrazione geografica</span>
-        <span class="resource-preview" aria-hidden="true"><img src="assets/img/resource-previews/storymap.svg" alt=""></span>
+        <span class="resource-preview"><span class="preview-fallback">Anteprima di StoryMapJS</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fstorymap.knightlab.com%2F?w=600" alt="Anteprima della pagina StoryMapJS" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"></span>
         <h3>StoryMapJS</h3>
         <p>Strumento per raccontare eventi, opere e percorsi collegandoli a luoghi e mappe.</p>
         <div class="resource-links"><a class="resource-link" href="https://storymap.knightlab.com/" target="_blank" rel="noopener noreferrer">Apri StoryMapJS ↗</a></div>
@@ -117,21 +151,21 @@
     <div class="resource-grid">
       <article class="resource-card">
         <span class="resource-tag">Quiz</span>
-        <span class="resource-preview" aria-hidden="true"><img src="assets/img/resource-previews/kahoot.svg" alt=""></span>
+        <span class="resource-preview"><span class="preview-fallback">Anteprima di Kahoot!</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fkahoot.com%2F?w=600" alt="Anteprima della pagina Kahoot!" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"></span>
         <h3>Kahoot!</h3>
         <p>Quiz interattivi da proporre alla classe in presenza o a distanza.</p>
         <div class="resource-links"><a class="resource-link" href="https://kahoot.com/" target="_blank" rel="noopener noreferrer">Apri Kahoot ↗</a></div>
       </article>
       <article class="resource-card">
         <span class="resource-tag">Esercizi</span>
-        <span class="resource-preview" aria-hidden="true"><img src="assets/img/resource-previews/learningapps.svg" alt=""></span>
+        <span class="resource-preview"><span class="preview-fallback">Anteprima di LearningApps</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Flearningapps.org%2F?w=600" alt="Anteprima della pagina LearningApps" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"></span>
         <h3>LearningApps</h3>
         <p>Piccoli moduli interattivi per associare, ordinare, riconoscere e ripassare contenuti.</p>
         <div class="resource-links"><a class="resource-link" href="https://learningapps.org/" target="_blank" rel="noopener noreferrer">Apri LearningApps ↗</a></div>
       </article>
       <article class="resource-card">
         <span class="resource-tag">Nuvole di parole</span>
-        <span class="resource-preview" aria-hidden="true"><img src="assets/img/resource-previews/wordart.svg" alt=""></span>
+        <span class="resource-preview"><span class="preview-fallback">Anteprima di WordArt</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwordart.com%2F?w=600" alt="Anteprima della pagina WordArt" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"></span>
         <h3>WordArt</h3>
         <p>Generatore di composizioni tipografiche utile per brainstorming, parole chiave e poesie visive.</p>
         <div class="resource-links"><a class="resource-link" href="https://wordart.com/" target="_blank" rel="noopener noreferrer">Apri WordArt ↗</a></div>
@@ -152,7 +186,7 @@
     <div class="resource-grid resource-grid--two">
       <article class="resource-card">
         <span class="resource-tag">Generazione e modifica</span>
-        <span class="resource-preview" aria-hidden="true"><img src="assets/img/resource-previews/firefly.svg" alt=""></span>
+        <span class="resource-preview"><span class="preview-fallback">Anteprima di Adobe Firefly</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.adobe.com%2Fproducts%2Ffirefly.html?w=600" alt="Anteprima della pagina Adobe Firefly" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"></span>
         <h3>Adobe Firefly</h3>
         <p>Strumenti di intelligenza artificiale per generare e modificare immagini, video, audio ed elementi grafici.</p>
         <div class="resource-links"><a class="resource-link" href="https://www.adobe.com/products/firefly.html" target="_blank" rel="noopener noreferrer">Apri Firefly ↗</a></div>
@@ -160,7 +194,7 @@
 
       <article class="resource-card">
         <span class="resource-tag">Immagini da testo</span>
-        <span class="resource-preview" aria-hidden="true"><img src="assets/img/resource-previews/canva-ai.svg" alt=""></span>
+        <span class="resource-preview"><span class="preview-fallback">Anteprima di Canva – Generatore IA</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fwww.canva.com%2Fai-image-generator%2F?w=600" alt="Anteprima della pagina Canva – Generatore IA" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"></span>
         <h3>Canva – Generatore IA</h3>
         <p>Generazione di immagini a partire da descrizioni testuali, integrata negli strumenti di progettazione di Canva.</p>
         <div class="resource-links"><a class="resource-link" href="https://www.canva.com/ai-image-generator/" target="_blank" rel="noopener noreferrer">Apri Canva IA ↗</a></div>
@@ -179,21 +213,21 @@
     <div class="resource-grid">
       <article class="resource-card">
         <span class="resource-tag">Rimozione sfondo</span>
-        <span class="resource-preview" aria-hidden="true"><img src="assets/img/resource-previews/photoscissors.svg" alt=""></span>
+        <span class="resource-preview"><span class="preview-fallback">Anteprima di PhotoScissors</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fphotoscissors.com%2F?w=600" alt="Anteprima della pagina PhotoScissors" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"></span>
         <h3>PhotoScissors</h3>
         <p>Per isolare rapidamente un soggetto e ottenere immagini con lo sfondo rimosso.</p>
         <div class="resource-links"><a class="resource-link" href="https://photoscissors.com/" target="_blank" rel="noopener noreferrer">Apri PhotoScissors ↗</a></div>
       </article>
       <article class="resource-card">
         <span class="resource-tag">Modelli 3D</span>
-        <span class="resource-preview" aria-hidden="true"><img src="assets/img/resource-previews/sketchfab.svg" alt=""></span>
+        <span class="resource-preview"><span class="preview-fallback">Anteprima di Sketchfab</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fsketchfab.com%2Ffeatures%2Ffree-3d-models?w=600" alt="Anteprima della pagina Sketchfab" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"></span>
         <h3>Sketchfab</h3>
         <p>Modelli tridimensionali osservabili e ruotabili direttamente nel browser.</p>
         <div class="resource-links"><a class="resource-link" href="https://sketchfab.com/features/free-3d-models" target="_blank" rel="noopener noreferrer">Esplora i modelli ↗</a></div>
       </article>
       <article class="resource-card">
         <span class="resource-tag">Sculture digitalizzate</span>
-        <span class="resource-preview" aria-hidden="true"><img src="assets/img/resource-previews/threedscans.svg" alt=""></span>
+        <span class="resource-preview"><span class="preview-fallback">Anteprima di Three D Scans</span><img src="https://s.wordpress.com/mshots/v1/https%3A%2F%2Fthreedscans.com%2F?w=600" alt="Anteprima della pagina Three D Scans" loading="lazy" referrerpolicy="no-referrer" onerror="this.style.display='none'"></span>
         <h3>Three D Scans</h3>
         <p>Raccolta di scansioni tridimensionali di sculture, utile per l’osservazione e la modellazione.</p>
         <div class="resource-links"><a class="resource-link" href="https://threedscans.com/" target="_blank" rel="noopener noreferrer">Apri Three D Scans ↗</a></div>
