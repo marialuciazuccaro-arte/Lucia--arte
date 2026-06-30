@@ -1,17 +1,16 @@
-Aggiornamento v46 – Mappe mentali e concettuali
+Aggiornamento v47 – Sbalzo su lamina di rame senza duplicati
 
-Aggiunge una nuova sezione nella pagina Strumenti:
-“Mappe mentali e concettuali”.
+Correzione del pacchetto v44.
 
-Risorse inserite:
-- Coggle, per mappe mentali a rami;
-- diagrams.net, per mappe concettuali e diagrammi più liberi.
+Sono state eliminate dalla galleria:
+- la seconda fotografia dello stesso lavoro con i gigli;
+- la seconda fotografia dello stesso drago rosa.
 
-Sono state mantenute tutte le altre risorse già presenti,
-compresi ChatGPT e Gemini con Nano Banana.
+Restano 10 elaborati differenti.
 
 File da sostituire:
-- strumenti.html
+- `laboratorio-sbalzo-lamina-rame.html`
+- cartella `assets/img/laboratorio-sbalzo-rame`
 
-Non è necessario sostituire style.css.
-Le altre pagine non vengono modificate.
+`laboratori.html` non cambia rispetto al v44.
+Non è necessario sostituire `style.css`.
