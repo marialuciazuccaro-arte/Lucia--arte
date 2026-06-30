@@ -1,32 +1,24 @@
-Aggiornamento v36 – Nuovi strumenti digitali
+Aggiornamento v37 – Cartellina porta disegni, classi prime
 
-Aggiunti:
-- Sumo Paint
-- Krita
-- Tinkercad
-- Scratch
-- Prezi
-- Book Creator
-- Mozaik3D
-- NotebookLM
+Aggiunge:
+- una nuova scheda nella pagina Laboratori;
+- la pagina “La cartellina porta disegni”;
+- il collegamento alla presentazione Canva;
+- una breve descrizione del valore del lavoro nel triennio;
+- materiali, misure e fasi essenziali;
+- indicazioni sulle informazioni da riportare;
+- la copertina ricavata dalla presentazione.
 
-Rimosso:
-- Adobe Firefly
+Il laboratorio NON compare tra gli Ultimi lavori della Home.
 
-La pagina è stata riordinata in cinque aree:
-- immagini, suoni e modifica;
-- disegno e pittura digitale;
-- materiali, presentazioni e libri digitali;
-- quiz, esercizi e coding;
-- progettazione e risorse 3D;
-- intelligenza artificiale.
-
-Sono state mantenute le anteprime reali delle pagine web.
-Alcune miniature possono non caricarsi quando il sito esterno
-impedisce la cattura automatica.
-
-File da sostituire:
-- strumenti.html
+File da caricare:
+- laboratori.html
+- laboratorio-cartellina-porta-disegni.html
+- cartella assets/img/laboratorio-cartellina
 
 Non è necessario sostituire style.css.
-Le altre pagine non vengono modificate.
+
+Nota:
+nella presentazione originale compare ancora la vecchia denominazione
+“I.C. Via Poppea Sabina”. Quando possibile, conviene aggiornare
+direttamente quella riga in Canva.
