@@ -19,6 +19,12 @@
     .project-button{display:inline-flex;align-items:center;justify-content:center;padding:12px 17px;border-radius:5px;background:var(--blue);color:#fff;font-size:12px;font-weight:700;letter-spacing:.045em;text-transform:uppercase}
     .project-button:hover,.project-button:focus-visible{filter:brightness(.94)}
     .project-note{margin:16px 0 0;color:#6c8094;font-size:12px;line-height:1.6}
+
+    .presentation-panel{display:grid;grid-template-columns:minmax(280px,.82fr) minmax(0,1.18fr);gap:28px;align-items:center;margin-top:48px;padding:20px;border:1px solid var(--line);border-radius:8px;background:#fff;box-shadow:0 10px 28px rgba(18,44,70,.055)}
+    .presentation-preview{display:block;width:100%;aspect-ratio:16/9;object-fit:contain;background:#eef3f7;border-radius:5px}
+    .presentation-copy h2{margin:4px 0 12px;font-family:'Playfair Display',serif;font-size:clamp(27px,4vw,39px);font-weight:600;color:var(--ink)}
+    .presentation-copy p{margin:0;color:#536a80;font-size:14px;line-height:1.7}
+    .presentation-copy .project-button{margin-top:18px}
     .feature-section{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(320px,.95fr);gap:34px;align-items:center;margin-top:56px}
     .feature-copy h2,.steps-section h2,.identity-section h2{margin:3px 0 16px;font-family:'Playfair Display',serif;font-size:clamp(30px,5vw,46px);font-weight:600;color:var(--ink)}
     .feature-copy p,.identity-section p{margin:0;color:#4b6277;font-size:15px;line-height:1.75}
@@ -42,7 +48,7 @@
     .gallery-placeholder{display:flex;align-items:center;justify-content:center;aspect-ratio:4/5;padding:24px;text-align:center;background:repeating-linear-gradient(135deg,#fbfcfe,#fbfcfe 16px,#f5f7fb 16px,#f5f7fb 32px);color:#73879a;font-size:13px;line-height:1.6}
     .gallery-placeholder strong{display:block;color:#4a6379;font-size:12px;letter-spacing:.04em;text-transform:uppercase;margin-bottom:6px}
     @media(max-width:860px){
-      .feature-section{grid-template-columns:1fr}
+      .presentation-panel,.feature-section{grid-template-columns:1fr}
       .steps-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
       .gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
     }
@@ -69,10 +75,16 @@
         <span>Progettazione grafica</span>
         <span>Archivio del triennio</span>
       </div>
-      <div class="project-actions">
+    </section>
+
+    <section class="presentation-panel" aria-labelledby="presentation-cartellina-title">
+      <img class="presentation-preview" src="assets/img/laboratorio-cartellina/copertina-cartellina.jpg" alt="Prima pagina della presentazione sulla cartellina porta disegni">
+      <div class="presentation-copy">
+        <p class="eyebrow">Presentazione dell’attività</p>
+        <h2 id="presentation-cartellina-title">Materiali, misure e procedimento</h2>
+        <p>La presentazione accompagna le prime lezioni e illustra il cartoncino da utilizzare, le piegature, i tagli, le informazioni da inserire e alcuni esempi di personalizzazione.</p>
         <a class="project-button" href="https://canva.link/4o291nwsrgrh0yu" target="_blank" rel="noopener noreferrer">Apri la presentazione su Canva ↗</a>
       </div>
-      <p class="project-note">La presentazione illustra materiali, misure, piegature, tagli e alcuni esempi di personalizzazione.</p>
     </section>
 
     <section class="feature-section" aria-labelledby="purpose-title">
@@ -81,7 +93,7 @@
         <h2 id="purpose-title">Un lavoro che accompagna tutto il percorso</h2>
         <p>La costruzione della cartellina introduce fin dalle prime lezioni alcuni aspetti fondamentali del lavoro in aula: precisione nelle misure, uso corretto di squadrette e forbici, cura dei materiali, progettazione della superficie e organizzazione degli elaborati. La decorazione è libera, ma deve rendere la cartellina immediatamente riconoscibile e funzionale.</p>
       </div>
-      <img class="feature-image" src="assets/img/laboratorio-cartellina/copertina-cartellina.jpg" alt="Copertina della presentazione dedicata alla cartellina porta disegni">
+      <img class="feature-image" src="assets/img/laboratorio-cartellina/cartellina-1.jpg" alt="Esempio anonimizzato di cartellina decorata con una volpe">
     </section>
 
     <section class="steps-section" aria-labelledby="steps-title">
@@ -133,15 +145,15 @@
       <div class="gallery-grid">
         <figure class="gallery-card">
           <img src="assets/img/laboratorio-cartellina/cartellina-1.jpg" alt="Cartellina con volpe arancione, foglie e scritta Flavio Polito Arte">
-          <figcaption>Esempio 1 · Composizione illustrata con personaggio centrale e lettering colorato.</figcaption>
+          <figcaption>Elaborato di una classe prima · Composizione illustrata con personaggio centrale e lettering colorato.</figcaption>
         </figure>
         <figure class="gallery-card">
           <img src="assets/img/laboratorio-cartellina/cartellina-2.jpg" alt="Cartellina su cartoncino nero con volto disegnato a matite colorate e scritte decorative">
-          <figcaption>Esempio 2 · Soluzione su fondo scuro con forte contrasto grafico e segno espressivo.</figcaption>
+          <figcaption>Elaborato di una classe prima · Soluzione su fondo scuro con forte contrasto grafico e segno espressivo.</figcaption>
         </figure>
         <figure class="gallery-card">
           <img src="assets/img/laboratorio-cartellina/cartellina-3.jpg" alt="Cartellina gialla con scritte Serena Sinti e volto metà sole metà luna">
-          <figcaption>Esempio 3 · Progetto con immagine simbolica centrale e campitura cromatica uniforme.</figcaption>
+          <figcaption>Elaborato di una classe prima · Progetto con immagine simbolica centrale e campitura cromatica uniforme.</figcaption>
         </figure>
         <figure class="gallery-card">
           <div class="gallery-placeholder"><div><strong>Spazio riservato</strong>Nuova cartellina in arrivo</div></div>
