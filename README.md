@@ -1,19 +1,17 @@
-Aggiornamento v32 – Approfondimenti per l’esame e raccolta Drive
+Aggiornamento v34 – Anteprime nelle pagine risorse
 
-ESPLORA
-- aggiunto “Guernica di Picasso” da Arte Svelata;
-- aggiunta la biografia italiana di Van Gogh;
-- mantenuta anche la collezione ufficiale del Van Gogh Museum.
+Questo aggiornamento aggiunge una piccola anteprima grafica in ogni scheda
+delle pagine Esplora e Strumenti.
 
-AREA STUDENTI
-- aggiunta la scheda “Opere di artisti per l’esame”;
-- il collegamento apre direttamente la cartella Google Drive;
-- la raccolta potrà essere aggiornata su Drive senza modificare il sito,
-  purché il collegamento resti invariato.
+Scelta tecnica:
+le anteprime sono file SVG leggeri e statici.
+Questo evita problemi di caricamento e non rende il sito dipendente
+da screenshot esterni o servizi di terze parti.
 
 File da sostituire:
 - esplora.html
-- area-riservata.html
+- strumenti.html
+- cartella assets/img/resource-previews
 
 Non è necessario sostituire style.css.
-Non vengono modificate le altre pagine.
+Le altre pagine non vengono modificate.

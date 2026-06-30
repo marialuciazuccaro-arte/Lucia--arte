@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+  <rect width="640" height="360" rx="20" fill="#f0f4fb"/>
+  <rect x="18" y="18" width="604" height="324" rx="14" fill="#ffffff" stroke="#d7e5f1"/>
+  <rect x="18" y="18" width="604" height="38" rx="14" fill="#f5f8fb"/>
+  <circle cx="44" cy="37" r="6" fill="#e9b5b5"/>
+  <circle cx="66" cy="37" r="6" fill="#efd9a4"/>
+  <circle cx="88" cy="37" r="6" fill="#b9dcb5"/>
+  <rect x="112" y="28" width="178" height="18" rx="9" fill="#e7eef5"/>
+  <text x="36" y="86" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#394f73">Google Arts & Culture</text>
+  <text x="36" y="108" font-family="Arial, sans-serif" font-size="10" fill="#6b8398">artsandculture.google.com</text>
+
+  <rect x="36" y="126" width="260" height="150" rx="12" fill="#dfeaf3"/>
+  <polygon points="145,170 145,232 205,201" fill="#8aa8d7"/>
+  <rect x="320" y="126" width="248" height="14" rx="7" fill="#d9e5ef"/>
+  <rect x="320" y="154" width="224" height="12" rx="6" fill="#e5edf4"/>
+  <rect x="320" y="176" width="236" height="12" rx="6" fill="#e5edf4"/>
+  <rect x="320" y="208" width="88" height="24" rx="12" fill="#8aa8d7" opacity="0.9"/>
+  <rect x="36" y="292" width="532" height="12" rx="6" fill="#edf3f7"/>
+</svg>

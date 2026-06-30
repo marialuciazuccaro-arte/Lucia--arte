@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="360" viewBox="0 0 640 360">
+  <rect width="640" height="360" rx="20" fill="#eef5fb"/>
+  <rect x="18" y="18" width="604" height="324" rx="14" fill="#ffffff" stroke="#d7e5f1"/>
+  <rect x="18" y="18" width="604" height="38" rx="14" fill="#f5f8fb"/>
+  <circle cx="44" cy="37" r="6" fill="#e9b5b5"/>
+  <circle cx="66" cy="37" r="6" fill="#efd9a4"/>
+  <circle cx="88" cy="37" r="6" fill="#b9dcb5"/>
+  <rect x="112" y="28" width="178" height="18" rx="9" fill="#e7eef5"/>
+  <text x="36" y="86" font-family="Arial, sans-serif" font-size="15" font-weight="700" fill="#3b5970">StoryMapJS</text>
+  <text x="36" y="108" font-family="Arial, sans-serif" font-size="10" fill="#6b8398">storymap.knightlab.com</text>
+
+  <rect x="36" y="126" width="362" height="182" rx="14" fill="#7fa7ca" opacity="0.18"/>
+  <path d="M80 170 L150 150 L200 180 L264 156 L318 196 L352 178" fill="none" stroke="#7fa7ca" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="150" cy="150" r="9" fill="#7fa7ca"/>
+  <circle cx="264" cy="156" r="9" fill="#7fa7ca"/>
+  <circle cx="352" cy="178" r="9" fill="#7fa7ca"/>
+  <rect x="422" y="136" width="152" height="14" rx="7" fill="#d9e5ef"/>
+  <rect x="422" y="162" width="136" height="12" rx="6" fill="#e5edf4"/>
+  <rect x="422" y="184" width="116" height="12" rx="6" fill="#e5edf4"/>
+  <rect x="422" y="230" width="120" height="60" rx="10" fill="#f3f7fa" stroke="#e0eaf1"/>
+</svg>
