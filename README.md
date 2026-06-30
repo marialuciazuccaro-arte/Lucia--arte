@@ -1,16 +1,13 @@
-Aggiornamento v47 – Sbalzo su lamina di rame senza duplicati
+Aggiornamento v48 – Correzione privacy nei testi alternativi
 
-Correzione del pacchetto v44.
-
-Sono state eliminate dalla galleria:
-- la seconda fotografia dello stesso lavoro con i gigli;
-- la seconda fotografia dello stesso drago rosa.
-
-Restano 10 elaborati differenti.
+Modifiche eseguite:
+- eliminato il nome dello studente dal testo alternativo della cartellina con la volpe;
+- eliminato il nome della studentessa dal testo alternativo della cartellina con sole e luna;
+- mantenute online tutte le raccolte e tutte le pagine.
 
 File da sostituire:
-- `laboratorio-sbalzo-lamina-rame.html`
-- cartella `assets/img/laboratorio-sbalzo-rame`
+- laboratorio-cartellina-porta-disegni.html
 
-`laboratori.html` non cambia rispetto al v44.
-Non è necessario sostituire `style.css`.
+Questo aggiornamento corregge i due nomi individuati nella pagina pubblica.
+Per un controllo completo di tutti i file, delle immagini e dei metadati
+è necessario esaminare lo ZIP completo del repository attualmente online.
