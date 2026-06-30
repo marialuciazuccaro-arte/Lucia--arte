@@ -1,31 +1,16 @@
-Aggiornamento v39 – Anteprime uniformi dei laboratori
+Aggiornamento v40 – Escape room Genially nella Home
 
-Questo aggiornamento rende coerenti le schede e le pagine dei laboratori.
+Sostituisce la scheda “Firenze e Brunelleschi” nella colonna
+“In evidenza” con l’escape room Genially “Il Cinquecento”.
 
-PAGINA LABORATORI
-- Cartellina porta disegni: prima pagina della presentazione
-- Prospettiva inversa: prima pagina reale della presentazione
-- Paul Klee: prima pagina reale della presentazione
+È stato usato il codice iframe, perché:
+- è più semplice del codice con script;
+- è autonomo e responsive;
+- riduce il rischio di conflitti con gli altri script del sito;
+- permette comunque di aprire l’attività a schermo intero.
 
-PAGINE DEI SINGOLI LABORATORI
-- stesso pannello grafico “Presentazione dell’attività”;
-- immagine della prima pagina a sinistra;
-- descrizione e, quando disponibile, pulsante Canva a destra;
-- gli elaborati degli studenti rimangono separati dalla presentazione.
+File da sostituire:
+- index.html
 
-PRIVACY CARTELLINE
-- le tre immagini della galleria sono state sostituite con le versioni anonimizzate;
-- le didascalie non contengono nomi, iniziali o sezioni.
-
-File da caricare:
-- laboratori.html
-- laboratorio-cartellina-porta-disegni.html
-- laboratorio-prospettiva-inversa-2026.html
-- laboratorio-klee-poesia-immagine.html
-- laboratorio-sala-museale-2026.html
-- cartelle:
-  assets/img/laboratorio-cartellina
-  assets/img/laboratorio-klee
-  assets/img/laboratorio-prospettiva-inversa-2026
-
-Non è necessario sostituire style.css.
+Non è necessario modificare style.css.
+Non vengono modificati gli altri laboratori o le altre pagine.

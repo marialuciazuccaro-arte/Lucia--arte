@@ -9,6 +9,32 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
+
+  <style>
+    .genially-home-embed{
+      position:relative;
+      width:100%;
+      aspect-ratio:16/9;
+      overflow:hidden;
+      margin:0 0 16px;
+      border:1px solid #dbe6ef;
+      border-radius:6px;
+      background:#eaf1f6;
+    }
+    .genially-home-embed iframe{
+      position:absolute;
+      inset:0;
+      width:100%;
+      height:100%;
+      border:0;
+    }
+    .feature-card--genially .genially-note{
+      margin-top:10px;
+      color:#667d91;
+      font-size:11px;
+      line-height:1.5;
+    }
+  </style>
 </head>
 <body>
   <header class="site-header">
@@ -136,14 +162,22 @@
     </div>
 
     <aside class="side-column">
-      <section class="feature-card">
+      <section class="feature-card feature-card--genially">
         <h2>In evidenza</h2>
-        <img src="assets/img/firenze-brunelleschi.jpg" alt="Cupola di Santa Maria del Fiore">
-        <p class="eyebrow">Laboratorio in corso</p>
-        <h3>Firenze e Brunelleschi</h3>
-        <p>Un percorso su arte, architettura e prospettiva attraverso la Cupola di Santa Maria del Fiore.</p>
-        <a href="laboratorio-brunelleschi.html">Scopri il laboratorio →</a>
-        <div class="mini-dots" aria-hidden="true"><span class="active"></span><span></span><span></span><span></span></div>
+        <p class="eyebrow">Escape room interattiva</p>
+        <h3>Il Cinquecento</h3>
+        <div class="genially-home-embed">
+          <iframe
+            title="Escape room sul Cinquecento"
+            src="https://view.genially.com/64de555c701376001a26b58c"
+            loading="lazy"
+            allowfullscreen
+            scrolling="yes">
+          </iframe>
+        </div>
+        <p>Un’attività a enigmi per ripassare artisti, opere e temi del Cinquecento.</p>
+        <a href="https://view.genially.com/64de555c701376001a26b58c" target="_blank" rel="noopener noreferrer">Apri a schermo intero ↗</a>
+        <p class="genially-note">L’attività è incorporata direttamente da Genially e richiede una connessione internet.</p>
       </section>
 
       <section class="quick-resources">
