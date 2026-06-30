@@ -1,0 +1,9 @@
+User-agent: *
+Disallow: /assets/img/esami-3a-2026/
+Disallow: /assets/img/esami-3b-2026/
+Disallow: /assets/img/esami-3c-2026/
+Disallow: /assets/img/esami-3e-2026/
+Disallow: /assets/img/laboratorio-cartellina/
+Disallow: /assets/img/laboratorio-sbalzo-rame/
+Disallow: /assets/img/laboratorio-prospettiva-inversa-2026/
+Disallow: /assets/img/laboratorio-sala-museale-2026/

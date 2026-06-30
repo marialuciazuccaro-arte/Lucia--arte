@@ -1,13 +1,29 @@
-Aggiornamento v48 – Correzione privacy nei testi alternativi
+Aggiornamento v49 – Privacy completa e contatto email
 
-Modifiche eseguite:
-- eliminato il nome dello studente dal testo alternativo della cartellina con la volpe;
-- eliminato il nome della studentessa dal testo alternativo della cartellina con sole e luna;
-- mantenute online tutte le raccolte e tutte le pagine.
+Questo pacchetto è il modo più semplice per aggiornare il repository esistente,
+senza ricaricare l'intero sito.
 
-File da sostituire:
-- laboratorio-cartellina-porta-disegni.html
+Contatto inserito:
+marialucia.zuccaro@icpieroangela.edu.it
 
-Questo aggiornamento corregge i due nomi individuati nella pagina pubblica.
-Per un controllo completo di tutti i file, delle immagini e dei metadati
-è necessario esaminare lo ZIP completo del repository attualmente online.
+Il pacchetto contiene:
+- pagina privacy.html;
+- robots.txt;
+- collegamento Privacy corretto in tutte le pagine;
+- testi alternativi senza nomi;
+- fotografia dei gigli ritagliata senza il nome manoscritto;
+- indicazioni noimageindex nelle gallerie;
+- aggiornamento della pagina Contatti con indirizzo email attivo.
+
+FILE DA ELIMINARE MANUALMENTE DAL REPOSITORY
+- assets/img/laboratorio-sbalzo-rame/galleria-03-gigli-variante.jpg
+- assets/img/laboratorio-sbalzo-rame/galleria-11-drago-rosa-variante.jpg
+
+Questi due file sono duplicati non utilizzati.
+
+IMPORTANTE
+Non caricare il file ZIP direttamente nel repository.
+Apri lo ZIP sul Mac e carica i file e le cartelle contenuti al suo interno,
+come per gli aggiornamenti precedenti.
+
+File modificati/aggiunti: 28
