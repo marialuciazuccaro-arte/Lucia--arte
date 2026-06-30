@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Profili egizi | Arte e Immagine</title>
+  <meta name="description" content="Laboratorio per le classi prime: fotografia di profilo, collage, copricapi egizi e scrittura geroglifica.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .project-page{width:min(100% - 36px,1120px);margin:0 auto;padding:62px 0 90px}
+    .project-intro{max-width:900px}
+    .project-intro h1{margin:5px 0 14px;font-family:'Playfair Display',serif;font-size:clamp(42px,7vw,72px);line-height:1.03;color:var(--ink);font-weight:600}
+    .project-lead{margin:24px 0 0;max-width:860px;color:#40566c;font-size:17px;line-height:1.75}
+    .project-meta{display:flex;flex-wrap:wrap;gap:8px 18px;margin:18px 0 0;color:#64798d;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.045em}
+    .presentation-panel{display:grid;grid-template-columns:minmax(280px,.82fr) minmax(0,1.18fr);gap:28px;align-items:center;margin-top:48px;padding:20px;border:1px solid var(--line);border-radius:8px;background:#fff;box-shadow:0 10px 28px rgba(18,44,70,.055)}
+    .presentation-preview{display:block;width:100%;aspect-ratio:1/1;object-fit:contain;background:#eef3f7;border-radius:5px}
+    .presentation-copy h2,.steps-section h2,.source-section h2{margin:4px 0 12px;font-family:'Playfair Display',serif;font-size:clamp(28px,4.5vw,42px);font-weight:600;color:var(--ink)}
+    .presentation-copy p,.source-section p{margin:0;color:#536a80;font-size:14px;line-height:1.7}
+    .project-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}
+    .project-button{display:inline-flex;align-items:center;justify-content:center;padding:12px 16px;border-radius:5px;background:var(--blue);color:#fff;font-size:11px;font-weight:700;letter-spacing:.045em;text-transform:uppercase}
+    .project-button--light{background:#eaf3f9;color:var(--blue)}
+    .steps-section,.source-section{margin-top:58px}
+    .steps-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+    .step-card{padding:20px;border:1px solid var(--line);border-radius:7px;background:#fff;box-shadow:0 10px 26px rgba(18,44,70,.05)}
+    .step-number{display:block;margin-bottom:11px;font-family:'Playfair Display',serif;font-size:31px;color:#80a9c4}
+    .step-card h3{margin:0 0 8px;color:var(--ink);font-size:15px}
+    .step-card p{margin:0;color:#5c7185;font-size:12px;line-height:1.62}
+    .source-box{max-width:880px;padding:24px 26px;border-left:4px solid #d2a461;background:#fbf7ef;border-radius:0 7px 7px 0}
+    .source-link{display:inline-flex;margin-top:15px;color:var(--blue);font-size:11px;font-weight:700;letter-spacing:.045em;text-transform:uppercase}
+    .privacy-box{margin-top:24px;max-width:880px;padding:20px 22px;border-left:4px solid #84adc8;background:#f3f8fc;color:#536a80;font-size:13px;line-height:1.7}
+    @media(max-width:860px){
+      .presentation-panel{grid-template-columns:1fr}
+      .steps-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+    }
+    @media(max-width:560px){
+      .project-page{padding:44px 0 68px}
+      .steps-grid{grid-template-columns:1fr}
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header"><a class="brand" href="index.html"><span class="brand-title">Arte e Immagine</span><span class="brand-subtitle">Laboratorio di ricerca visiva</span></a><nav class="main-nav"><a href="esplora.html">Esplora</a><a href="laboratori.html">Laboratori</a><a href="strumenti.html">Strumenti</a><a href="mappe.html">Mappe</a><a href="archivio.html">Archivio</a><a href="area-riservata.html">Area studenti</a><a href="chi-sono.html">Chi sono</a></nav><button class="icon-button">⌕</button></header>
+
+  <main class="project-page">
+    <section class="project-intro">
+      <a class="back-link" href="laboratori.html">← Torna ai laboratori</a>
+      <p class="eyebrow">Classi prime • arte egizia</p>
+      <h1>Profili egizi</h1>
+      <span class="short-line"></span>
+      <p class="project-lead">Il laboratorio parte da una fotografia di profilo e la trasforma in un ritratto ispirato all’arte egizia. Attraverso collage, disegno e decorazione, gli studenti progettano copricapo e pettorina, aggiungono il proprio nome in scrittura geroglifica e riflettono sulle convenzioni della rappresentazione egizia.</p>
+      <div class="project-meta">
+        <span>Classi prime</span>
+        <span>Fotografia e collage</span>
+        <span>Copricapi e pettorine</span>
+        <span>Geroglifici</span>
+      </div>
+    </section>
+
+    <section class="presentation-panel" aria-labelledby="presentation-egypt-title">
+      <img class="presentation-preview" src="assets/img/laboratorio-profili-egizi/copertina-profili-egizi.jpg" alt="Prima pagina della presentazione Profili egizi">
+      <div class="presentation-copy">
+        <p class="eyebrow">Due versioni della presentazione</p>
+        <h2 id="presentation-egypt-title">Indicazioni, esempi e procedimento</h2>
+        <p>Le due presentazioni illustrano la costruzione dell’elaborato e offrono riferimenti per copricapi, pettorine, simboli e scrittura geroglifica.</p>
+        <div class="project-actions">
+          <a class="project-button" href="https://canva.link/ih5k8zwqjkw8ni8" target="_blank" rel="noopener noreferrer">Apri la versione A ↗</a>
+          <a class="project-button project-button--light" href="https://canva.link/1xskxblux2ogg0u" target="_blank" rel="noopener noreferrer">Apri la versione B ↗</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="steps-section" aria-labelledby="steps-title">
+      <p class="eyebrow">Procedimento essenziale</p>
+      <h2 id="steps-title">Come si realizza</h2>
+      <div class="steps-grid">
+        <article class="step-card">
+          <span class="step-number">01</span>
+          <h3>Fotografia di profilo</h3>
+          <p>Scattare una fotografia nella tipica posizione laterale delle raffigurazioni egizie e ritagliarla con precisione.</p>
+        </article>
+        <article class="step-card">
+          <span class="step-number">02</span>
+          <h3>Preparare il supporto</h3>
+          <p>Incollare il profilo su un foglio F4 giallino oppure su carta da pacco delle stesse dimensioni.</p>
+        </article>
+        <article class="step-card">
+          <span class="step-number">03</span>
+          <h3>Creare abito e copricapo</h3>
+          <p>Realizzare con il collage una pettorina e un copricapo ispirati a faraoni e divinità egizie.</p>
+        </article>
+        <article class="step-card">
+          <span class="step-number">04</span>
+          <h3>Completare il ritratto</h3>
+          <p>Aggiungere il nome in geroglifico e sottolineare l’occhio con il tipico trucco egizio.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="source-section" aria-labelledby="source-title">
+      <div class="source-box">
+        <p class="eyebrow">Fonte di ispirazione</p>
+        <h2 id="source-title">Un’attività rielaborata per la classe</h2>
+        <p>Il percorso prende spunto anche dalla lezione <em>Egyptian Portrait Art Lesson</em> pubblicata da Leah Newton Art, che propone un ritratto egizio di profilo ottenuto combinando fotografia, disegno e decorazione. L’attività è stata successivamente adattata alle esigenze delle classi e al programma di Arte e Immagine.</p>
+        <a class="source-link" href="https://leahnewtonart.com/2018/08/25/egyptian-portrait-art-lesson-project-for-middle-school-kids/" target="_blank" rel="noopener noreferrer">Consulta la fonte di ispirazione ↗</a>
+      </div>
+
+      <div class="privacy-box">
+        <strong>Privacy degli studenti.</strong> Gli elaborati finali comprendono fotografie riconoscibili dei ragazzi; per questo motivo il sito non pubblica immagini dei lavori realizzati in classe.
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="socials"><a href="#">◎</a><a href="#">Ⓟ</a><a href="#">▣</a></div>
+    <div class="footer-credits">
+      <p class="footer-project">Progetto didattico di Arte e Immagine realizzato nell’ambito delle attività dell’Istituto Comprensivo Piero Angela di Roma – Scuola secondaria di primo grado, a cura della docente Maria Lucia Zuccaro.</p>
+      <p class="footer-rights">È vietata la riproduzione, la diffusione o il riutilizzo dei contenuti originali del sito e delle immagini degli elaborati degli studenti senza preventiva autorizzazione degli aventi diritto, fatti salvi gli usi consentiti dalla legge.</p>
+    </div>
+    <nav><a href="#">Privacy</a><a href="contatti.html">Contatti e autorizzazioni</a></nav>
+  </footer>
+</body>
+</html>
