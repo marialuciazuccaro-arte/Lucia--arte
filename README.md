@@ -1,27 +1,39 @@
-Aggiornamento v28 – Laboratorio “La sala museale in prospettiva”
+Aggiornamento v29 – Laboratori corretti e pagina Mappe
 
-Aggiunge:
-- una scheda reale nella pagina Laboratori;
-- la nuova pagina laboratorio-sala-museale-2026.html;
-- il collegamento alla presentazione Canva;
-- una breve descrizione dell’attività;
-- una galleria predisposta per 9 lavori su tre colonne;
-- la fotografia attualmente disponibile;
-- 8 spazi segnaposto per le fotografie mancanti.
+Modifiche incluse:
 
-Il progetto NON compare:
-- negli Ultimi lavori pubblicati della Home;
-- nell’Archivio delle classi.
+1. Prospettiva inversa
+- il laboratorio non è più presentato come “sala museale”;
+- nuovo titolo: “Prospettiva inversa: lo spazio che inganna”;
+- descrizione corretta, ricavata dalla presentazione;
+- resta il collegamento Canva;
+- resta la galleria predisposta per 9 fotografie;
+- la foto disponibile è descritta come scelta personale della studentessa.
 
-Titolo usato:
-“La sala museale in prospettiva”
-Potrà essere modificato successivamente senza cambiare la struttura.
+2. Paul Klee
+- nuova pagina “La poesia si traduce in immagine”;
+- breve descrizione del percorso;
+- tre fasi essenziali del lavoro;
+- immagine ricavata dalla presentazione;
+- nuova scheda nella pagina Laboratori.
+
+3. Mappe
+- eliminata completamente la parola “BES”;
+- nuova dicitura:
+  “Mappe concettuali e mentali, sintesi e risorse per sostenere lo studio
+  e rendere i contenuti più chiari e accessibili.”
+
+4. Compatibilità
+- il vecchio file laboratorio-sala-museale-2026.html reindirizza
+  automaticamente alla nuova pagina corretta.
 
 File da caricare:
 - laboratori.html
+- laboratorio-prospettiva-inversa-2026.html
+- laboratorio-klee-poesia-immagine.html
 - laboratorio-sala-museale-2026.html
-- la cartella assets/img/laboratorio-sala-museale-2026
+- mappe.html
+- le cartelle presenti dentro assets/img
 
 Non è necessario sostituire style.css.
-
-Dopo il caricamento fai Commit changes e aggiorna il sito con Cmd + Shift + R.
+Non vengono modificati Home, Archivio, Area studenti o raccolte d’esame.

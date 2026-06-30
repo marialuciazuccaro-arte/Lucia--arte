@@ -2,7 +2,7 @@
 .simple-page{max-width:1080px;margin:0 auto;padding:72px 28px 90px}
 .simple-page h1{font-family:'Playfair Display',serif;font-size:54px;font-weight:500;color:var(--ink);margin:0 0 12px}
 .simple-page>.intro{font-size:18px;line-height:1.7;max-width:760px;color:#40566c}
-.laboratory-list{margin-top:38px}
+.laboratory-list{display:grid;gap:22px;margin-top:38px}
 .laboratory-card{display:grid;grid-template-columns:minmax(280px,.9fr) minmax(0,1.1fr);overflow:hidden;border:1px solid var(--line);border-radius:8px;background:#fff;box-shadow:var(--shadow)}
 .laboratory-card img{display:block;width:100%;height:100%;min-height:320px;object-fit:cover}
 .laboratory-copy{display:flex;flex-direction:column;align-items:flex-start;padding:34px}
@@ -15,15 +15,25 @@
   <p class="eyebrow">Percorsi didattici</p>
   <h1>Laboratori</h1>
   <span class="short-line"></span>
-  <p class="intro">Una raccolta di attività svolte in classe, con presentazioni, indicazioni operative e documentazione dei lavori realizzati dagli studenti.</p>
+  <p class="intro">Una raccolta di attività svolte o proposte in classe, con presentazioni, indicazioni operative e documentazione dei lavori realizzati dagli studenti.</p>
 
   <section class="laboratory-list" aria-label="Laboratori pubblicati">
-    <a class="laboratory-card" href="laboratorio-sala-museale-2026.html">
-      <img src="assets/img/laboratorio-sala-museale-2026/lavoro-01.jpg" alt="Elaborato del laboratorio sulla sala museale in prospettiva">
+    <a class="laboratory-card" href="laboratorio-prospettiva-inversa-2026.html">
+      <img src="assets/img/laboratorio-prospettiva-inversa-2026/lavoro-01.jpg" alt="Elaborato tridimensionale ispirato alla prospettiva inversa">
       <span class="laboratory-copy">
         <span class="eyebrow">Classi terze • aprile–maggio 2026</span>
-        <h2>La sala museale in prospettiva</h2>
-        <p>Progettazione di uno spazio espositivo in prospettiva centrale, con l’inserimento di un’opera d’arte scelta dagli studenti.</p>
+        <h2>Prospettiva inversa: lo spazio che inganna</h2>
+        <p>Un’esperienza tridimensionale ispirata a Patrick Hughes, nella quale il disegno prospettico e la forma piegata producono una sorprendente illusione spaziale.</p>
+        <strong class="laboratory-link">Apri il laboratorio →</strong>
+      </span>
+    </a>
+
+    <a class="laboratory-card" href="laboratorio-klee-poesia-immagine.html">
+      <img src="assets/img/laboratorio-klee/copertina-klee.jpg" alt="Composizione di parole e colori ispirata a Paul Klee">
+      <span class="laboratory-copy">
+        <span class="eyebrow">Percorso didattico • Paul Klee</span>
+        <h2>La poesia si traduce in immagine</h2>
+        <p>Parole, lettere e colori diventano una composizione visiva ritmica, ispirata alla ricerca di Paul Klee sul rapporto tra scrittura, musica e immagine.</p>
         <strong class="laboratory-link">Apri il laboratorio →</strong>
       </span>
     </a>
