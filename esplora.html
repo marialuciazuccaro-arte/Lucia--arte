@@ -1,4 +1,126 @@
-<!doctype html><html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Esplora – Arte e Immagine</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/css/style.css"><style>.simple-page{max-width:1080px;margin:0 auto;padding:72px 28px}.simple-page h1{font-family:'Playfair Display',serif;font-size:54px;font-weight:500;color:var(--ink);margin:0 0 12px}.simple-page p{font-size:18px;max-width:760px}.placeholder-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:34px}.placeholder-card{border:1px solid var(--line);border-radius:6px;padding:24px;background:#fff;box-shadow:var(--shadow)}.placeholder-card h2{font-size:18px;color:var(--blue);text-transform:uppercase;letter-spacing:.04em}@media(max-width:760px){.placeholder-grid{grid-template-columns:1fr}.simple-page h1{font-size:42px}}</style></head><body><header class="site-header"><a class="brand" href="index.html"><span class="brand-title">Arte e Immagine</span><span class="brand-subtitle">Laboratorio di ricerca visiva</span></a><nav class="main-nav"><a href="esplora.html">Esplora</a><a href="laboratori.html">Laboratori</a><a href="strumenti.html">Strumenti</a><a href="mappe.html">Mappe</a><a href="archivio.html">Archivio</a><a href="area-riservata.html">Area studenti</a><a href="chi-sono.html">Chi sono</a></nav><button class="icon-button">⌕</button></header><main class="simple-page"><p class="eyebrow">Sezione in costruzione</p><h1>Esplora</h1><span class="short-line"></span><p>Artisti, correnti, tecniche e movimenti artistici saranno organizzati come percorsi di studio.</p><div class="placeholder-grid"><article class="placeholder-card"><h2>Contenuti</h2><p>Qui verranno raccolti materiali, immagini, link e spiegazioni.</p></article><article class="placeholder-card"><h2>Risorse</h2><p>Collegamenti a Canva, Drive, tour virtuali o mappe.</p></article><article class="placeholder-card"><h2>Archivio</h2><p>Spazio predisposto per i lavori svolti negli anni.</p></article></div></main><footer class="site-footer">
+<!doctype html><html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Atlanti storici, visite virtuali, musei e archivi ufficiali selezionati per lo studio dell’arte."><title>Esplora l’arte online – Arte e Immagine</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/css/style.css"><style>
+.resource-page{width:min(100% - 36px,1120px);margin:0 auto;padding:72px 0 90px}
+.resource-page h1{font-family:'Playfair Display',serif;font-size:clamp(44px,7vw,68px);font-weight:500;color:var(--ink);margin:0 0 12px}
+.resource-page>.intro{font-size:18px;line-height:1.7;max-width:820px;color:#40566c}
+.resource-section{margin-top:48px}
+.resource-section__head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:17px}
+.resource-section__head h2{margin:3px 0 0;font-family:'Playfair Display',serif;font-size:clamp(28px,4.5vw,42px);font-weight:600;color:var(--ink)}
+.resource-section__head p{max-width:460px;margin:0;color:#718598;font-size:12px;line-height:1.55;text-align:right}
+.resource-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}
+.resource-card{display:flex;flex-direction:column;min-height:190px;padding:22px;border:1px solid var(--line);border-radius:7px;background:#fff;box-shadow:0 10px 28px rgba(18,44,70,.055)}
+.resource-card--wide{grid-column:span 2}
+.resource-tag{display:inline-block;align-self:flex-start;margin-bottom:12px;padding:6px 8px;border-radius:999px;background:#eaf4fb;color:var(--blue);font-size:9px;font-weight:700;letter-spacing:.065em;text-transform:uppercase}
+.resource-card h3{margin:0 0 9px;font-family:'Playfair Display',serif;font-size:24px;line-height:1.12;color:var(--ink);font-weight:600}
+.resource-card p{margin:0 0 17px;color:#52697e;font-size:13px;line-height:1.58}
+.resource-links{display:flex;flex-wrap:wrap;gap:7px;margin-top:auto}
+.resource-link{display:inline-flex;align-items:center;padding:8px 10px;border-radius:4px;background:#f2f7fb;color:var(--blue);font-size:10px;font-weight:700;line-height:1.2;letter-spacing:.035em;text-transform:uppercase}
+.resource-link:hover,.resource-link:focus-visible{background:#e3f0f8}
+.resource-note{margin:28px 0 0;padding:17px 19px;border-left:3px solid #87afc9;background:#f5f9fc;color:#5d7286;font-size:12px;line-height:1.62}
+@media(max-width:900px){
+  .resource-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .resource-card--wide{grid-column:auto}
+}
+@media(max-width:620px){
+  .resource-page{padding:52px 0 70px}
+  .resource-grid{grid-template-columns:1fr}
+  .resource-section__head{align-items:start;flex-direction:column}
+  .resource-section__head p{text-align:left}
+}
+</style></head><body><header class="site-header"><a class="brand" href="index.html"><span class="brand-title">Arte e Immagine</span><span class="brand-subtitle">Laboratorio di ricerca visiva</span></a><nav class="main-nav"><a href="esplora.html">Esplora</a><a href="laboratori.html">Laboratori</a><a href="strumenti.html">Strumenti</a><a href="mappe.html">Mappe</a><a href="archivio.html">Archivio</a><a href="area-riservata.html">Area studenti</a><a href="chi-sono.html">Chi sono</a></nav><button class="icon-button">⌕</button></header><main class="resource-page">
+  <p class="eyebrow">Risorse per approfondire</p>
+  <h1>Esplora l’arte online</h1>
+  <span class="short-line"></span>
+  <p class="intro">Una selezione essenziale di atlanti, visite virtuali, musei e archivi ufficiali per osservare opere, luoghi e movimenti artistici senza disperdersi tra troppi collegamenti.</p>
+
+  <section class="resource-section" aria-labelledby="mappe-visite-title">
+    <div class="resource-section__head">
+      <div>
+        <p class="eyebrow">Spazio e tempo</p>
+        <h2 id="mappe-visite-title">Mappe e visite virtuali</h2>
+      </div>
+      <p>Strumenti per collegare la storia dell’arte ai luoghi, ai periodi storici e all’architettura.</p>
+    </div>
+
+    <div class="resource-grid">
+      <article class="resource-card">
+        <span class="resource-tag">Atlante storico</span>
+        <h3>GeaCron</h3>
+        <p>Mappe e cronologie interattive per seguire nel tempo territori, civiltà ed eventi storici.</p>
+        <div class="resource-links">
+          <a class="resource-link" href="https://geacron.com/?lang=it" target="_blank" rel="noopener noreferrer">Apri GeaCron ↗</a>
+        </div>
+      </article>
+
+      <article class="resource-card resource-card--wide">
+        <span class="resource-tag">Visite a 360°</span>
+        <h3>Milano e le sue architetture</h3>
+        <p>Fotografie panoramiche navigabili per osservare piazze e chiese milanesi direttamente dallo spazio virtuale.</p>
+        <div class="resource-links">
+          <a class="resource-link" href="https://www.360visio.com/milano-360/" target="_blank" rel="noopener noreferrer">Milano 360° ↗</a>
+          <a class="resource-link" href="https://www.360visio.com/wp-content/uploads/v2/20b-Milano360/20h-1-Chiese/1-Duomo/1m105e-PzeCentraliss-PzDuomoAlbaP/output/index.html" target="_blank" rel="noopener noreferrer">Piazza Duomo ↗</a>
+          <a class="resource-link" href="https://www.360visio.com/wp-content/uploads/v2/20b-Milano360/20h-1-Chiese/3-sAmbrogio/2m404e-sAmbrogio-NavataPalo-169/output/index.html" target="_blank" rel="noopener noreferrer">Sant’Ambrogio: navata ↗</a>
+          <a class="resource-link" href="https://www.360visio.com/wp-content/uploads/v2/20b-Milano360/20h-1-Chiese/3-sAmbrogio/1m403t-sAmbrogio-AtrioAnspertoSeraP/output/index.html" target="_blank" rel="noopener noreferrer">Sant’Ambrogio: atrio ↗</a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="resource-section" aria-labelledby="artisti-title">
+    <div class="resource-section__head">
+      <div>
+        <p class="eyebrow">Fonti autorevoli</p>
+        <h2 id="artisti-title">Artisti, musei e archivi</h2>
+      </div>
+      <p>Siti ufficiali e collezioni istituzionali, scelti per consultare opere e informazioni affidabili.</p>
+    </div>
+
+    <div class="resource-grid">
+      <article class="resource-card">
+        <span class="resource-tag">Movimento e design</span>
+        <h3>Bauhaus</h3>
+        <p>Collezione digitale del Bauhaus-Archiv: architettura, grafica, fotografia, arredi e oggetti.</p>
+        <div class="resource-links"><a class="resource-link" href="https://www.bauhaus.de/en/research/collection/" target="_blank" rel="noopener noreferrer">Visita la collezione ↗</a></div>
+      </article>
+
+      <article class="resource-card">
+        <span class="resource-tag">Archivio ufficiale</span>
+        <h3>Alighiero Boetti</h3>
+        <p>Documentazione, cataloghi e approfondimenti dedicati alla ricerca dell’artista.</p>
+        <div class="resource-links"><a class="resource-link" href="https://www.archivioalighieroboetti.it/" target="_blank" rel="noopener noreferrer">Apri l’archivio ↗</a></div>
+      </article>
+
+      <article class="resource-card">
+        <span class="resource-tag">Museo</span>
+        <h3>Andy Warhol</h3>
+        <p>Opere, materiali d’archivio e percorsi nella collezione dell’Andy Warhol Museum.</p>
+        <div class="resource-links"><a class="resource-link" href="https://www.warhol.org/art" target="_blank" rel="noopener noreferrer">Esplora la collezione ↗</a></div>
+      </article>
+
+      <article class="resource-card">
+        <span class="resource-tag">Sito ufficiale</span>
+        <h3>Michelangelo Pistoletto</h3>
+        <p>Opere, biografia e progetti dell’artista, tra Arte Povera e pratiche contemporanee.</p>
+        <div class="resource-links"><a class="resource-link" href="https://www.pistoletto.it/" target="_blank" rel="noopener noreferrer">Visita il sito ↗</a></div>
+      </article>
+
+      <article class="resource-card">
+        <span class="resource-tag">Museo</span>
+        <h3>Renato Guttuso</h3>
+        <p>Il Museo Guttuso di Bagheria e il rapporto dell’artista con la sua città e con la pittura italiana del Novecento.</p>
+        <div class="resource-links"><a class="resource-link" href="https://www.museoguttuso.com/museo/" target="_blank" rel="noopener noreferrer">Visita il museo ↗</a></div>
+      </article>
+
+      <article class="resource-card">
+        <span class="resource-tag">Museo e collezione</span>
+        <h3>Vincent van Gogh</h3>
+        <p>Dipinti, disegni e materiali di studio nella collezione online del Van Gogh Museum.</p>
+        <div class="resource-links"><a class="resource-link" href="https://www.vangoghmuseum.nl/en/collection" target="_blank" rel="noopener noreferrer">Esplora la collezione ↗</a></div>
+      </article>
+    </div>
+  </section>
+
+  <p class="resource-note">I collegamenti aprono siti esterni in una nuova scheda. Il collegamento Facebook di 360visio e il negozio commerciale dedicato al Bauhaus non sono stati inseriti perché meno utili per la consultazione didattica.</p>
+</main><footer class="site-footer">
     <div class="socials"><a href="#">◎</a><a href="#">Ⓟ</a><a href="#">▣</a></div>
     <div class="footer-credits">
       <p class="footer-project">Progetto didattico di Arte e Immagine realizzato nell’ambito delle attività dell’Istituto Comprensivo Piero Angela di Roma – Scuola secondaria di primo grado, a cura della docente Maria Lucia Zuccaro.</p>

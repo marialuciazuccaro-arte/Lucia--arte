@@ -1,39 +1,34 @@
-Aggiornamento v29 – Laboratori corretti e pagina Mappe
+Aggiornamento v30 – Esplora e Strumenti
 
-Modifiche incluse:
+Sono state trasformate le due pagine provvisorie in raccolte essenziali e ordinate.
 
-1. Prospettiva inversa
-- il laboratorio non è più presentato come “sala museale”;
-- nuovo titolo: “Prospettiva inversa: lo spazio che inganna”;
-- descrizione corretta, ricavata dalla presentazione;
-- resta il collegamento Canva;
-- resta la galleria predisposta per 9 fotografie;
-- la foto disponibile è descritta come scelta personale della studentessa.
+ESPLORA
+- GeaCron
+- Milano 360° con accessi diretti a Piazza Duomo e Sant’Ambrogio
+- Bauhaus-Archiv
+- Archivio Alighiero Boetti
+- Andy Warhol Museum
+- Michelangelo Pistoletto
+- Museo Guttuso
+- Van Gogh Museum
 
-2. Paul Klee
-- nuova pagina “La poesia si traduce in immagine”;
-- breve descrizione del percorso;
-- tre fasi essenziali del lavoro;
-- immagine ricavata dalla presentazione;
-- nuova scheda nella pagina Laboratori.
+STRUMENTI
+- Openverse, Pixabay, Pexels
+- Padlet, Wakelet, StoryMapJS
+- Kahoot, LearningApps, WordArt
+- PhotoScissors, Sketchfab, Three D Scans
 
-3. Mappe
-- eliminata completamente la parola “BES”;
-- nuova dicitura:
-  “Mappe concettuali e mentali, sintesi e risorse per sostenere lo studio
-  e rendere i contenuti più chiari e accessibili.”
+Scelte redazionali:
+- la vecchia presentazione non è stata pubblicata;
+- CC Search è stato sostituito da Openverse;
+- il negozio Bauhaus è stato sostituito dalla collezione del Bauhaus-Archiv;
+- i vecchi siti biografici di Guttuso e Van Gogh sono stati sostituiti da musei e collezioni ufficiali;
+- il collegamento Facebook di 360visio non è stato inserito;
+- sono stati esclusi i servizi ridondanti o troppo specialistici per evitare una pagina caotica.
 
-4. Compatibilità
-- il vecchio file laboratorio-sala-museale-2026.html reindirizza
-  automaticamente alla nuova pagina corretta.
-
-File da caricare:
-- laboratori.html
-- laboratorio-prospettiva-inversa-2026.html
-- laboratorio-klee-poesia-immagine.html
-- laboratorio-sala-museale-2026.html
-- mappe.html
-- le cartelle presenti dentro assets/img
+File da sostituire:
+- esplora.html
+- strumenti.html
 
 Non è necessario sostituire style.css.
-Non vengono modificati Home, Archivio, Area studenti o raccolte d’esame.
+Non vengono modificate le altre pagine.
