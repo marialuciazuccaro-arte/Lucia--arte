@@ -1,24 +1,13 @@
-Aggiornamento v37 – Cartellina porta disegni, classi prime
+Aggiornamento v38 – Galleria cartelline classi prime
 
-Aggiunge:
-- una nuova scheda nella pagina Laboratori;
-- la pagina “La cartellina porta disegni”;
-- il collegamento alla presentazione Canva;
-- una breve descrizione del valore del lavoro nel triennio;
-- materiali, misure e fasi essenziali;
-- indicazioni sulle informazioni da riportare;
-- la copertina ricavata dalla presentazione.
-
-Il laboratorio NON compare tra gli Ultimi lavori della Home.
+Aggiunge alla pagina “La cartellina porta disegni”:
+- una galleria predisposta su 3 colonne;
+- 9 spazi totali per le immagini;
+- 3 cartelline reali già inserite;
+- 6 riquadri segnaposto pronti per immagini future.
 
 File da caricare:
-- laboratori.html
 - laboratorio-cartellina-porta-disegni.html
 - cartella assets/img/laboratorio-cartellina
 
-Non è necessario sostituire style.css.
-
-Nota:
-nella presentazione originale compare ancora la vecchia denominazione
-“I.C. Via Poppea Sabina”. Quando possibile, conviene aggiornare
-direttamente quella riga in Canva.
+Non serve sostituire altri file.
