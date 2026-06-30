@@ -1,34 +1,33 @@
-Aggiornamento v30 – Esplora e Strumenti
+Aggiornamento v31 – Collegamenti rapidi corretti
 
-Sono state trasformate le due pagine provvisorie in raccolte essenziali e ordinate.
+Problema risolto:
+nella Home quasi tutte le iconcine di “Risorse veloci” portavano
+genericamente a strumenti.html. Per questo tour virtuali e musei
+sembravano scomparsi, anche se erano presenti nella pagina Esplora.
 
-ESPLORA
-- GeaCron
-- Milano 360° con accessi diretti a Piazza Duomo e Sant’Ambrogio
-- Bauhaus-Archiv
-- Archivio Alighiero Boetti
-- Andy Warhol Museum
-- Michelangelo Pistoletto
-- Museo Guttuso
-- Van Gogh Museum
+Ora ogni icona porta alla sezione corretta:
 
-STRUMENTI
-- Openverse, Pixabay, Pexels
-- Padlet, Wakelet, StoryMapJS
-- Kahoot, LearningApps, WordArt
-- PhotoScissors, Sketchfab, Three D Scans
+- Tour virtuali e musei → Esplora / tour e musei
+- Software e applicazioni → Strumenti digitali
+- Sintesi, mappe e risorse → Mappe
+- Intelligenza artificiale → Strumenti / IA
+- Video e documentari → Esplora / video e documentari
+- Banche immagini e suoni → Strumenti / immagini e suoni
+- Materiali e tecniche → Materiali
 
-Scelte redazionali:
-- la vecchia presentazione non è stata pubblicata;
-- CC Search è stato sostituito da Openverse;
-- il negozio Bauhaus è stato sostituito dalla collezione del Bauhaus-Archiv;
-- i vecchi siti biografici di Guttuso e Van Gogh sono stati sostituiti da musei e collezioni ufficiali;
-- il collegamento Facebook di 360visio non è stato inserito;
-- sono stati esclusi i servizi ridondanti o troppo specialistici per evitare una pagina caotica.
+Aggiunte minime:
+- Rai Cultura – Arte
+- Google Arts & Culture, video a 360°
+- Adobe Firefly
+- Canva, generatore di immagini IA
+- Freesound
+
+Tour virtuali, musei e archivi già presenti non sono stati eliminati.
 
 File da sostituire:
+- index.html
 - esplora.html
 - strumenti.html
 
 Non è necessario sostituire style.css.
-Non vengono modificate le altre pagine.
+Le altre pagine non vengono modificate.
