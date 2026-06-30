@@ -1,33 +1,19 @@
-Aggiornamento v31 – Collegamenti rapidi corretti
+Aggiornamento v32 – Approfondimenti per l’esame e raccolta Drive
 
-Problema risolto:
-nella Home quasi tutte le iconcine di “Risorse veloci” portavano
-genericamente a strumenti.html. Per questo tour virtuali e musei
-sembravano scomparsi, anche se erano presenti nella pagina Esplora.
+ESPLORA
+- aggiunto “Guernica di Picasso” da Arte Svelata;
+- aggiunta la biografia italiana di Van Gogh;
+- mantenuta anche la collezione ufficiale del Van Gogh Museum.
 
-Ora ogni icona porta alla sezione corretta:
-
-- Tour virtuali e musei → Esplora / tour e musei
-- Software e applicazioni → Strumenti digitali
-- Sintesi, mappe e risorse → Mappe
-- Intelligenza artificiale → Strumenti / IA
-- Video e documentari → Esplora / video e documentari
-- Banche immagini e suoni → Strumenti / immagini e suoni
-- Materiali e tecniche → Materiali
-
-Aggiunte minime:
-- Rai Cultura – Arte
-- Google Arts & Culture, video a 360°
-- Adobe Firefly
-- Canva, generatore di immagini IA
-- Freesound
-
-Tour virtuali, musei e archivi già presenti non sono stati eliminati.
+AREA STUDENTI
+- aggiunta la scheda “Opere di artisti per l’esame”;
+- il collegamento apre direttamente la cartella Google Drive;
+- la raccolta potrà essere aggiornata su Drive senza modificare il sito,
+  purché il collegamento resti invariato.
 
 File da sostituire:
-- index.html
 - esplora.html
-- strumenti.html
+- area-riservata.html
 
 Non è necessario sostituire style.css.
-Le altre pagine non vengono modificate.
+Non vengono modificate le altre pagine.
