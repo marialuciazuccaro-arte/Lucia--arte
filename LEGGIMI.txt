@@ -1,0 +1,25 @@
+AGGIORNAMENTO v51 – RIPRISTINO COMPLETO
+
+Questo pacchetto riunisce in un solo caricamento ciò che nel sito pubblico
+risulta ancora mancante o caricato solo in parte.
+
+Contiene:
+- pagina Privacy funzionante;
+- collegamento Privacy attivo nei footer;
+- indirizzo marialucia.zuccaro@icpieroangela.edu.it;
+- robots.txt e rapporto tecnico;
+- Coggle e diagrams.net nella pagina Strumenti;
+- ChatGPT, Gemini con Nano Banana, Genially e Padlet;
+- pagina dello sbalzo con 10 lavori differenti;
+- cartella immagini dello sbalzo corretta.
+
+COME CARICARE
+1. Apri questo ZIP sul Mac.
+2. Vai nella pagina principale del repository GitHub.
+3. Premi Add file → Upload files.
+4. Trascina TUTTO il contenuto della cartella estratta:
+   tutti i file e la cartella assets.
+5. Premi Commit changes.
+6. Attendi alcuni minuti e ricarica il sito con Cmd + Shift + R.
+
+Non caricare il file ZIP direttamente.
