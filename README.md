@@ -1,25 +1,32 @@
-Aggiornamento v35 – Anteprime reali delle pagine web
+Aggiornamento v36 – Nuovi strumenti digitali
 
-Questo aggiornamento SOSTITUISCE il v34, che non va caricato.
+Aggiunti:
+- Sumo Paint
+- Krita
+- Tinkercad
+- Scratch
+- Prezi
+- Book Creator
+- Mozaik3D
+- NotebookLM
 
-Ogni scheda delle pagine Esplora e Strumenti mostra ora una vera
-miniatura della prima pagina del sito collegato.
+Rimosso:
+- Adobe Firefly
 
-Le miniature:
-- sono reali, non disegnate;
-- sono caricate in modo ritardato per non rallentare troppo la pagina;
-- mostrano la parte superiore del sito;
-- possono aggiornarsi quando cambia il sito esterno.
+La pagina è stata riordinata in cinque aree:
+- immagini, suoni e modifica;
+- disegno e pittura digitale;
+- materiali, presentazioni e libri digitali;
+- quiz, esercizi e coding;
+- progettazione e risorse 3D;
+- intelligenza artificiale.
 
-Nota tecnica:
-le anteprime sono fornite da un servizio esterno di screenshot.
-Al primo caricamento alcune possono impiegare qualche secondo.
-Se un sito impedisce la cattura, resta visibile un riquadro neutro
-con il nome della risorsa.
+Sono state mantenute le anteprime reali delle pagine web.
+Alcune miniature possono non caricarsi quando il sito esterno
+impedisce la cattura automatica.
 
 File da sostituire:
-- esplora.html
 - strumenti.html
 
-Non occorre caricare immagini né sostituire style.css.
+Non è necessario sostituire style.css.
 Le altre pagine non vengono modificate.
