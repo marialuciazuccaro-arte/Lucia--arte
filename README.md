@@ -1,34 +1,21 @@
-Aggiornamento v26 – Contatti e richieste di autorizzazione
+Aggiornamento v27 – Materiale Canva per la classe terza
 
-È stata predisposta una nuova pagina:
-- contatti.html
+Modifica soltanto:
+- area-riservata.html
 
-Nel footer di tutte le pagine il collegamento “Contatti” diventa:
-- “Contatti e autorizzazioni”
+Nell’Area studenti è stata inserita una scheda con:
+- indicazione “Classe terza”;
+- titolo provvisorio “Nuova attività su Canva”;
+- collegamento al materiale:
+  https://canva.link/a8j5sv74sziabs2
+- apertura in una nuova scheda;
+- avviso che l’accesso può richiedere l’account scolastico autorizzato.
 
-La pagina mostra per ora l’indirizzo fittizio:
-- arteimmagine@example.com
+Il link è già attivo. Le autorizzazioni potranno essere cambiate
+successivamente direttamente in Canva, senza modificare il sito,
+purché il link di condivisione resti lo stesso.
 
-L’indirizzo appartiene al dominio riservato example.com ed è chiaramente
-indicato come provvisorio e non attivo. Non è stato reso cliccabile, per
-evitare che qualcuno provi a inviare richieste prima dell’inserimento
-dell’indirizzo reale.
-
-Quando sarà disponibile l’email definitiva basterà:
-1. sostituire arteimmagine@example.com;
-2. eliminare la nota “Indirizzo provvisorio non attivo”;
-3. rendere l’indirizzo cliccabile.
-
-Il pacchetto conserva tutte le modifiche della versione v25:
-- frase del giorno;
-- ultimi lavori su due colonne;
-- rotazione al passaggio del mouse;
-- Archivio senza duplicati;
-- crediti della docente;
-- tutela dei materiali.
-
-File da caricare:
-- tutti i file HTML presenti nello ZIP;
-- assets/css/style.css.
-
-Non contiene immagini e non modifica le raccolte.
+Caricamento:
+1. sostituisci area-riservata.html nella cartella principale del repository;
+2. fai Commit changes;
+3. aggiorna il sito con Cmd + Shift + R.
