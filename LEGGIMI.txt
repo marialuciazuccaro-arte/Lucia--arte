@@ -1,24 +1,21 @@
-AGGIORNAMENTO v51 – RIPRISTINO COMPLETO
-
-Questo pacchetto riunisce in un solo caricamento ciò che nel sito pubblico
-risulta ancora mancante o caricato solo in parte.
+AGGIORNAMENTO v52 - RIVISITAZIONE DEL VIANDANTE
 
 Contiene:
-- pagina Privacy funzionante;
-- collegamento Privacy attivo nei footer;
-- indirizzo marialucia.zuccaro@icpieroangela.edu.it;
-- robots.txt e rapporto tecnico;
-- Coggle e diagrams.net nella pagina Strumenti;
-- ChatGPT, Gemini con Nano Banana, Genially e Padlet;
-- pagina dello sbalzo con 10 lavori differenti;
-- cartella immagini dello sbalzo corretta.
+- nuova pagina laboratorio-viandante-mare-nebbia.html;
+- aggiornamento della pagina laboratori.html;
+- copertina e 9 elaborati nella cartella assets/img/laboratorio-viandante;
+- link alla presentazione Canva;
+- testi e nomi dei file privi di nomi di studenti;
+- selezione di sole immagini con sagome non identificabili.
 
-COME CARICARE
-1. Apri questo ZIP sul Mac.
+COME CARICARLO
+1. Apri lo ZIP.
 2. Vai nella pagina principale del repository GitHub.
-3. Premi Add file → Upload files.
-4. Trascina TUTTO il contenuto della cartella estratta:
-   tutti i file e la cartella assets.
+3. Premi Add file -> Upload files.
+4. Trascina tutto il contenuto della cartella estratta:
+   - laboratorio-viandante-mare-nebbia.html
+   - laboratori.html
+   - la cartella assets
 5. Premi Commit changes.
 6. Attendi alcuni minuti e ricarica il sito con Cmd + Shift + R.
 
