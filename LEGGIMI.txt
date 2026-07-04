@@ -1,9 +1,13 @@
-AGGIORNAMENTO v57 – NOTAN, GALLERIA COMPLETA
+AGGIORNAMENTO v58 – NOTAN, GALLERIA COMPLETA LEGGERA
 
 Contiene:
-- pagina laboratorio-notan-simmetria.html aggiornata;
-- inserimento di tutti i 20 elaborati inviati nella galleria del laboratorio Notan;
-- immagini ottimizzate nella cartella assets/img/laboratorio-notan/.
+- laboratorio-notan-simmetria.html aggiornato;
+- laboratori.html;
+- cartella assets/img/laboratorio-notan con copertina, immagini di supporto e 20 elaborati;
+- didascalia introduttiva alla galleria;
+- immagini rinominate in modo neutro e risalvate senza metadati personali.
+
+Questa versione è più leggera della precedente.
 
 COME CARICARLO
 1. Apri lo ZIP.
@@ -11,6 +15,9 @@ COME CARICARLO
 3. Premi Add file → Upload files.
 4. Trascina:
    - laboratorio-notan-simmetria.html
+   - laboratori.html
    - la cartella assets
 5. Premi Commit changes.
 6. Attendi alcuni minuti e ricarica il sito con Cmd + Shift + R.
+
+Se GitHub si blocca ancora, carica prima i due file HTML e poi la cartella assets in un secondo commit.
