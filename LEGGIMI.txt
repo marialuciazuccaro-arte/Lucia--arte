@@ -1,22 +1,21 @@
-AGGIORNAMENTO v52 - RIVISITAZIONE DEL VIANDANTE
+AGGIORNAMENTO v53 – GALLERIA DEL LABORATORIO DI PROSPETTIVA INVERSA
 
 Contiene:
-- nuova pagina laboratorio-viandante-mare-nebbia.html;
-- aggiornamento della pagina laboratori.html;
-- copertina e 9 elaborati nella cartella assets/img/laboratorio-viandante;
-- link alla presentazione Canva;
-- testi e nomi dei file privi di nomi di studenti;
-- selezione di sole immagini con sagome non identificabili.
+- pagina aggiornata: laboratorio-prospettiva-inversa-2026.html
+- 9 immagini nella cartella assets/img/laboratorio-prospettiva-inversa-2026/
 
-COME CARICARLO
-1. Apri lo ZIP.
-2. Vai nella pagina principale del repository GitHub.
-3. Premi Add file -> Upload files.
-4. Trascina tutto il contenuto della cartella estratta:
-   - laboratorio-viandante-mare-nebbia.html
-   - laboratori.html
-   - la cartella assets
-5. Premi Commit changes.
-6. Attendi alcuni minuti e ricarica il sito con Cmd + Shift + R.
+Cosa è stato fatto:
+- aggiunte 9 fotografie di elaborati degli studenti;
+- escluse le immagini duplicate;
+- ritaglio leggero per ridurre timestamp e parti superflue;
+- mantenuta la struttura della pagina già esistente.
 
-Non caricare il file ZIP direttamente.
+Come caricarlo:
+1. apri lo ZIP;
+2. entra nel repository GitHub del sito;
+3. clicca Add file → Upload files;
+4. carica il file laboratorio-prospettiva-inversa-2026.html;
+5. carica anche la cartella assets, mantenendo il percorso interno;
+6. conferma con Commit changes.
+
+Non caricare lo ZIP direttamente dentro il sito.
