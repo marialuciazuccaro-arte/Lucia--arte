@@ -1,23 +1,16 @@
-AGGIORNAMENTO v55 – VIANDANTE CON OPERA ORIGINALE
+AGGIORNAMENTO v57 – NOTAN, GALLERIA COMPLETA
 
 Contiene:
-- laboratorio-viandante-mare-nebbia.html aggiornato;
-- immagine originale dell'opera di Caspar David Friedrich;
-- breve descrizione dell'opera e del Romanticismo;
-- titolo del laboratorio leggermente più piccolo;
-- laboratori.html già diviso per classi, come nella v54.
-
-Nota:
-le immagini dei lavori degli studenti NON sono state cambiate.
-Verranno sostituite quando saranno fornite le fotografie definitive.
+- pagina laboratorio-notan-simmetria.html aggiornata;
+- inserimento di tutti i 20 elaborati inviati nella galleria del laboratorio Notan;
+- immagini ottimizzate nella cartella assets/img/laboratorio-notan/.
 
 COME CARICARLO
 1. Apri lo ZIP.
 2. Vai nella pagina principale del repository GitHub.
 3. Premi Add file → Upload files.
 4. Trascina:
-   - laboratorio-viandante-mare-nebbia.html
-   - laboratori.html
+   - laboratorio-notan-simmetria.html
    - la cartella assets
 5. Premi Commit changes.
 6. Attendi alcuni minuti e ricarica il sito con Cmd + Shift + R.
