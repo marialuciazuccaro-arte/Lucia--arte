@@ -1,20 +1,32 @@
-AGGIORNAMENTO v59 – CORREZIONE MOBILE PAGINA LABORATORI
+AGGIORNAMENTO v60 – ROBOTICA E MAIL ART 2026
 
 Contiene:
-- laboratori.html corretto per la visualizzazione da cellulare.
+- laboratorio-robotica-spike-prime-2026.html
+- laboratorio-mail-art-diario-visivo-2026.html
+- laboratori.html aggiornato
+- assets/img/laboratorio-robotica-spike-prime-2026
+- assets/img/laboratorio-mail-art-diario-visivo-2026
 
-Cosa corregge:
-- evita la sovrapposizione tra immagine di anteprima e testo descrittivo;
-- su cellulare ogni scheda laboratorio viene mostrata in verticale:
-  immagine sopra, testo sotto;
-- non modifica le pagine dei singoli laboratori;
-- non modifica immagini o contenuti.
+Scelte di organizzazione:
+- Mail art – Diario Visivo è stata inserita nelle Classi terze, come lavoro della 3B del 2026.
+- Robotica creativa con LEGO Spike Prime è stata inserita nei Percorsi trasversali / progetti speciali, non tra i lavori ordinari delle seconde.
+- In entrambe le pagine è indicato che si tratta di lavori del 2026.
+
+Privacy e leggerezza:
+- file rinominati in modo neutro;
+- immagini risalvate senza metadati personali;
+- video robotica compressi e senza audio;
+- foto robotica selezionate/ritagliate privilegiando robot e attività, non volti.
 
 COME CARICARLO
 1. Apri lo ZIP.
 2. Vai nella pagina principale del repository GitHub.
 3. Premi Add file → Upload files.
-4. Trascina solo il file laboratori.html.
+4. Trascina:
+   - laboratorio-robotica-spike-prime-2026.html
+   - laboratorio-mail-art-diario-visivo-2026.html
+   - laboratori.html
+   - la cartella assets
 5. Premi Commit changes.
 6. Aspetta il pallino verde.
-7. Ricarica il sito dal cellulare oppure con Cmd + Shift + R sul Mac.
+7. Ricarica il sito con Cmd + Shift + R.
