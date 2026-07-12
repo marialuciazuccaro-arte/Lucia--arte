@@ -30,3 +30,8 @@ COME CARICARLO
 5. Premi Commit changes.
 6. Aspetta il pallino verde.
 7. Ricarica il sito con Cmd + Shift + R.
+
+NOTE v61
+- immagini Mail art risquadrate per una visualizzazione più corretta;
+- pagina Mail art: scelta una cartolina iniziale con colori più vivaci;
+- cartolina iniziale ridotta di dimensione nella pagina del progetto.
