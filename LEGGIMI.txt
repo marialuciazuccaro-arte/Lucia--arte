@@ -1,23 +1,20 @@
-AGGIORNAMENTO v58 – NOTAN, GALLERIA COMPLETA LEGGERA
+AGGIORNAMENTO v59 – CORREZIONE MOBILE PAGINA LABORATORI
 
 Contiene:
-- laboratorio-notan-simmetria.html aggiornato;
-- laboratori.html;
-- cartella assets/img/laboratorio-notan con copertina, immagini di supporto e 20 elaborati;
-- didascalia introduttiva alla galleria;
-- immagini rinominate in modo neutro e risalvate senza metadati personali.
+- laboratori.html corretto per la visualizzazione da cellulare.
 
-Questa versione è più leggera della precedente.
+Cosa corregge:
+- evita la sovrapposizione tra immagine di anteprima e testo descrittivo;
+- su cellulare ogni scheda laboratorio viene mostrata in verticale:
+  immagine sopra, testo sotto;
+- non modifica le pagine dei singoli laboratori;
+- non modifica immagini o contenuti.
 
 COME CARICARLO
 1. Apri lo ZIP.
 2. Vai nella pagina principale del repository GitHub.
 3. Premi Add file → Upload files.
-4. Trascina:
-   - laboratorio-notan-simmetria.html
-   - laboratori.html
-   - la cartella assets
+4. Trascina solo il file laboratori.html.
 5. Premi Commit changes.
-6. Attendi alcuni minuti e ricarica il sito con Cmd + Shift + R.
-
-Se GitHub si blocca ancora, carica prima i due file HTML e poi la cartella assets in un secondo commit.
+6. Aspetta il pallino verde.
+7. Ricarica il sito dal cellulare oppure con Cmd + Shift + R sul Mac.

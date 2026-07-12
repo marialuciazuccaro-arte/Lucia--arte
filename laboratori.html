@@ -36,6 +36,44 @@
       .laboratory-card img{min-height:220px}
       .laboratory-copy{padding:26px}
     }
+      /* fix mobile laboratori v59 */
+
+    @media(max-width:760px){
+      .laboratory-list{gap:18px}
+      .laboratory-card{
+        display:block;
+        overflow:visible;
+      }
+      .laboratory-card img{
+        display:block;
+        width:100%;
+        height:auto;
+        min-height:0;
+        max-height:none;
+        aspect-ratio:auto;
+        object-fit:contain;
+        padding:12px;
+        box-sizing:border-box;
+      }
+      .laboratory-copy{
+        display:block;
+        position:relative;
+        padding:22px 22px 24px;
+        background:#fff;
+      }
+      .laboratory-copy h2{
+        font-size:28px;
+      }
+      .laboratory-copy p{
+        font-size:14px;
+        line-height:1.65;
+      }
+      .laboratory-link{
+        display:inline-block;
+        margin-top:6px;
+      }
+    }
+
   </style>
 </head>
 <body>
