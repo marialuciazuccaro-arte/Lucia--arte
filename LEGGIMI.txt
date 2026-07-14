@@ -1,23 +1,16 @@
-AGGIORNAMENTO v66 – PAESAGGI IN GRADAZIONI TONALI
+AGGIORNAMENTO v68 – ANTEPRIME LABORATORI SBALZO E MOSAICO
 
-Contiene:
-- laboratorio-paesaggi-gradazioni-tonali-2026.html aggiornato;
-- laboratori.html aggiornato nell’alt text della copertina;
-- assets/img/laboratorio-paesaggi-gradazioni-tonali-2026 con nuova copertina e galleria rinumerata.
+Questo aggiornamento riguarda la pagina generale “Laboratori”, non le pagine interne dei due progetti.
 
-Cosa è stato corretto:
-- eliminato dalla pagina il doppione tra gli elaborati 10 e 11;
-- la galleria passa da 15 a 14 elaborati;
-- gli elaborati successivi sono stati rinumerati in modo ordinato;
-- la nuova copertina è stata scelta dall’ex elaborato 13, più vivace e adatto come immagine di apertura.
+Modifiche:
+- sostituita l’anteprima dello “Sbalzo su lamina di rame” con una copertina più equilibrata, costruita con due elaborati diversi;
+- sostituita l’anteprima del “Mosaico con carta EVA e pixel art” con una copertina più compatta, costruita con due elaborati diversi;
+- le immagini interne dei laboratori non vengono modificate.
 
-CARICAMENTO SU GITHUB
-1. Apri lo ZIP.
-2. Carica su GitHub:
-   - laboratorio-paesaggi-gradazioni-tonali-2026.html
-   - laboratori.html
-   - tutta la cartella assets/img/laboratorio-paesaggi-gradazioni-tonali-2026
-3. Premi Commit changes.
-4. Attendi il pallino verde e ricarica il sito con Cmd + Shift + R.
+File da caricare su GitHub:
+- laboratori.html
+- assets/img/laboratorio-sbalzo-rame/anteprima-sbalzo-rame.jpg
+- assets/img/laboratorio-mosaico-space-invader-eva-2026/anteprima-mosaico-space-invader-eva.jpg
 
-Nota: se nel repository resta il vecchio file paesaggio-15.jpg, non crea problemi perché la pagina non lo richiama più. Per pulizia si può eliminarlo manualmente da GitHub.
+Dopo il caricamento:
+Commit changes → attendere il pallino verde → ricaricare il sito con Cmd + Shift + R.
