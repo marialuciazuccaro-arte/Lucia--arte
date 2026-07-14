@@ -35,6 +35,9 @@
     .works-heading h2{margin:3px 0 0;font-size:clamp(30px,5vw,46px)}
     .works-heading p{margin:0;color:#6c8094;font-size:12px;line-height:1.55;max-width:390px}
     .student-work-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+    .student-work-card{margin:0;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:#fff;box-shadow:0 8px 22px rgba(18,44,70,.04)}
+    .student-work-card img{display:block;width:100%;height:auto;background:#eef3f7}
+    .student-work-card figcaption{padding:10px 12px;color:#61788d;font-size:12px;line-height:1.45}
     .student-work-placeholder{display:grid;place-items:center;position:relative;aspect-ratio:1/1;overflow:hidden;border-radius:4px;border:1px dashed #b9cddd;background:linear-gradient(135deg,#f7fbfe,#eaf4fa);text-align:center}
     .student-work-placeholder span{display:block;font-family:'Playfair Display',serif;font-size:38px;color:#8aa9bf}
     .student-work-placeholder p{margin:2px 0 0;color:#71879a;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.055em}
@@ -119,18 +122,34 @@
       </div>
     </section>
 
+    
     <section class="works-section" aria-labelledby="works-title">
       <div class="works-heading">
         <div>
           <p class="eyebrow">Elaborati degli studenti</p>
-          <h2 id="works-title">Galleria in preparazione</h2>
+          <h2 id="works-title">Galleria dei lavori</h2>
         </div>
-        <p>Spazio predisposto per 9 lavori. Le immagini verranno aggiunte dopo la selezione e il controllo dei file.</p>
+        <p>Prima selezione di elaborati realizzati con tessere di carta EVA. La galleria mantiene ancora alcuni spazi predisposti per altri lavori.</p>
       </div>
       <div class="student-work-grid">
-        <article class="student-work-placeholder" aria-label="Spazio per elaborato 01"><div><span>01</span><p>Foto da aggiungere</p></div></article>
-        <article class="student-work-placeholder" aria-label="Spazio per elaborato 02"><div><span>02</span><p>Foto da aggiungere</p></div></article>
-        <article class="student-work-placeholder" aria-label="Spazio per elaborato 03"><div><span>03</span><p>Foto da aggiungere</p></div></article>
+        <figure class="student-work-card">
+          <a href="assets/img/laboratorio-mosaico-space-invader-eva-2026/lavoro-01.jpg" target="_blank" rel="noopener">
+            <img src="assets/img/laboratorio-mosaico-space-invader-eva-2026/lavoro-01.jpg" alt="Elaborato 01: mosaico in carta EVA ispirato alla Ragazza con l'orecchino di perla">
+          </a>
+          <figcaption>Elaborato 01 • mosaico e citazione artistica</figcaption>
+        </figure>
+        <figure class="student-work-card">
+          <a href="assets/img/laboratorio-mosaico-space-invader-eva-2026/lavoro-02.jpg" target="_blank" rel="noopener">
+            <img src="assets/img/laboratorio-mosaico-space-invader-eva-2026/lavoro-02.jpg" alt="Elaborato 02: mosaico in carta EVA con figura pixelata verde su fondo blu">
+          </a>
+          <figcaption>Elaborato 02 • figura pixelata e sfondo blu</figcaption>
+        </figure>
+        <figure class="student-work-card">
+          <a href="assets/img/laboratorio-mosaico-space-invader-eva-2026/lavoro-03.jpg" target="_blank" rel="noopener">
+            <img src="assets/img/laboratorio-mosaico-space-invader-eva-2026/lavoro-03.jpg" alt="Elaborato 03: mosaico in carta EVA con personaggio pixelato su fondo azzurro">
+          </a>
+          <figcaption>Elaborato 03 • personaggio pixelato e carta EVA glitter</figcaption>
+        </figure>
         <article class="student-work-placeholder" aria-label="Spazio per elaborato 04"><div><span>04</span><p>Foto da aggiungere</p></div></article>
         <article class="student-work-placeholder" aria-label="Spazio per elaborato 05"><div><span>05</span><p>Foto da aggiungere</p></div></article>
         <article class="student-work-placeholder" aria-label="Spazio per elaborato 06"><div><span>06</span><p>Foto da aggiungere</p></div></article>
@@ -138,8 +157,9 @@
         <article class="student-work-placeholder" aria-label="Spazio per elaborato 08"><div><span>08</span><p>Foto da aggiungere</p></div></article>
         <article class="student-work-placeholder" aria-label="Spazio per elaborato 09"><div><span>09</span><p>Foto da aggiungere</p></div></article>
       </div>
-      <p class="privacy-note">Prima della pubblicazione verranno esclusi o corretti eventuali nomi di studenti presenti nei file, nelle immagini, nelle didascalie o nei metadati.</p>
+      <p class="privacy-note">Le immagini sono state rinominate in modo neutro e risalvate senza metadati personali. Prima di aggiungere altri lavori verranno controllati eventuali nomi o riferimenti riconoscibili.</p>
     </section>
+
   </main>
 
   <footer class="site-footer"><div class="socials"><a href="#">◎</a><a href="#">Ⓟ</a><a href="#">▣</a></div><div class="footer-credits"><p class="footer-project">Progetto didattico di Arte e Immagine realizzato nell’ambito delle attività dell’Istituto Comprensivo Piero Angela di Roma – Scuola secondaria di primo grado, a cura della docente Maria Lucia Zuccaro.</p><p class="footer-rights">È vietata la riproduzione, la diffusione o il riutilizzo dei contenuti originali del sito e delle immagini degli elaborati degli studenti senza preventiva autorizzazione degli aventi diritto, fatti salvi gli usi consentiti dalla legge.</p></div><nav><a href="privacy.html">Privacy</a><a href="contatti.html">Contatti e autorizzazioni</a></nav></footer>

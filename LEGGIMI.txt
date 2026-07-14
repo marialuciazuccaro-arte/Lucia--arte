@@ -1,17 +1,19 @@
-AGGIORNAMENTO v62 – MOSAICO CON CARTA EVA E PIXEL ART
+AGGIORNAMENTO v63 – MOSAICO SPACE INVADER, PRIME IMMAGINI
 
 Contiene:
-- nuova pagina laboratorio-mosaico-space-invader-eva-2026.html;
-- pagina laboratori.html aggiornata;
-- cartella assets/img/laboratorio-mosaico-space-invader-eva-2026;
-- copertina grafica provvisoria;
-- galleria predisposta con 9 spazi per i lavori degli studenti.
+- laboratorio-mosaico-space-invader-eva-2026.html aggiornato;
+- laboratori.html aggiornato;
+- cartella assets/img/laboratorio-mosaico-space-invader-eva-2026 con:
+  - copertina reale del laboratorio;
+  - 3 elaborati degli studenti;
+  - 6 spazi ancora predisposti per immagini future.
 
-Organizzazione:
-- Il laboratorio è stato inserito nelle Classi seconde.
-- È indicato come lavoro 2026.
-- La pagina collega mosaico, carta EVA, pixel art, street art e riferimento a Invader / Space Invader.
-- È presente il link alla presentazione Canva fornita.
+Modifiche:
+- sostituita la copertina grafica provvisoria con un lavoro reale;
+- inseriti i 3 lavori caricati;
+- mantenuti gli spazi 04–09 per altri elaborati;
+- file rinominati in modo neutro e risalvati senza metadati personali;
+- prima immagine ritagliata per ridurre elementi esterni al lavoro.
 
 COME CARICARLO
 1. Apri lo ZIP.
