@@ -1,31 +1,23 @@
-AGGIORNAMENTO v64 – PAESAGGI IN GRADAZIONI TONALI
+AGGIORNAMENTO v65 – VIANDANTE CON NUOVI LAVORI
 
 Contiene:
-- laboratorio-paesaggi-gradazioni-tonali-2026.html;
-- laboratori.html aggiornato;
-- cartella assets/img/laboratorio-paesaggi-gradazioni-tonali-2026 con 15 immagini;
-- copertina del laboratorio;
-- link alla presentazione Canva.
+- laboratorio-viandante-mare-nebbia.html aggiornato;
+- cartella assets/img/laboratorio-viandante con 15 nuovi esempi (lavoro-01.jpg ... lavoro-15.jpg).
 
-Organizzazione:
-- Il laboratorio è stato inserito nelle Classi terze.
-- È indicato come lavoro 2026.
-- Il testo descrive il procedimento: un unico colore di partenza, schiarito con il bianco e scurito con il nero, partendo dal livello centrale.
+Cosa è stato fatto:
+- sostituiti tutti gli esempi presenti nella galleria del laboratorio “Rivisitazione del Viandante sul mare di nebbia”;
+- aggiornata la galleria da 9 a 15 elaborati;
+- immagini ritagliate e risalvate senza metadati personali;
+- attenuati o rimossi timestamp e riferimenti personali visibili.
 
-Privacy e immagini:
-- file rinominati in modo neutro;
-- immagini ritagliate per ridurre date sovraimpresse ed elementi esterni;
-- immagini risalvate senza metadati personali;
-- nessun nome di studente in didascalie, alt text o nomi file.
-
-COME CARICARLO
+COME CARICARLO SU GITHUB
 1. Apri lo ZIP.
-2. Vai nella pagina principale del repository GitHub.
-3. Premi Add file → Upload files.
-4. Trascina:
-   - laboratorio-paesaggi-gradazioni-tonali-2026.html
-   - laboratori.html
-   - la cartella assets
-5. Premi Commit changes.
-6. Aspetta il pallino verde.
-7. Ricarica il sito con Cmd + Shift + R.
+2. Nella repository del sito premi Add file → Upload files.
+3. Carica:
+   - laboratorio-viandante-mare-nebbia.html
+   - la cartella assets/img/laboratorio-viandante (oppure i soli file lavoro-01.jpg ... lavoro-15.jpg)
+4. Premi Commit changes.
+5. Attendi il pallino verde e ricarica il sito con Cmd + Shift + R.
+
+Nota:
+Non è necessario sostituire laboratori.html, perché il link al laboratorio resta invariato.
