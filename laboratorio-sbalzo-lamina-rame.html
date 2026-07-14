@@ -16,8 +16,13 @@
     .project-intro h1{margin:5px 0 14px;font-family:'Playfair Display',serif;font-size:clamp(42px,7vw,72px);line-height:1.03;color:var(--ink);font-weight:600}
     .project-lead{margin:24px 0 0;max-width:900px;color:#40566c;font-size:17px;line-height:1.75}
     .project-meta{display:flex;flex-wrap:wrap;gap:8px 18px;margin:18px 0 0;color:#64798d;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.045em}
-    .hero-panel{display:grid;grid-template-columns:minmax(320px,.9fr) minmax(0,1.1fr);gap:28px;align-items:center;margin-top:48px;padding:20px;border:1px solid var(--line);border-radius:8px;background:#fff;box-shadow:0 10px 28px rgba(18,44,70,.055)}
-    .hero-image{display:block;width:100%;aspect-ratio:1/1;object-fit:contain;background:#eef3f7;border-radius:5px}
+    .hero-panel{display:grid;grid-template-columns:minmax(0,.95fr) minmax(320px,.95fr);gap:24px;align-items:start;max-width:980px;margin:42px auto 0;padding:18px;border:1px solid var(--line);border-radius:8px;background:#fff;box-shadow:0 10px 28px rgba(18,44,70,.055)}
+    .hero-visuals{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+    .hero-figure{margin:0;position:relative;overflow:hidden;border-radius:6px;background:#eef3f7;box-shadow:inset 0 0 0 1px rgba(18,44,70,.04)}
+    .hero-figure img{display:block;width:100%;height:100%;object-fit:cover}
+    .hero-figure.is-overview{aspect-ratio:4/5}
+    .hero-figure.is-detail{aspect-ratio:4/5}
+    .hero-figure.is-detail img{transform:scale(1.55);transform-origin:62% 46%}
     .hero-copy h2,.steps-section h2,.gallery-section h2,.note-section h2{margin:4px 0 12px;font-family:'Playfair Display',serif;font-size:clamp(28px,4.5vw,42px);font-weight:600;color:var(--ink)}
     .hero-copy p,.note-section p{margin:0;color:#536a80;font-size:14px;line-height:1.7}
     .list{margin:16px 0 0;padding-left:18px;color:#536a80;font-size:14px;line-height:1.8}
@@ -33,11 +38,13 @@
     .note-box{max-width:880px;padding:24px 26px;border-left:4px solid #84adc8;background:#f3f8fc;border-radius:0 7px 7px 0}
     @media(max-width:860px){
       .hero-panel{grid-template-columns:1fr}
+      .hero-visuals{max-width:620px;margin:0 auto}
       .steps-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
       .gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
     }
     @media(max-width:560px){
       .project-page{padding:44px 0 68px}
+      .hero-visuals{grid-template-columns:1fr}
       .steps-grid,.gallery-grid{grid-template-columns:1fr}
     }
   </style>
@@ -61,7 +68,14 @@
     </section>
 
     <section class="hero-panel" aria-labelledby="hero-title">
-      <img class="hero-image" src="assets/img/laboratorio-sbalzo-rame/copertina-sbalzo-rame.jpg" alt="Esempio di sbalzo su lamina di rame con piccolo drago rosso">
+      <div class="hero-visuals" aria-label="Immagini del laboratorio">
+        <figure class="hero-figure is-overview">
+          <img src="assets/img/laboratorio-sbalzo-rame/copertina-sbalzo-rame.jpg" alt="Vista d'insieme dell'elaborato a sbalzo su lamina di rame con piccolo drago rosso">
+        </figure>
+        <figure class="hero-figure is-detail">
+          <img src="assets/img/laboratorio-sbalzo-rame/copertina-sbalzo-rame.jpg" alt="Dettaglio ravvicinato dell'elaborato a sbalzo su lamina di rame con piccolo drago rosso">
+        </figure>
+      </div>
       <div class="hero-copy">
         <p class="eyebrow">Tecnica e materiali</p>
         <h2 id="hero-title">Una tecnica semplice, manuale e d’effetto</h2>
