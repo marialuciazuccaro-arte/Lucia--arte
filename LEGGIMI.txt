@@ -1,37 +1,26 @@
-AGGIORNAMENTO v60 – ROBOTICA E MAIL ART 2026
+AGGIORNAMENTO v62 – MOSAICO CON CARTA EVA E PIXEL ART
 
 Contiene:
-- laboratorio-robotica-spike-prime-2026.html
-- laboratorio-mail-art-diario-visivo-2026.html
-- laboratori.html aggiornato
-- assets/img/laboratorio-robotica-spike-prime-2026
-- assets/img/laboratorio-mail-art-diario-visivo-2026
+- nuova pagina laboratorio-mosaico-space-invader-eva-2026.html;
+- pagina laboratori.html aggiornata;
+- cartella assets/img/laboratorio-mosaico-space-invader-eva-2026;
+- copertina grafica provvisoria;
+- galleria predisposta con 9 spazi per i lavori degli studenti.
 
-Scelte di organizzazione:
-- Mail art – Diario Visivo è stata inserita nelle Classi terze, come lavoro della 3B del 2026.
-- Robotica creativa con LEGO Spike Prime è stata inserita nei Percorsi trasversali / progetti speciali, non tra i lavori ordinari delle seconde.
-- In entrambe le pagine è indicato che si tratta di lavori del 2026.
-
-Privacy e leggerezza:
-- file rinominati in modo neutro;
-- immagini risalvate senza metadati personali;
-- video robotica compressi e senza audio;
-- foto robotica selezionate/ritagliate privilegiando robot e attività, non volti.
+Organizzazione:
+- Il laboratorio è stato inserito nelle Classi seconde.
+- È indicato come lavoro 2026.
+- La pagina collega mosaico, carta EVA, pixel art, street art e riferimento a Invader / Space Invader.
+- È presente il link alla presentazione Canva fornita.
 
 COME CARICARLO
 1. Apri lo ZIP.
 2. Vai nella pagina principale del repository GitHub.
 3. Premi Add file → Upload files.
 4. Trascina:
-   - laboratorio-robotica-spike-prime-2026.html
-   - laboratorio-mail-art-diario-visivo-2026.html
+   - laboratorio-mosaico-space-invader-eva-2026.html
    - laboratori.html
    - la cartella assets
 5. Premi Commit changes.
 6. Aspetta il pallino verde.
 7. Ricarica il sito con Cmd + Shift + R.
-
-NOTE v61
-- immagini Mail art risquadrate per una visualizzazione più corretta;
-- pagina Mail art: scelta una cartolina iniziale con colori più vivaci;
-- cartolina iniziale ridotta di dimensione nella pagina del progetto.
