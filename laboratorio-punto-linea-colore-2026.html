@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noimageindex">
+  <title>Punto, linea e colore | Arte e Immagine</title>
+  <meta name="description" content="Laboratorio per le classi prime sugli elementi fondamentali del linguaggio visivo: punto, linea e colore, con arte aborigena australiana e paesaggi divisi a metà.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .project-page{width:min(100% - 36px,1180px);margin:0 auto;padding:62px 0 90px}
+    .project-intro{max-width:900px}
+    .project-intro h1{margin:5px 0 14px;font-family:'Playfair Display',serif;font-size:clamp(38px,6vw,62px);line-height:1.03;color:var(--ink);font-weight:600}
+    .project-lead{margin:24px 0 0;max-width:850px;color:#40566c;font-size:17px;line-height:1.75}
+    .project-meta{display:flex;flex-wrap:wrap;gap:8px 18px;margin:18px 0 0;color:#64798d;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.045em}
+    .project-button{display:inline-flex;align-items:center;justify-content:center;margin:8px 8px 0 0;padding:12px 17px;border-radius:5px;background:var(--blue);color:#fff;font-size:12px;font-weight:700;letter-spacing:.045em;text-transform:uppercase}
+    .project-button.secondary{background:#e8f1f7;color:var(--blue);border:1px solid var(--line)}
+    .project-button:hover,.project-button:focus-visible{filter:brightness(.94)}
+    .presentation-panel{display:grid;grid-template-columns:minmax(280px,.88fr) minmax(0,1.12fr);gap:28px;align-items:center;margin-top:48px;padding:20px;border:1px solid var(--line);border-radius:8px;background:#fff;box-shadow:0 10px 28px rgba(18,44,70,.055)}
+    .presentation-preview{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;background:#eef3f7;border-radius:5px}
+    .presentation-copy h2,.content-section h2,.works-heading h2{font-family:'Playfair Display',serif;color:var(--ink);font-weight:600}
+    .presentation-copy h2{margin:4px 0 12px;font-size:clamp(27px,4vw,39px)}
+    .presentation-copy p{margin:0 0 12px;color:#536a80;font-size:14px;line-height:1.7}
+    .content-section{margin-top:54px}
+    .content-section h2{margin:3px 0 16px;font-size:clamp(30px,5vw,46px)}
+    .process-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+    .process-card{padding:24px;border:1px solid var(--line);border-radius:7px;background:#fff;box-shadow:0 8px 22px rgba(18,44,70,.04)}
+    .process-card strong{display:block;margin-bottom:8px;color:var(--ink);font-family:'Playfair Display',serif;font-size:23px}
+    .process-card p{margin:0;color:#536a80;font-size:14px;line-height:1.7}
+    .reference-note{margin-top:18px;padding:20px 22px;border-left:3px solid var(--blue);background:#f4f8fb;color:#536a80;font-size:13px;line-height:1.7}
+    .reference-note a{font-weight:700;color:var(--blue)}
+    .works-section{margin-top:60px}
+    .works-heading{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:16px}
+    .works-heading h2{margin:3px 0 0;font-size:clamp(30px,5vw,46px)}
+    .works-heading p{margin:0;color:#6c8094;font-size:12px;line-height:1.55;max-width:420px}
+    .student-work-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+    .student-work-card{margin:0;border:1px solid var(--line);border-radius:6px;overflow:hidden;background:#fff;box-shadow:0 8px 22px rgba(18,44,70,.035)}
+    .student-work-card img{display:block;width:100%;aspect-ratio:1/1;object-fit:cover;background:#eef3f7}
+    .student-work-card figcaption{padding:10px 12px;color:#6b7f92;font-size:11px;line-height:1.45}
+    .privacy-note{margin:17px 0 0;padding:15px 17px;border-left:3px solid var(--blue);background:#f4f8fb;color:#5b7185;font-size:12px;line-height:1.65}
+    @media(max-width:820px){
+      .presentation-panel{grid-template-columns:1fr}
+      .process-grid{grid-template-columns:1fr}
+      .student-work-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+      .works-heading{align-items:start;flex-direction:column}
+    }
+    @media(max-width:560px){
+      .project-page{padding:44px 0 68px}
+      .student-work-grid{grid-template-columns:1fr}
+      .presentation-preview{aspect-ratio:1/1}
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header"><a class="brand" href="index.html"><span class="brand-title">Arte e Immagine</span><span class="brand-subtitle">Laboratorio di ricerca visiva</span></a><nav class="main-nav"><a href="esplora.html">Esplora</a><a href="laboratori.html">Laboratori</a><a href="strumenti.html">Strumenti</a><a href="mappe.html">Mappe</a><a href="archivio.html">Archivio</a><a href="area-riservata.html">Area studenti</a><a href="chi-sono.html">Chi sono</a></nav><button class="icon-button">⌕</button></header>
+
+  <main class="project-page">
+    <section class="project-intro">
+      <a class="back-link" href="laboratori.html">← Torna ai laboratori</a>
+      <p class="eyebrow">Classi prime • elementi del linguaggio visivo</p>
+      <h1>Punto, linea e colore</h1>
+      <span class="short-line"></span>
+      <p class="project-lead">Un percorso introduttivo sugli elementi fondamentali del linguaggio visivo. Il laboratorio è stato sviluppato in due direzioni: il punto, approfondito attraverso una sperimentazione ispirata all’arte aborigena australiana, e la linea e il colore, sperimentati nella costruzione di paesaggi divisi a metà.</p>
+      <div class="project-meta">
+        <span>Classi prime</span>
+        <span>Punto</span>
+        <span>Linea</span>
+        <span>Colore</span>
+        <span>Paesaggio</span>
+      </div>
+    </section>
+
+    <section class="presentation-panel" aria-labelledby="presentation-title">
+      <img class="presentation-preview" src="assets/img/laboratorio-punto-linea-colore-2026/copertina-punto-linea-colore.jpg" alt="Composizione con un elaborato a punti e un paesaggio diviso tra linea e colore">
+      <div class="presentation-copy">
+        <p class="eyebrow">Presentazioni dell’attività</p>
+        <h2 id="presentation-title">Dal segno elementare alla composizione</h2>
+        <p>Il percorso parte dall’osservazione degli elementi minimi dell’immagine: il punto genera ritmo e campitura, la linea costruisce direzioni e contorni, il colore organizza atmosfera, profondità e contrasto.</p>
+        <p>Nella prima parte gli studenti lavorano sul punto e sulle superfici punteggiate; nella seconda confrontano due modi diversi di rappresentare lo stesso paesaggio, dividendo il foglio tra segno lineare e colore.</p>
+        <a class="project-button" href="https://canva.link/y583qi4m9v6opux" target="_blank" rel="noopener noreferrer">Apri punto, linea e colore ↗</a>
+        <a class="project-button secondary" href="https://canva.link/tkt2beqdm7wpyz3" target="_blank" rel="noopener noreferrer">Apri arte aborigena australiana ↗</a>
+      </div>
+    </section>
+
+    <section class="content-section" aria-labelledby="elements-title">
+      <p class="eyebrow">Obiettivi visivi</p>
+      <h2 id="elements-title">Tre elementi, due sperimentazioni</h2>
+      <div class="process-grid">
+        <article class="process-card">
+          <strong>Punto</strong>
+          <p>Il punto viene usato come unità minima dell’immagine: ripetuto, variato e accostato, costruisce ritmo, densità, direzioni e campiture.</p>
+        </article>
+        <article class="process-card">
+          <strong>Linea</strong>
+          <p>La linea permette di definire contorni, movimenti e strutture del paesaggio. Può seguire le forme, semplificarle o trasformarle in texture.</p>
+        </article>
+        <article class="process-card">
+          <strong>Colore</strong>
+          <p>Il colore diventa strumento per distinguere piani, creare atmosfera e rendere più immediata la percezione dello spazio.</p>
+        </article>
+      </div>
+      <div class="reference-note">
+        <strong>Nota sul riferimento culturale.</strong> La parte sul punto è una sperimentazione didattica ispirata al dot painting e non una copia di simboli sacri o motivi tradizionali specifici. Come approfondimento sul rapporto tra dot painting, arte aborigena australiana contemporanea e movimento di Papunya Tula è stato indicato il sito <a href="https://www.creativespirits.info/aboriginalculture/arts/are-dot-paintings-traditional-aboriginal-art" target="_blank" rel="noopener noreferrer">Creative Spirits – Are dot paintings traditional Aboriginal art?</a>.
+      </div>
+    </section>
+
+    <section class="works-section" aria-labelledby="punto-title">
+      <div class="works-heading">
+        <div>
+          <p class="eyebrow">Il punto</p>
+          <h2 id="punto-title">Arte aborigena australiana</h2>
+        </div>
+        <p>La costruzione dell’immagine avviene attraverso sequenze di punti, variazioni di dimensione, densità cromatica e contrasti tra figura e fondo.</p>
+      </div>
+      <div class="student-work-grid">
+        <figure class="student-work-card"><img src="assets/img/laboratorio-punto-linea-colore-2026/aborigena-01.jpg" alt="Elaborato sul punto ispirato all’arte aborigena australiana con figura di cavalluccio marino"><figcaption>Elaborato di una classe prima – punto, ritmo e campitura.</figcaption></figure>
+        <figure class="student-work-card"><img src="assets/img/laboratorio-punto-linea-colore-2026/aborigena-02.jpg" alt="Elaborato sul punto ispirato all’arte aborigena australiana con figura verde su fondo blu"><figcaption>Elaborato di una classe prima – figura costruita con punti e contrasti.</figcaption></figure>
+        <figure class="student-work-card"><img src="assets/img/laboratorio-punto-linea-colore-2026/aborigena-03.jpg" alt="Elaborato sul punto ispirato all’arte aborigena australiana con figure nere su fondo rosso e arancio"><figcaption>Elaborato di una classe prima – fondo puntinato e figure in silhouette.</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="works-section" aria-labelledby="linea-colore-title">
+      <div class="works-heading">
+        <div>
+          <p class="eyebrow">Linea e colore</p>
+          <h2 id="linea-colore-title">Paesaggi divisi a metà</h2>
+        </div>
+        <p>Ogni elaborato confronta due modalità espressive: da una parte il paesaggio costruito prevalentemente con la linea, dall’altra lo stesso spazio interpretato attraverso il colore.</p>
+      </div>
+      <div class="student-work-grid">
+        <figure class="student-work-card"><img src="assets/img/laboratorio-punto-linea-colore-2026/linea-colore-01.jpg" alt="Paesaggio diviso a metà tra segni lineari e colore"><figcaption>Elaborato di una classe prima – paesaggio tra linea e colore.</figcaption></figure>
+        <figure class="student-work-card"><img src="assets/img/laboratorio-punto-linea-colore-2026/linea-colore-02.jpg" alt="Paesaggio montano diviso a metà tra linee e colore"><figcaption>Elaborato di una classe prima – montagne, acqua e segni grafici.</figcaption></figure>
+        <figure class="student-work-card"><img src="assets/img/laboratorio-punto-linea-colore-2026/linea-colore-03.jpg" alt="Paesaggio con lago e barca diviso a metà tra linea e colore"><figcaption>Elaborato di una classe prima – paesaggio lacustre su foglio diviso.</figcaption></figure>
+        <figure class="student-work-card"><img src="assets/img/laboratorio-punto-linea-colore-2026/linea-colore-04.jpg" alt="Paesaggio marino diviso a metà tra linea e colore"><figcaption>Elaborato di una classe prima – mare, cielo e campiture.</figcaption></figure>
+        <figure class="student-work-card"><img src="assets/img/laboratorio-punto-linea-colore-2026/linea-colore-05.jpg" alt="Paesaggio con faro diviso a metà tra linea e colore"><figcaption>Elaborato di una classe prima – paesaggio costiero e architettura.</figcaption></figure>
+        <figure class="student-work-card"><img src="assets/img/laboratorio-punto-linea-colore-2026/linea-colore-06.jpg" alt="Paesaggio fluviale diviso a metà tra linea e colore"><figcaption>Elaborato di una classe prima – linea, acqua e profondità.</figcaption></figure>
+        <figure class="student-work-card"><img src="assets/img/laboratorio-punto-linea-colore-2026/linea-colore-07.jpg" alt="Paesaggio con lago e bosco diviso a metà tra linea e colore"><figcaption>Elaborato di una classe prima – natura, segno e colore.</figcaption></figure>
+        <figure class="student-work-card"><img src="assets/img/laboratorio-punto-linea-colore-2026/linea-colore-08.jpg" alt="Paesaggio costiero diviso a metà tra linee e colore"><figcaption>Elaborato di una classe prima – paesaggio costiero rielaborato.</figcaption></figure>
+        <figure class="student-work-card"><img src="assets/img/laboratorio-punto-linea-colore-2026/linea-colore-09.jpg" alt="Paesaggio con campi e segni grafici diviso a metà tra linee e colore"><figcaption>Elaborato di una classe prima – campiture, texture e colore.</figcaption></figure>
+      </div>
+      <p class="privacy-note">Le immagini sono state rinominate con etichette generiche e ripulite da metadati. Sono stati evitati nomi di studenti nei testi visibili, negli alt text e nelle didascalie.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="socials"><a href="#">◎</a><a href="#">Ⓟ</a><a href="#">▣</a></div><div class="footer-credits"><p class="footer-project">Progetto didattico di Arte e Immagine realizzato nell’ambito delle attività dell’Istituto Comprensivo Piero Angela di Roma – Scuola secondaria di primo grado, a cura della docente Maria Lucia Zuccaro.</p><p class="footer-rights">È vietata la riproduzione, la diffusione o il riutilizzo dei contenuti originali del sito e delle immagini degli elaborati degli studenti senza preventiva autorizzazione degli aventi diritto, fatti salvi gli usi consentiti dalla legge.</p></div><nav><a href="privacy.html">Privacy</a><a href="contatti.html">Contatti e autorizzazioni</a></nav></footer>
+</body>
+</html>
