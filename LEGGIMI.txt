@@ -1,26 +1,29 @@
-AGGIORNAMENTO v63 – MOSAICO SPACE INVADER, PRIME IMMAGINI
+AGGIORNAMENTO v64 – PAESAGGI IN GRADAZIONI TONALI
 
 Contiene:
-- laboratorio-mosaico-space-invader-eva-2026.html aggiornato;
+- laboratorio-paesaggi-gradazioni-tonali-2026.html;
 - laboratori.html aggiornato;
-- cartella assets/img/laboratorio-mosaico-space-invader-eva-2026 con:
-  - copertina reale del laboratorio;
-  - 3 elaborati degli studenti;
-  - 6 spazi ancora predisposti per immagini future.
+- cartella assets/img/laboratorio-paesaggi-gradazioni-tonali-2026 con 15 immagini;
+- copertina del laboratorio;
+- link alla presentazione Canva.
 
-Modifiche:
-- sostituita la copertina grafica provvisoria con un lavoro reale;
-- inseriti i 3 lavori caricati;
-- mantenuti gli spazi 04–09 per altri elaborati;
-- file rinominati in modo neutro e risalvati senza metadati personali;
-- prima immagine ritagliata per ridurre elementi esterni al lavoro.
+Organizzazione:
+- Il laboratorio è stato inserito nelle Classi terze.
+- È indicato come lavoro 2026.
+- Il testo descrive il procedimento: un unico colore di partenza, schiarito con il bianco e scurito con il nero, partendo dal livello centrale.
+
+Privacy e immagini:
+- file rinominati in modo neutro;
+- immagini ritagliate per ridurre date sovraimpresse ed elementi esterni;
+- immagini risalvate senza metadati personali;
+- nessun nome di studente in didascalie, alt text o nomi file.
 
 COME CARICARLO
 1. Apri lo ZIP.
 2. Vai nella pagina principale del repository GitHub.
 3. Premi Add file → Upload files.
 4. Trascina:
-   - laboratorio-mosaico-space-invader-eva-2026.html
+   - laboratorio-paesaggi-gradazioni-tonali-2026.html
    - laboratori.html
    - la cartella assets
 5. Premi Commit changes.
