@@ -1,23 +1,23 @@
-AGGIORNAMENTO v65 – VIANDANTE CON NUOVI LAVORI
+AGGIORNAMENTO v66 – PAESAGGI IN GRADAZIONI TONALI
 
 Contiene:
-- laboratorio-viandante-mare-nebbia.html aggiornato;
-- cartella assets/img/laboratorio-viandante con 15 nuovi esempi (lavoro-01.jpg ... lavoro-15.jpg).
+- laboratorio-paesaggi-gradazioni-tonali-2026.html aggiornato;
+- laboratori.html aggiornato nell’alt text della copertina;
+- assets/img/laboratorio-paesaggi-gradazioni-tonali-2026 con nuova copertina e galleria rinumerata.
 
-Cosa è stato fatto:
-- sostituiti tutti gli esempi presenti nella galleria del laboratorio “Rivisitazione del Viandante sul mare di nebbia”;
-- aggiornata la galleria da 9 a 15 elaborati;
-- immagini ritagliate e risalvate senza metadati personali;
-- attenuati o rimossi timestamp e riferimenti personali visibili.
+Cosa è stato corretto:
+- eliminato dalla pagina il doppione tra gli elaborati 10 e 11;
+- la galleria passa da 15 a 14 elaborati;
+- gli elaborati successivi sono stati rinumerati in modo ordinato;
+- la nuova copertina è stata scelta dall’ex elaborato 13, più vivace e adatto come immagine di apertura.
 
-COME CARICARLO SU GITHUB
+CARICAMENTO SU GITHUB
 1. Apri lo ZIP.
-2. Nella repository del sito premi Add file → Upload files.
-3. Carica:
-   - laboratorio-viandante-mare-nebbia.html
-   - la cartella assets/img/laboratorio-viandante (oppure i soli file lavoro-01.jpg ... lavoro-15.jpg)
-4. Premi Commit changes.
-5. Attendi il pallino verde e ricarica il sito con Cmd + Shift + R.
+2. Carica su GitHub:
+   - laboratorio-paesaggi-gradazioni-tonali-2026.html
+   - laboratori.html
+   - tutta la cartella assets/img/laboratorio-paesaggi-gradazioni-tonali-2026
+3. Premi Commit changes.
+4. Attendi il pallino verde e ricarica il sito con Cmd + Shift + R.
 
-Nota:
-Non è necessario sostituire laboratori.html, perché il link al laboratorio resta invariato.
+Nota: se nel repository resta il vecchio file paesaggio-15.jpg, non crea problemi perché la pagina non lo richiama più. Per pulizia si può eliminarlo manualmente da GitHub.
