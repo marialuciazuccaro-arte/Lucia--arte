@@ -1,0 +1,19 @@
+AGGIORNAMENTO ACCESSIBILITA E NAVIGAZIONE MOBILE
+
+1. Apri il repository GitHub Lucia--arte.
+2. Carica tutti i file e le cartelle contenuti in questo pacchetto mantenendo la stessa struttura.
+3. Quando GitHub chiede se sostituire i file esistenti, conferma.
+4. Attendi il completamento del deploy di GitHub Pages.
+5. Sul telefono chiudi e riapri il browser, oppure aggiorna la pagina ignorando la cache.
+
+L'aggiornamento comprende:
+- menu mobile apribile e richiudibile;
+- evidenza della pagina corrente e collegamento "Salta al contenuto";
+- rimozione della ricerca e delle icone social non funzionanti;
+- testi accessori portati ad almeno 12 px e focus da tastiera piu visibile;
+- footer sintetico con rimando alle pagine Privacy e Contatti;
+- rimozione dei pallini decorativi che sembravano controlli;
+- rotazione automatica dei lavori in evidenza quando le card sono visibili su mobile;
+- rispetto dell'impostazione "Riduci movimento" del dispositivo.
+
+Il pacchetto non modifica le immagini o i contenuti didattici delle pagine.
