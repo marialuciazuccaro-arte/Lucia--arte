@@ -1,0 +1,10 @@
+AGGIORNAMENTO CLAUDE — Lucia--arte
+
+Questo pacchetto aggiunge Claude alla sezione:
+Strumenti digitali > Intelligenza artificiale.
+
+Per installarlo, carica il file strumenti.html nella cartella principale del
+repository Lucia--arte e sostituisci il file già presente.
+
+La nuova scheda comprende una breve descrizione, l'anteprima e il collegamento
+al sito ufficiale https://claude.ai/.
