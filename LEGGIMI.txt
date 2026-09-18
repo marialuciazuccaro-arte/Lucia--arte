@@ -59,3 +59,7 @@ AGGIUNTA SUCCESSIVA
 
 - inserite le copertine originali di Maurits Cornelis Escher e Joan Miró in Esplora
 - rimossi i segnaposto delle copertine
+
+- attivato il collegamento al sito pubblico “Le donne nell’arte”
+- inserita la copertina originale di “Arte e riciclo creativo”
+- il pulsante della presentazione Riciclo creativo resta predisposto in attesa del link Canva
