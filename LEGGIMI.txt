@@ -63,3 +63,10 @@ AGGIUNTA SUCCESSIVA
 - attivato il collegamento al sito pubblico “Le donne nell’arte”
 - inserita la copertina originale di “Arte e riciclo creativo”
 - il pulsante della presentazione Riciclo creativo resta predisposto in attesa del link Canva
+
+- aggiunto “Educazione civica” al menu azzurro superiore della pagina Laboratori
+- titolo Educazione civica uniformato per dimensione e gerarchia ai titoli Classi prime, seconde e terze
+
+- la scheda “Arte e riciclo creativo” nei Laboratori usa ora gli stessi due link presenti nell’Area studenti:
+  • spiegazione del lavoro
+  • raccolta di immagini
