@@ -26,3 +26,11 @@ I file HTML devono finire direttamente nella root del repository:
 Lucia--arte/area-riservata.html
 Lucia--arte/esplora.html
 Lucia--arte/laboratorio-sbalzo-lamina-rame.html
+
+
+AGGIUNTA SUCCESSIVA
+- laboratori.html aggiornato
+- nuovo laboratorio "L’ombrello dei colori" nelle Classi prime
+- nuova pagina laboratorio-ombrello-colori.html
+- nuova copertina in assets/img/laboratorio-ombrello-colori/
+- collegamento Canva: https://canva.link/92ox7esbpkppvm4
