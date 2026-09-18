@@ -1,20 +1,28 @@
-AGGIORNAMENTO v71 – DUE NUOVI LABORATORI PER LE CLASSI PRIME
+AGGIORNAMENTO SITO – 18/09/2026
 
-Aggiunge:
-- Le zucche di Yayoi Kusama
-- Agamografo
+CONTENUTO
+- area-riservata.html
+  • tutorial "Come preparare una presentazione scolastica"
+  • Educazione civica: presentazione del lavoro + raccolta immagini
+- esplora.html
+  • nuova sezione "Presentazioni sugli artisti"
+  • Maurits Cornelis Escher
+  • Joan Miró
+- laboratorio-sbalzo-lamina-rame.html
+  • aggiunto collegamento alla presentazione Canva del laboratorio
+- assets/img/...
+  • nuove copertine di Kusama e Agamografo, se presenti nel pacchetto
 
-Contiene:
-- laboratori.html aggiornato
-- laboratorio-kusama-zucche.html
-- laboratorio-agamografo.html
-- due copertine grafiche originali nelle rispettive cartelle assets
+COME CARICARE SU GITHUB
+1. Apri questo ZIP sul Mac.
+2. ENTRA nella cartella "aggiornamento_sito_18-09-2026".
+3. Nel repository Lucia--arte vai nella cartella principale.
+4. Add file → Upload files.
+5. Trascina I CONTENUTI della cartella (i tre HTML e la cartella assets), NON la cartella esterna.
+6. Conferma la sostituzione dei file esistenti e fai Commit changes.
 
-Entrambe le pagine includono il collegamento alle presentazioni Canva fornite.
-
-COME CARICARLO
-1. Apri lo ZIP.
-2. Vai su GitHub → Add file → Upload files.
-3. Carica i tre file HTML e la cartella assets.
-4. Commit changes.
-5. Aspetta il pallino verde e ricarica il sito.
+IMPORTANTE
+I file HTML devono finire direttamente nella root del repository:
+Lucia--arte/area-riservata.html
+Lucia--arte/esplora.html
+Lucia--arte/laboratorio-sbalzo-lamina-rame.html

@@ -1,66 +1,125 @@
-<!doctype html><html lang="it"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Area studenti – Arte e Immagine</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet"><link rel="stylesheet" href="assets/css/style.css"><style>
-.simple-page{max-width:1080px;margin:0 auto;padding:72px 28px 90px}
-.simple-page h1{font-family:'Playfair Display',serif;font-size:54px;font-weight:500;color:var(--ink);margin:0 0 12px}
-.simple-page>.intro{font-size:18px;line-height:1.7;max-width:780px;color:#40566c}
-.student-resources{display:grid;gap:22px;margin-top:38px}
-.student-resource{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(240px,.75fr);gap:28px;align-items:stretch;margin-top:0;padding:30px;border:1px solid var(--line);border-radius:8px;background:#fff;box-shadow:var(--shadow)}
-.resource-copy{display:flex;flex-direction:column;align-items:flex-start}
-.resource-badge{display:inline-block;margin-bottom:12px;padding:7px 10px;border-radius:999px;background:#e8f3fb;color:var(--blue);font-size:10px;font-weight:700;letter-spacing:.07em;text-transform:uppercase}
-.student-resource h2{margin:0 0 12px;font-family:'Playfair Display',serif;font-size:32px;font-weight:600;color:var(--ink)}
-.student-resource p{margin:0 0 18px;font-size:15px;line-height:1.65;color:#52697e}
-.resource-button{display:inline-flex;align-items:center;justify-content:center;margin-top:auto;padding:12px 17px;border-radius:5px;background:var(--blue);color:#fff;font-size:12px;font-weight:700;letter-spacing:.045em;text-transform:uppercase}
-.resource-button:hover,.resource-button:focus-visible{filter:brightness(.94)}
-.resource-access{display:flex;flex-direction:column;justify-content:center;padding:24px;border-radius:7px;background:#f3f8fc}
-.resource-access strong{display:block;margin-bottom:8px;color:var(--ink);font-size:14px}
-.resource-access p{margin:0;font-size:12px;line-height:1.6;color:#64798d}
-.resource-note{max-width:760px;margin:22px 0 0;font-size:12px;line-height:1.6;color:#6a7f92}
-@media(max-width:760px){
-  .simple-page{padding:52px 20px 72px}
-  .simple-page h1{font-size:42px}
-  .student-resource{grid-template-columns:1fr;padding:22px}
-}
-</style></head><body><header class="site-header"><a class="brand" href="index.html"><span class="brand-title">Arte e Immagine</span><span class="brand-subtitle">Laboratorio di ricerca visiva</span></a><nav class="main-nav"><a href="esplora.html">Esplora</a><a href="laboratori.html">Laboratori</a><a href="strumenti.html">Strumenti</a><a href="mappe.html">Mappe</a><a href="archivio.html">Archivio</a><a href="area-riservata.html">Area studenti</a><a href="chi-sono.html">Chi sono</a></nav><button class="icon-button">⌕</button></header><main class="simple-page">
-  <p class="eyebrow">Materiali riservati</p>
-  <h1>Area studenti</h1>
-  <span class="short-line"></span>
-  <p class="intro">In questa sezione sono raccolti materiali, presentazioni e attività destinati agli studenti. L’accesso ai contenuti esterni è regolato dalle piattaforme scolastiche utilizzate.</p>
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Area studenti – Arte e Immagine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .simple-page{max-width:1080px;margin:0 auto;padding:72px 28px 90px}
+    .simple-page h1{font-family:'Playfair Display',serif;font-size:54px;font-weight:500;color:var(--ink);margin:0 0 12px}
+    .simple-page>.intro{font-size:18px;line-height:1.7;max-width:780px;color:#40566c}
+    .student-resources{display:grid;gap:22px;margin-top:38px}
+    .student-resource{display:grid;grid-template-columns:minmax(0,1.25fr) minmax(240px,.75fr);gap:28px;align-items:stretch;padding:30px;border:1px solid var(--line);border-radius:8px;background:#fff;box-shadow:var(--shadow)}
+    .resource-copy{display:flex;flex-direction:column;align-items:flex-start}
+    .resource-badge{display:inline-block;margin-bottom:12px;padding:7px 10px;border-radius:999px;background:#e8f3fb;color:var(--blue);font-size:10px;font-weight:700;letter-spacing:.07em;text-transform:uppercase}
+    .student-resource h2{margin:0 0 12px;font-family:'Playfair Display',serif;font-size:32px;font-weight:600;color:var(--ink)}
+    .student-resource p{margin:0 0 18px;font-size:15px;line-height:1.65;color:#52697e}
+    .resource-buttons{display:flex;flex-wrap:wrap;gap:9px;margin-top:auto}
+    .resource-button{display:inline-flex;align-items:center;justify-content:center;padding:12px 17px;border-radius:5px;background:var(--blue);color:#fff;font-size:12px;font-weight:700;letter-spacing:.045em;text-transform:uppercase}
+    .resource-button:hover,.resource-button:focus-visible{filter:brightness(.94)}
+    .resource-access{display:flex;flex-direction:column;justify-content:center;padding:24px;border-radius:7px;background:#f3f8fc}
+    .resource-access strong{display:block;margin-bottom:8px;color:var(--ink);font-size:14px}
+    .resource-access p{margin:0;font-size:12px;line-height:1.6;color:#64798d}
+    .resource-note{max-width:760px;margin:22px 0 0;font-size:12px;line-height:1.6;color:#6a7f92}
+    @media(max-width:760px){
+      .simple-page{padding:52px 20px 72px}
+      .simple-page h1{font-size:42px}
+      .student-resource{grid-template-columns:1fr;padding:22px}
+    }
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-title">Arte e Immagine</span><span class="brand-subtitle">Laboratorio di ricerca visiva</span></a>
+    <nav class="main-nav"><a href="esplora.html">Esplora</a><a href="laboratori.html">Laboratori</a><a href="strumenti.html">Strumenti</a><a href="mappe.html">Mappe</a><a href="archivio.html">Archivio</a><a href="area-riservata.html">Area studenti</a><a href="chi-sono.html">Chi sono</a></nav>
+    <button class="icon-button">⌕</button>
+  </header>
 
-  <section class="student-resources" aria-label="Materiali per gli studenti">
-    <article class="student-resource">
-      <div class="resource-copy">
-        <span class="resource-badge">Classe terza</span>
-        <h2>Nuova attività su Canva</h2>
-        <p>Presentazione destinata alle classi terze, consultabile in modalità di visualizzazione dagli utenti autorizzati.</p>
-        <a class="resource-button" href="https://canva.link/a8j5sv74sziabs2" target="_blank" rel="noopener noreferrer">Apri il materiale su Canva ↗</a>
-      </div>
+  <main class="simple-page">
+    <p class="eyebrow">Materiali riservati</p>
+    <h1>Area studenti</h1>
+    <span class="short-line"></span>
+    <p class="intro">In questa sezione sono raccolti materiali, presentazioni e attività destinati agli studenti. L’accesso ai contenuti esterni è regolato dalle piattaforme scolastiche utilizzate.</p>
 
-      <aside class="resource-access">
-        <strong>Accesso riservato</strong>
-        <p>Per aprire il materiale potrebbe essere necessario accedere a Canva con l’account scolastico autorizzato dell’Istituto Comprensivo Piero Angela.</p>
-      </aside>
-    </article>
+    <section class="student-resources" aria-label="Materiali per gli studenti">
 
-    <article class="student-resource">
-      <div class="resource-copy">
-        <span class="resource-badge">Esame • Classi terze</span>
-        <h2>Opere di artisti per l’esame</h2>
-        <p>Raccolta di immagini di opere e artisti utili per la scelta dell’elaborato e la preparazione dell’esposizione orale.</p>
-        <a class="resource-button" href="https://drive.google.com/drive/folders/1BrE6AOkWvjpthjFr7ogz8IJSYz9XzGQ4" target="_blank" rel="noopener noreferrer">Apri la raccolta su Drive ↗</a>
-      </div>
+      <article class="student-resource">
+        <div class="resource-copy">
+          <span class="resource-badge">Metodo di studio • Presentazioni</span>
+          <h2>Come preparare una presentazione scolastica</h2>
+          <p>Un tutorial pratico per progettare presentazioni chiare ed efficaci: organizzare i contenuti, scegliere immagini pertinenti, dosare il testo e costruire slide leggibili e coerenti.</p>
+          <div class="resource-buttons">
+            <a class="resource-button" href="https://canva.link/zhlr36bfaibdb4d" target="_blank" rel="noopener noreferrer">Apri il tutorial su Canva ↗</a>
+          </div>
+        </div>
+        <aside class="resource-access">
+          <strong>Guida per gli studenti</strong>
+          <p>Indicazioni utili per ricerche, esposizioni orali e lavori interdisciplinari, applicabili alle diverse materie.</p>
+        </aside>
+      </article>
 
-      <aside class="resource-access">
-        <strong>Raccolta aggiornabile</strong>
-        <p>I materiali vengono aggiornati direttamente su Google Drive. L’accesso dipende dalle autorizzazioni impostate sulla cartella.</p>
-      </aside>
-    </article>
-  </section>
+      <article class="student-resource">
+        <div class="resource-copy">
+          <span class="resource-badge">Educazione civica</span>
+          <h2>Educazione civica: attività e raccolta immagini</h2>
+          <p>Due materiali complementari: una presentazione che illustra il lavoro da svolgere e una raccolta di immagini da utilizzare come riferimento per l’attività.</p>
+          <div class="resource-buttons">
+            <a class="resource-button" href="https://canva.link/d2yiazu9zx1t2uh" target="_blank" rel="noopener noreferrer">Apri la spiegazione del lavoro ↗</a>
+            <a class="resource-button" href="https://canva.link/39hamodwyhi7s24" target="_blank" rel="noopener noreferrer">Apri la raccolta di immagini ↗</a>
+          </div>
+        </div>
+        <aside class="resource-access">
+          <strong>Due risorse collegate</strong>
+          <p>Consulta prima la presentazione dell’attività e poi la raccolta visiva per scegliere o analizzare le immagini utili al lavoro.</p>
+        </aside>
+      </article>
 
-  <p class="resource-note">I contenuti esterni possono essere aggiornati o avere autorizzazioni diverse senza modificare il sito, purché i collegamenti di condivisione restino invariati.</p>
-</main><footer class="site-footer">
+      <article class="student-resource">
+        <div class="resource-copy">
+          <span class="resource-badge">Classe terza</span>
+          <h2>Nuova attività su Canva</h2>
+          <p>Presentazione destinata alle classi terze, consultabile in modalità di visualizzazione dagli utenti autorizzati.</p>
+          <div class="resource-buttons">
+            <a class="resource-button" href="https://canva.link/a8j5sv74sziabs2" target="_blank" rel="noopener noreferrer">Apri il materiale su Canva ↗</a>
+          </div>
+        </div>
+        <aside class="resource-access">
+          <strong>Accesso riservato</strong>
+          <p>Per aprire il materiale potrebbe essere necessario accedere a Canva con l’account scolastico autorizzato dell’Istituto Comprensivo Piero Angela.</p>
+        </aside>
+      </article>
+
+      <article class="student-resource">
+        <div class="resource-copy">
+          <span class="resource-badge">Esame • Classi terze</span>
+          <h2>Opere di artisti per l’esame</h2>
+          <p>Raccolta di immagini di opere e artisti utili per la scelta dell’elaborato e la preparazione dell’esposizione orale.</p>
+          <div class="resource-buttons">
+            <a class="resource-button" href="https://drive.google.com/drive/folders/1BrE6AOkWvjpthjFr7ogz8IJSYz9XzGQ4" target="_blank" rel="noopener noreferrer">Apri la raccolta su Drive ↗</a>
+          </div>
+        </div>
+        <aside class="resource-access">
+          <strong>Raccolta aggiornabile</strong>
+          <p>I materiali vengono aggiornati direttamente su Google Drive. L’accesso dipende dalle autorizzazioni impostate sulla cartella.</p>
+        </aside>
+      </article>
+
+    </section>
+
+    <p class="resource-note">I contenuti esterni possono essere aggiornati o avere autorizzazioni diverse senza modificare il sito, purché i collegamenti di condivisione restino invariati.</p>
+  </main>
+
+  <footer class="site-footer">
     <div class="socials"><a href="#">◎</a><a href="#">Ⓟ</a><a href="#">▣</a></div>
     <div class="footer-credits">
       <p class="footer-project">Progetto didattico di Arte e Immagine realizzato nell’ambito delle attività dell’Istituto Comprensivo Piero Angela di Roma – Scuola secondaria di primo grado, a cura della docente Maria Lucia Zuccaro.</p>
       <p class="footer-rights">È vietata la riproduzione, la diffusione o il riutilizzo dei contenuti originali del sito e delle immagini degli elaborati degli studenti senza preventiva autorizzazione degli aventi diritto, fatti salvi gli usi consentiti dalla legge.</p>
     </div>
     <nav><a href="privacy.html">Privacy</a><a href="contatti.html">Contatti e autorizzazioni</a></nav>
-  </footer></body></html>
+  </footer>
+</body>
+</html>
