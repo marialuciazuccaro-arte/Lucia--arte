@@ -70,3 +70,7 @@ AGGIUNTA SUCCESSIVA
 - la scheda “Arte e riciclo creativo” nei Laboratori usa ora gli stessi due link presenti nell’Area studenti:
   • spiegazione del lavoro
   • raccolta di immagini
+
+- ANTEPRIMA: nuova sezione “Esercitati con i miei Kahoot” nell’Area studenti
+- inseriti 6 collegamenti Kahoot organizzati per periodo
+- predisposto spazio visivo per i periodi storico-artistici da aggiungere
