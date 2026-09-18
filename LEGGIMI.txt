@@ -40,3 +40,9 @@ AGGIUNTA SUCCESSIVA
 - aggiunta in Esplora la presentazione “Impressionismo”
 - sezione rinominata “Presentazioni: artisti e movimenti”
 - aggiunta copertina in assets/img/presentazioni/impressionismo/
+
+- aggiunto in coda a Classi prime, seconde e terze il blocco “Educazione civica”
+- aggiunta presentazione “Donne artiste nella storia dell’arte” con link Canva
+- aggiunta copertina dedicata
+- predisposto pulsante per il futuro sito “Le donne nell’arte” (in attesa dell’URL pubblico)
+- predisposta scheda “Arte e riciclo creativo” (in attesa del link Canva esatto)

@@ -26,6 +26,22 @@
     .laboratory-copy h2{margin:0 0 13px;font-family:'Playfair Display',serif;font-size:34px;line-height:1.1;color:var(--ink)}
     .laboratory-copy p{margin:0 0 22px;font-size:15px;line-height:1.65;color:#536a80}
     .laboratory-link{margin-top:auto;color:var(--blue);font-size:11px;font-weight:700;letter-spacing:.045em;text-transform:uppercase}
+
+    .civic-block{margin-top:28px;padding-top:24px;border-top:1px dashed #b9cddd}
+    .civic-block__head{display:flex;align-items:end;justify-content:space-between;gap:18px;margin-bottom:14px}
+    .civic-block__head h3{margin:0;font-family:'Playfair Display',serif;font-size:28px;color:var(--ink);font-weight:600}
+    .civic-block__head p{margin:0;max-width:460px;color:#6c8094;font-size:12px;line-height:1.55;text-align:right}
+    .civic-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+    .civic-card{display:grid;grid-template-columns:140px minmax(0,1fr);gap:18px;align-items:stretch;padding:16px;border:1px solid var(--line);border-radius:8px;background:#fff;box-shadow:0 8px 20px rgba(18,44,70,.045)}
+    .civic-card img{display:block;width:100%;height:100%;min-height:150px;object-fit:cover;border-radius:5px;background:#eef3f7}
+    .civic-card__copy{display:flex;flex-direction:column;align-items:flex-start}
+    .civic-card__copy .eyebrow{margin:0 0 6px}
+    .civic-card h4{margin:0 0 8px;font-family:'Playfair Display',serif;font-size:22px;line-height:1.15;color:var(--ink)}
+    .civic-card p{margin:0 0 13px;color:#536a80;font-size:12px;line-height:1.55}
+    .civic-links{display:flex;flex-wrap:wrap;gap:7px;margin-top:auto}
+    .civic-link{display:inline-flex;align-items:center;padding:8px 10px;border-radius:4px;background:#f2f7fb;color:var(--blue);font-size:10px;font-weight:700;letter-spacing:.035em;text-transform:uppercase}
+    .civic-link--pending{color:#7a8793;background:#eef2f5;cursor:default}
+
     @media(max-width:760px){
       .simple-page{padding:52px 20px 72px}
       .simple-page h1{font-size:42px}
@@ -38,6 +54,10 @@
       .laboratory-copy p{font-size:14px;line-height:1.65}
       .laboratory-link{display:inline-block;margin-top:6px}
       .laboratory-list{gap:18px}
+      .civic-block__head{align-items:start;flex-direction:column}
+      .civic-block__head p{text-align:left}
+      .civic-grid{grid-template-columns:1fr}
+      .civic-card{grid-template-columns:110px minmax(0,1fr)}
     }
   </style>
 </head>
@@ -133,7 +153,40 @@
           </span>
         </a>
       </div>
-    </section>
+    
+      <div class="civic-block" aria-label="Educazione civica">
+        <div class="civic-block__head">
+          <h3>Educazione civica</h3>
+          <p>Materiali trasversali utilizzabili nelle diverse classi per collegare Arte e Immagine a cittadinanza, sostenibilità, inclusione e valorizzazione delle figure femminili nella storia dell’arte.</p>
+        </div>
+        <div class="civic-grid">
+          <article class="civic-card">
+            <img src="assets/img/educazione-civica/donne-artiste/copertina-donne-artiste.png" alt="Copertina della presentazione Donne artiste nella storia dell’arte">
+            <div class="civic-card__copy">
+              <span class="eyebrow">Educazione civica • storia dell’arte</span>
+              <h4>Donne artiste nella storia dell’arte</h4>
+              <p>Un percorso dedicato alle artiste spesso rimaste ai margini dei manuali, per riscoprirne opere, vicende e contributi alla storia dell’arte.</p>
+              <div class="civic-links">
+                <a class="civic-link" href="https://canva.link/oz4why1b485jkru" target="_blank" rel="noopener noreferrer">Apri la presentazione ↗</a>
+                <span class="civic-link civic-link--pending" aria-label="Sito Donne artiste in preparazione">Sito in preparazione</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="civic-card">
+            <div style="display:grid;place-items:center;min-height:150px;border-radius:5px;background:#eef3f7;color:#6f8497;font-size:11px;font-weight:700;letter-spacing:.05em;text-align:center;text-transform:uppercase;padding:12px">Arte e<br>riciclo creativo</div>
+            <div class="civic-card__copy">
+              <span class="eyebrow">Educazione civica • sostenibilità</span>
+              <h4>Arte e riciclo creativo</h4>
+              <p>Un percorso sul riuso dei materiali e sulla trasformazione creativa degli oggetti, collegando pratica artistica, sostenibilità e responsabilità ambientale.</p>
+              <div class="civic-links">
+                <span class="civic-link civic-link--pending" aria-label="Link della presentazione da inserire">Presentazione: link da inserire</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+</section>
 
     <section id="classi-seconde" class="class-section" aria-labelledby="seconde-title">
       <div class="class-section-header"><h2 id="seconde-title">Classi seconde</h2><p>Spazio predisposto per i laboratori delle seconde: architettura, prospettiva, paesaggio, luce, colore e rielaborazioni personali.</p></div>
@@ -141,7 +194,40 @@
         <a class="laboratory-card" href="laboratorio-notan-simmetria.html"><img src="assets/img/laboratorio-notan/copertina-notan.jpg" alt="Copertina del laboratorio La simmetria con i Notan"><span class="laboratory-copy"><span class="eyebrow">Classi seconde • simmetria • pieni e vuoti</span><h2>La simmetria con i Notan</h2><p>Un laboratorio sul rapporto tra buio e luce, forma piena e spazio vuoto: il quadrato nero viene ritagliato e ribaltato per costruire una composizione simmetrica su fondo colorato.</p><strong class="laboratory-link">Apri il laboratorio →</strong></span></a>
         <a class="laboratory-card" href="laboratorio-mosaico-space-invader-eva-2026.html"><img src="assets/img/laboratorio-mosaico-space-invader-eva-2026/anteprima-mosaico-space-invader-eva.jpg" alt="Due esempi di mosaico con carta EVA e pixel art"><span class="laboratory-copy"><span class="eyebrow">Classi seconde • mosaico contemporaneo • lavoro 2026</span><h2>Mosaico con carta EVA e pixel art</h2><p>Un laboratorio collegato alla street art di Invader e all’immaginario di Space Invader: la tessera del mosaico diventa pixel, modulo grafico e campitura colorata.</p><strong class="laboratory-link">Apri il laboratorio →</strong></span></a>
       </div>
-    </section>
+    
+      <div class="civic-block" aria-label="Educazione civica">
+        <div class="civic-block__head">
+          <h3>Educazione civica</h3>
+          <p>Materiali trasversali utilizzabili nelle diverse classi per collegare Arte e Immagine a cittadinanza, sostenibilità, inclusione e valorizzazione delle figure femminili nella storia dell’arte.</p>
+        </div>
+        <div class="civic-grid">
+          <article class="civic-card">
+            <img src="assets/img/educazione-civica/donne-artiste/copertina-donne-artiste.png" alt="Copertina della presentazione Donne artiste nella storia dell’arte">
+            <div class="civic-card__copy">
+              <span class="eyebrow">Educazione civica • storia dell’arte</span>
+              <h4>Donne artiste nella storia dell’arte</h4>
+              <p>Un percorso dedicato alle artiste spesso rimaste ai margini dei manuali, per riscoprirne opere, vicende e contributi alla storia dell’arte.</p>
+              <div class="civic-links">
+                <a class="civic-link" href="https://canva.link/oz4why1b485jkru" target="_blank" rel="noopener noreferrer">Apri la presentazione ↗</a>
+                <span class="civic-link civic-link--pending" aria-label="Sito Donne artiste in preparazione">Sito in preparazione</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="civic-card">
+            <div style="display:grid;place-items:center;min-height:150px;border-radius:5px;background:#eef3f7;color:#6f8497;font-size:11px;font-weight:700;letter-spacing:.05em;text-align:center;text-transform:uppercase;padding:12px">Arte e<br>riciclo creativo</div>
+            <div class="civic-card__copy">
+              <span class="eyebrow">Educazione civica • sostenibilità</span>
+              <h4>Arte e riciclo creativo</h4>
+              <p>Un percorso sul riuso dei materiali e sulla trasformazione creativa degli oggetti, collegando pratica artistica, sostenibilità e responsabilità ambientale.</p>
+              <div class="civic-links">
+                <span class="civic-link civic-link--pending" aria-label="Link della presentazione da inserire">Presentazione: link da inserire</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+</section>
 
     <section id="classi-terze" class="class-section" aria-labelledby="terze-title">
       <div class="class-section-header"><h2 id="terze-title">Classi terze</h2><p>Percorsi più complessi, collegati alla lettura dell’opera, alla rielaborazione personale e alla costruzione di un progetto visivo consapevole.</p></div>
@@ -151,7 +237,40 @@
         <a class="laboratory-card" href="laboratorio-paesaggi-gradazioni-tonali-2026.html"><img src="assets/img/laboratorio-paesaggi-gradazioni-tonali-2026/copertina-paesaggi-gradazioni-tonali.jpg" alt="Paesaggio urbano rosa in gradazioni tonali con silhouette, ombrello e skyline"><span class="laboratory-copy"><span class="eyebrow">Classi terze • colore e profondità • lavoro 2026</span><h2>Paesaggi in gradazioni tonali</h2><p>Un lavoro sul valore tonale: un unico colore viene schiarito con il bianco e scurito con il nero per costruire profondità, atmosfera e piani del paesaggio.</p><strong class="laboratory-link">Apri il laboratorio →</strong></span></a>
         <a class="laboratory-card" href="laboratorio-mail-art-diario-visivo-2026.html"><img src="assets/img/laboratorio-mail-art-diario-visivo-2026/mail-art-18.jpg" alt="Elaborato Mail art 2026 con collage urbano e figura azzurra"><span class="laboratory-copy"><span class="eyebrow">Classi terze • 3B • lavoro 2026</span><h2>Mail art – Diario Visivo</h2><p>La classe 3B ha partecipato nel 2026 al progetto Mail art di Diario Visivo, trasformando cartoline, collage fotografici, intrecci e cornici in piccoli messaggi visivi.</p><strong class="laboratory-link">Apri il laboratorio →</strong></span></a>
       </div>
-    </section>
+    
+      <div class="civic-block" aria-label="Educazione civica">
+        <div class="civic-block__head">
+          <h3>Educazione civica</h3>
+          <p>Materiali trasversali utilizzabili nelle diverse classi per collegare Arte e Immagine a cittadinanza, sostenibilità, inclusione e valorizzazione delle figure femminili nella storia dell’arte.</p>
+        </div>
+        <div class="civic-grid">
+          <article class="civic-card">
+            <img src="assets/img/educazione-civica/donne-artiste/copertina-donne-artiste.png" alt="Copertina della presentazione Donne artiste nella storia dell’arte">
+            <div class="civic-card__copy">
+              <span class="eyebrow">Educazione civica • storia dell’arte</span>
+              <h4>Donne artiste nella storia dell’arte</h4>
+              <p>Un percorso dedicato alle artiste spesso rimaste ai margini dei manuali, per riscoprirne opere, vicende e contributi alla storia dell’arte.</p>
+              <div class="civic-links">
+                <a class="civic-link" href="https://canva.link/oz4why1b485jkru" target="_blank" rel="noopener noreferrer">Apri la presentazione ↗</a>
+                <span class="civic-link civic-link--pending" aria-label="Sito Donne artiste in preparazione">Sito in preparazione</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="civic-card">
+            <div style="display:grid;place-items:center;min-height:150px;border-radius:5px;background:#eef3f7;color:#6f8497;font-size:11px;font-weight:700;letter-spacing:.05em;text-align:center;text-transform:uppercase;padding:12px">Arte e<br>riciclo creativo</div>
+            <div class="civic-card__copy">
+              <span class="eyebrow">Educazione civica • sostenibilità</span>
+              <h4>Arte e riciclo creativo</h4>
+              <p>Un percorso sul riuso dei materiali e sulla trasformazione creativa degli oggetti, collegando pratica artistica, sostenibilità e responsabilità ambientale.</p>
+              <div class="civic-links">
+                <span class="civic-link civic-link--pending" aria-label="Link della presentazione da inserire">Presentazione: link da inserire</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+</section>
 
     <section id="percorsi-trasversali" class="class-section" aria-labelledby="trasversali-title">
       <div class="class-section-header"><h2 id="trasversali-title">Percorsi trasversali</h2><p>Attività utilizzabili in più classi o adattabili a livelli diversi, in base al tempo disponibile e agli obiettivi del percorso.</p></div>
