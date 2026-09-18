@@ -46,3 +46,16 @@ AGGIUNTA SUCCESSIVA
 - aggiunta copertina dedicata
 - predisposto pulsante per il futuro sito “Le donne nell’arte” (in attesa dell’URL pubblico)
 - predisposta scheda “Arte e riciclo creativo” (in attesa del link Canva esatto)
+
+- aggiunto laboratorio “Costellazione geometrica” nelle Classi prime
+- aggiunta pagina laboratorio-costellazione-geometrica.html
+- aggiunta copertina in assets/img/laboratorio-costellazione-geometrica/
+- aggiunto il laboratorio all’indice della ricerca interna
+
+- Costellazione geometrica spostata dalle Classi prime alle Classi seconde
+- Educazione civica lasciata una sola volta, in coda alle Classi terze
+- aggiornata la pagina Costellazione e l’indice della ricerca interna
+- predisposti in Esplora gli spazi copertina per Escher e Miró; immagini originali da reinserire
+
+- inserite le copertine originali di Maurits Cornelis Escher e Joan Miró in Esplora
+- rimossi i segnaposto delle copertine
