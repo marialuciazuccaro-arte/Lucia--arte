@@ -88,3 +88,6 @@ AGGIUNTA SUCCESSIVA
 
 - aggiornata la copertina di “Vetrata di carta” con la nuova immagine della presentazione
 - sostituito il riferimento alla copertina PNG con la nuova copertina SVG
+
+- completata la pagina “Chi sono” con una presentazione essenziale della docente
+- indicato l’insegnamento di Arte e Immagine dal 2015
