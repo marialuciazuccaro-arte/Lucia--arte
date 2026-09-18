@@ -34,3 +34,5 @@ AGGIUNTA SUCCESSIVA
 - nuova pagina laboratorio-ombrello-colori.html
 - nuova copertina in assets/img/laboratorio-ombrello-colori/
 - collegamento Canva: https://canva.link/92ox7esbpkppvm4
+
+- rimossa la sezione finale “Documentazione del percorso” dalla pagina dello sbalzo su rame
