@@ -83,3 +83,5 @@ AGGIUNTA SUCCESSIVA
 
 - rimossa la sezione con i Kahoot dall’Area studenti
 - mantenuta soltanto la scheda generica Kahoot nella pagina Strumenti
+
+- corretta la posizione di “Vetrata di carta”: ora è nelle Classi seconde subito dopo “Mosaico con carta EVA e pixel art”
