@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Cerca tra laboratori, artisti, movimenti, strumenti e materiali didattici del sito Arte e Immagine.">
+  <title>Cerca nel sito – Arte e Immagine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .search-page{width:min(100% - 36px,1000px);margin:0 auto;padding:70px 0 90px}
+    .search-page h1{font-family:'Playfair Display',serif;font-size:clamp(44px,7vw,66px);font-weight:500;color:var(--ink);margin:0 0 12px}
+    .search-page>.intro{font-size:18px;line-height:1.7;max-width:760px;color:#40566c}
+    .search-form{display:grid;grid-template-columns:1fr auto;gap:10px;margin:34px 0 14px}
+    .search-form input{min-width:0;padding:15px 17px;border:1px solid #b9cddd;border-radius:7px;background:#fff;color:var(--ink);font:inherit;font-size:16px}
+    .search-form button{padding:0 22px;border:0;border-radius:7px;background:var(--blue);color:#fff;font:inherit;font-weight:700;cursor:pointer}
+    .search-hint{margin:0 0 30px;color:#718598;font-size:12px;line-height:1.6}
+    .search-status{margin:0 0 14px;color:#52697e;font-size:13px}
+    .search-results{display:grid;gap:12px}
+    .search-result{display:block;padding:20px 22px;border:1px solid var(--line);border-radius:8px;background:#fff;box-shadow:0 8px 22px rgba(18,44,70,.045)}
+    .search-result small{display:block;margin-bottom:6px;color:#66849a;font-size:9px;font-weight:700;letter-spacing:.07em;text-transform:uppercase}
+    .search-result h2{margin:0 0 7px;font-family:'Playfair Display',serif;font-size:25px;color:var(--ink)}
+    .search-result p{margin:0;color:#536a80;font-size:13px;line-height:1.6}
+    .search-result strong{display:inline-block;margin-top:12px;color:var(--blue);font-size:10px;letter-spacing:.05em;text-transform:uppercase}
+    .no-results{padding:24px;border:1px dashed #b9cddd;border-radius:8px;background:#f7fbfe;color:#64798d}
+    @media(max-width:600px){.search-form{grid-template-columns:1fr}.search-form button{padding:14px}.search-page{padding:48px 0 70px}}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-title">Arte e Immagine</span><span class="brand-subtitle">Laboratorio di ricerca visiva</span></a>
+    <nav class="main-nav"><a href="esplora.html">Esplora</a><a href="laboratori.html">Laboratori</a><a href="strumenti.html">Strumenti</a><a href="mappe.html">Mappe</a><a href="archivio.html">Archivio</a><a href="area-riservata.html">Area studenti</a><a href="chi-sono.html">Chi sono</a></nav>
+    <a class="icon-button" href="cerca.html" aria-label="Cerca nel sito">⌕</a>
+  </header>
+  <main class="search-page">
+    <p class="eyebrow">Ricerca interna</p>
+    <h1>Cerca nel sito</h1>
+    <span class="short-line"></span>
+    <p class="intro">Cerca tra laboratori, artisti, movimenti, strumenti, mappe, materiali didattici e lavori degli studenti.</p>
+    <form class="search-form" id="search-form" role="search">
+      <input id="search-input" type="search" name="q" placeholder="Es. Kusama, Impressionismo, sbalzo, robotica…" autocomplete="off" aria-label="Cerca nel sito">
+      <button type="submit">Cerca</button>
+    </form>
+    <p class="search-hint">Puoi cercare anche “donne artiste”, “colore”, “esame”, “mosaico”, “mappe” o “intelligenza artificiale”.</p>
+    <p class="search-status" id="search-status"></p>
+    <section class="search-results" id="search-results" aria-live="polite"></section>
+  </main>
+  <footer class="site-footer">
+    <div class="footer-credits"><p class="footer-project">Progetto didattico di Arte e Immagine realizzato nell’ambito delle attività dell’Istituto Comprensivo Piero Angela di Roma – Scuola secondaria di primo grado, a cura della docente Maria Lucia Zuccaro.</p></div>
+    <nav><a href="privacy.html">Privacy</a><a href="contatti.html">Contatti e autorizzazioni</a></nav>
+  </footer>
+  <script src="assets/js/site-search.js"></script>
+</body>
+</html>
