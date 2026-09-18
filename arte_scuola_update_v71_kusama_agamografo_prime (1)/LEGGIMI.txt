@@ -1,0 +1,20 @@
+AGGIORNAMENTO v71 – DUE NUOVI LABORATORI PER LE CLASSI PRIME
+
+Aggiunge:
+- Le zucche di Yayoi Kusama
+- Agamografo
+
+Contiene:
+- laboratori.html aggiornato
+- laboratorio-kusama-zucche.html
+- laboratorio-agamografo.html
+- due copertine grafiche originali nelle rispettive cartelle assets
+
+Entrambe le pagine includono il collegamento alle presentazioni Canva fornite.
+
+COME CARICARLO
+1. Apri lo ZIP.
+2. Vai su GitHub → Add file → Upload files.
+3. Carica i tre file HTML e la cartella assets.
+4. Commit changes.
+5. Aspetta il pallino verde e ricarica il sito.
