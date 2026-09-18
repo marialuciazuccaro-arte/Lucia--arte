@@ -85,3 +85,6 @@ AGGIUNTA SUCCESSIVA
 - mantenuta soltanto la scheda generica Kahoot nella pagina Strumenti
 
 - corretta la posizione di “Vetrata di carta”: ora è nelle Classi seconde subito dopo “Mosaico con carta EVA e pixel art”
+
+- aggiornata la copertina di “Vetrata di carta” con la nuova immagine della presentazione
+- sostituito il riferimento alla copertina PNG con la nuova copertina SVG
