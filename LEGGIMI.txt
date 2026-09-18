@@ -74,3 +74,11 @@ AGGIUNTA SUCCESSIVA
 - ANTEPRIMA: nuova sezione “Esercitati con i miei Kahoot” nell’Area studenti
 - inseriti 6 collegamenti Kahoot organizzati per periodo
 - predisposto spazio visivo per i periodi storico-artistici da aggiungere
+
+- aggiunto il laboratorio di seconda “Vetrata di carta”
+- copertina ricavata dal PDF fornito
+- aggiunta pagina dedicata con link Canva
+- aggiunta la voce all’indice di ricerca interno
+
+- aggiunta nella pagina “Vetrata di carta” una galleria con 4 elaborati degli studenti
+- copiati gli esempi in assets/img/laboratorio-vetrata-carta/elaborati/
