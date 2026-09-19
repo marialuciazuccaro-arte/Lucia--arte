@@ -43,7 +43,7 @@ collections:
             allow_remove: true
             allow_reorder: true
             summary: '{{classLabel}} — {{title}}'
-            hint: 'Il primo elemento è il più recente. I primi quattro lavori abilitati per la Home compaiono nella prima pagina.'
+            hint: 'Il primo elemento è il più recente. I primi quattro lavori abilitati per la Home compaiono nella prima pagina. Prima di pubblicare verifica che l’attività sia stata condivisa attraverso i canali istituzionali previsti e che le immagini non contengano nomi, firme, volti o altri elementi identificativi degli studenti.'
             fields:
               - name: id
                 widget: hidden
@@ -76,6 +76,7 @@ collections:
                 label: Immagine di copertina
                 widget: image
                 choose_url: false
+                hint: 'Controlla che non siano visibili nomi, firme, volti o altri dati identificativi.'
               - name: alt
                 label: Descrizione accessibile della copertina
                 widget: string
@@ -87,7 +88,7 @@ collections:
                 multiple: true
                 required: false
                 choose_url: false
-                hint: 'Puoi caricare più fotografie. Verranno mostrate nella galleria del lavoro.'
+                hint: 'Puoi caricare più fotografie. Verranno mostrate nella galleria del lavoro. Prima del caricamento controlla ogni immagine e rimuovi nomi, firme, volti o altri dati identificativi.'
               - name: canvaUrl
                 label: Link Canva o altra risorsa
                 widget: string

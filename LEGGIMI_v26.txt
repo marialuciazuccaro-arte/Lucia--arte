@@ -1,0 +1,16 @@
+AGGIORNAMENTO v26 - PRIVACY
+
+Caricare nella radice del repository Lucia--arte:
+- privacy.html
+- robots.txt
+- cartella admin
+
+Queste modifiche:
+- aggiornano la pagina Privacy alla situazione reale di settembre 2026;
+- recepiscono l'indicazione operativa scuola/DPO: prima canali istituzionali, poi sito;
+- aggiungono il promemoria privacy nell'Area docente;
+- impediscono ai crawler di scandire la nuova cartella assets/uploads/lavori.
+
+NOTA:
+La modifica a Genially e il meta noimageindex sulle nuove pagine richiedono anche la sostituzione di index.html, archivio.html e lavoro.html.
+Questa versione NON li tocca per evitare di sovrascrivere accidentalmente il quinto lavoro o altre modifiche recenti.

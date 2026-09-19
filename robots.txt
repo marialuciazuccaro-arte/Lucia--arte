@@ -7,3 +7,4 @@ Disallow: /assets/img/laboratorio-cartellina/
 Disallow: /assets/img/laboratorio-sbalzo-rame/
 Disallow: /assets/img/laboratorio-prospettiva-inversa-2026/
 Disallow: /assets/img/laboratorio-sala-museale-2026/
+Disallow: /assets/uploads/lavori/
