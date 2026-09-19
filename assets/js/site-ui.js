@@ -60,7 +60,6 @@
       }
     }
 
-    // Gynzy: strumento utile per la gestione della classe e la disposizione dei banchi.
     if (file === 'strumenti.html' && !document.getElementById('gestione-classe')) {
       const interactiveTitle = document.getElementById('interattiva-title');
       const interactiveSection = interactiveTitle && interactiveTitle.closest('.resource-section');
@@ -83,6 +82,9 @@
               <span class="resource-tag">Disposizione dei banchi</span>
               <span class="resource-preview">
                 <span class="preview-fallback">Gynzy • Mappa dei posti e pianta dell’aula</span>
+                <img src="assets/img/strumenti/gynzy-copertina.png"
+                     alt="Gynzy: lavagna interattiva e gestione della classe, disposizione dei banchi"
+                     loading="lazy">
               </span>
               <h3>Gynzy</h3>
               <p>Lavagna interattiva con strumenti per la gestione della classe. La funzione Classroom Seating Chart permette di creare la pianta dell’aula, trascinare e ruotare i banchi, assegnare i posti agli studenti, salvare più configurazioni e stamparle.</p>

@@ -1,0 +1,12 @@
+AGGIORNAMENTO v28 - COPERTINA GYNZY
+
+Carica nella radice del repository Lucia--arte la cartella assets.
+
+Contiene:
+- assets/js/site-ui.js
+- assets/img/strumenti/gynzy-copertina.png
+
+Effetto:
+- mantiene la scheda Gynzy nella sezione Gestione della classe;
+- sostituisce il riquadro grigio con una copertina locale dedicata;
+- non carica immagini da Gynzy o altri servizi esterni.
