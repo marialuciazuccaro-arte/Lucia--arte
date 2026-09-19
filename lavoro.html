@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Lavoro degli studenti – Arte e Immagine">
+  <title>Lavoro degli studenti – Arte e Immagine</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="icon" type="image/png" href="assets/img/icons/esplora.png">
+  <style>
+    .work-page{width:min(100% - 36px,1120px);margin:0 auto;padding:58px 0 88px}
+    .work-back{display:inline-block;margin-bottom:28px;color:var(--blue);font-size:12px;font-weight:700;text-transform:uppercase}
+    .work-hero{display:grid;grid-template-columns:minmax(0,.9fr) minmax(360px,1.1fr);gap:38px;align-items:center;margin-bottom:44px}
+    .work-copy h1{margin:4px 0 15px;font-family:'Playfair Display',serif;font-size:clamp(42px,6.2vw,68px);font-weight:600;line-height:1.02;color:var(--ink)}
+    .work-meta{margin:0 0 8px;color:var(--blue);font-size:11px;font-weight:700;letter-spacing:.06em;text-transform:uppercase}
+    .work-description{max-width:700px;margin:22px 0 0;color:#445d73;font-size:17px;line-height:1.72}
+    .work-cover{overflow:hidden;border:1px solid var(--line);border-radius:8px;background:#eef5fa;box-shadow:var(--shadow)}
+    .work-cover img{width:100%;aspect-ratio:16/10;object-fit:cover}
+    .work-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:24px}
+    .work-actions a{display:inline-flex;align-items:center;padding:11px 15px;border-radius:5px;background:var(--blue);color:#fff;font-size:11px;font-weight:700;text-transform:uppercase}
+    .work-gallery-section{margin-top:38px}
+    .work-gallery-section h2{margin:0 0 18px;font-family:'Playfair Display',serif;font-size:34px;font-weight:600;color:var(--ink)}
+    .work-gallery{columns:3 280px;column-gap:10px}
+    .work-gallery a{display:block;break-inside:avoid;margin:0 0 10px;border-radius:5px;overflow:hidden;background:#f2f6f9}
+    .work-gallery img{width:100%;height:auto;transition:transform .2s ease}
+    .work-gallery a:hover img{transform:scale(1.01)}
+    .work-empty{padding:24px;border:1px dashed #bfd0dd;border-radius:8px;background:#f7fbfe;color:#61778b}
+    @media(max-width:820px){.work-hero{grid-template-columns:1fr}.work-cover{order:-1}.work-gallery{columns:2 240px}}
+    @media(max-width:580px){.work-page{padding:42px 0 66px}.work-gallery{columns:1}.work-description{font-size:15px}}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Torna alla home"><span class="brand-title">Arte e Immagine</span><span class="brand-subtitle">Laboratorio di ricerca visiva</span></a>
+    <nav class="main-nav" aria-label="Navigazione principale"><a href="esplora.html">Esplora</a><a href="laboratori.html">Laboratori</a><a href="strumenti.html">Strumenti</a><a href="mappe.html">Mappe</a><a href="archivio.html">Archivio</a><a href="area-riservata.html">Area studenti</a><a href="chi-sono.html">Chi sono</a></nav>
+    <a class="icon-button" href="cerca.html" aria-label="Cerca nel sito">⌕</a>
+  </header>
+
+  <main class="work-page" id="work-page">
+    <a class="work-back" href="archivio.html">← Torna all’archivio</a>
+    <div class="work-empty" id="work-loading">Caricamento del lavoro…</div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-credits"><p class="footer-project">Progetto didattico di Arte e Immagine realizzato nell’ambito delle attività dell’Istituto Comprensivo Piero Angela di Roma – Scuola secondaria di primo grado, a cura della docente Maria Lucia Zuccaro.</p><p class="footer-rights">È vietata la riproduzione, la diffusione o il riutilizzo dei contenuti originali del sito e delle immagini degli elaborati degli studenti senza preventiva autorizzazione degli aventi diritto, fatti salvi gli usi consentiti dalla legge.</p></div>
+    <nav><a href="privacy.html">Privacy</a><a href="contatti.html">Contatti e autorizzazioni</a></nav>
+  </footer>
+  <script src="assets/js/lavoro.js"></script>
+  <script src="assets/js/site-ui.js"></script>
+</body>
+</html>

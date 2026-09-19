@@ -47,7 +47,7 @@
     [/^laboratori\.html$|^laboratorio-/, 'laboratori.html'],
     [/^strumenti\.html$/, 'strumenti.html'],
     [/^mappe\.html$/, 'mappe.html'],
-    [/^archivio\.html$|^lavori-esame-/, 'archivio.html'],
+    [/^archivio\.html$|^lavori-esame-|^lavoro\.html$/, 'archivio.html'],
     [/^area-riservata\.html$/, 'area-riservata.html'],
     [/^chi-sono\.html$/, 'chi-sono.html']
   ];

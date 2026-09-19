@@ -1,7 +1,6 @@
 [
   {
     "id": "esame-3e-2026",
-    "order": 4,
     "classLabel": "Classe 3E",
     "category": "Esame 2026",
     "title": "Lavori su tela",
@@ -29,11 +28,12 @@
       "assets/img/esami-3e-2026/elaborato-3e-17.jpg",
       "assets/img/esami-3e-2026/elaborato-3e-18.jpg",
       "assets/img/esami-3e-2026/elaborato-3e-19.jpg"
-    ]
+    ],
+    "published": true,
+    "homeEligible": true
   },
   {
     "id": "esame-3c-2026",
-    "order": 3,
     "classLabel": "Classe 3C",
     "category": "Esame 2026",
     "title": "Lavori su tela",
@@ -62,11 +62,12 @@
       "assets/img/esami-3c-2026/elaborato-3c-18.jpg",
       "assets/img/esami-3c-2026/elaborato-3c-19.jpg",
       "assets/img/esami-3c-2026/elaborato-3c-20.jpg"
-    ]
+    ],
+    "published": true,
+    "homeEligible": true
   },
   {
     "id": "esame-3b-2026",
-    "order": 2,
     "classLabel": "Classe 3B",
     "category": "Esame 2026",
     "title": "Lavori su borsetta",
@@ -91,11 +92,12 @@
       "assets/img/esami-3b-2026/borsetta-14.jpg",
       "assets/img/esami-3b-2026/borsetta-15.jpg",
       "assets/img/esami-3b-2026/borsetta-16.jpg"
-    ]
+    ],
+    "published": true,
+    "homeEligible": true
   },
   {
     "id": "esame-3a-2026",
-    "order": 1,
     "classLabel": "Classe 3A",
     "category": "Esame 2026",
     "title": "Lavori su tela",
@@ -120,6 +122,8 @@
       "assets/img/esami-3a-2026/elaborato-14.jpg",
       "assets/img/esami-3a-2026/elaborato-15.jpg",
       "assets/img/esami-3a-2026/elaborato-16.jpg"
-    ]
+    ],
+    "published": true,
+    "homeEligible": true
   }
 ]

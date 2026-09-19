@@ -1,0 +1,90 @@
+# yaml-language-server: $schema=https://unpkg.com/@sveltia/cms/schema/sveltia-cms.json
+
+backend:
+  name: github
+  repo: marialuciazuccaro-arte/Lucia--arte
+  branch: main
+  auth_methods: [token]
+
+site_url: https://marialuciazuccaro-arte.github.io/Lucia--arte/
+display_url: https://marialuciazuccaro-arte.github.io/Lucia--arte/
+logo_url: https://marialuciazuccaro-arte.github.io/Lucia--arte/assets/img/icons/esplora.png
+
+media_folder: assets/uploads/lavori
+public_folder: assets/uploads/lavori
+
+collections:
+  - name: dati
+    label: Pubblicazione lavori
+    files:
+      - name: lavori
+        label: Lavori pubblicati
+        file: assets/data/lavori.json
+        format: json
+        icon: collections
+        fields:
+          - name: works
+            label: Lavori
+            label_singular: Nuovo lavoro
+            widget: list
+            root: true
+            add_to_top: true
+            allow_add: true
+            allow_remove: true
+            allow_reorder: true
+            summary: '{{classLabel}} — {{title}}'
+            hint: 'Il primo elemento è il più recente. I primi quattro lavori abilitati per la Home compaiono nella prima pagina.'
+            fields:
+              - name: id
+                widget: hidden
+                default: '{{uuid_short}}'
+              - name: published
+                label: Pubblicato
+                widget: boolean
+                default: true
+                hint: 'Disattiva per nascondere temporaneamente il lavoro dal sito senza cancellarlo.'
+              - name: homeEligible
+                label: Può comparire tra gli ultimi 4 in Home
+                widget: boolean
+                default: true
+                hint: 'Disattiva per lavori precedenti che vuoi conservare solo in Archivio.'
+              - name: classLabel
+                label: Classe o gruppo
+                widget: string
+                hint: 'Esempio: Classe 2C, Classi prime, Laboratorio trasversale.'
+              - name: category
+                label: Tipo / periodo
+                widget: string
+                hint: 'Esempio: Laboratorio 2026/27, Esame 2026, Educazione civica.'
+              - name: title
+                label: Titolo del lavoro
+                widget: string
+              - name: description
+                label: Descrizione breve
+                widget: text
+              - name: cover
+                label: Immagine di copertina
+                widget: image
+                choose_url: false
+              - name: alt
+                label: Descrizione accessibile della copertina
+                widget: string
+                required: false
+                hint: 'Descrivi brevemente ciò che si vede nell’immagine.'
+              - name: slides
+                label: Foto degli elaborati
+                widget: image
+                multiple: true
+                required: false
+                choose_url: false
+                hint: 'Puoi caricare più fotografie. Verranno mostrate nella galleria del lavoro.'
+              - name: canvaUrl
+                label: Link Canva o altra risorsa
+                widget: string
+                required: false
+                hint: 'Facoltativo. Incolla qui il link alla presentazione o al materiale collegato.'
+              - name: url
+                label: Pagina già esistente
+                widget: string
+                required: false
+                hint: 'Per i nuovi lavori lascia vuoto: il sito creerà automaticamente la pagina. Compila solo per raccolte già esistenti.'
