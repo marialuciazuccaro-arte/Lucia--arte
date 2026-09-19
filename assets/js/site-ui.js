@@ -59,6 +59,43 @@
         active.setAttribute('aria-current', 'page');
       }
     }
+
+    // Gynzy: strumento utile per la gestione della classe e la disposizione dei banchi.
+    if (file === 'strumenti.html' && !document.getElementById('gestione-classe')) {
+      const interactiveTitle = document.getElementById('interattiva-title');
+      const interactiveSection = interactiveTitle && interactiveTitle.closest('.resource-section');
+
+      if (interactiveSection) {
+        const section = document.createElement('section');
+        section.id = 'gestione-classe';
+        section.className = 'resource-section';
+        section.setAttribute('aria-labelledby', 'gestione-classe-title');
+        section.innerHTML = `
+          <div class="resource-section__head">
+            <div>
+              <p class="eyebrow">Organizzare l’aula</p>
+              <h2 id="gestione-classe-title">Gestione della classe</h2>
+            </div>
+            <p>Strumenti pratici per organizzare spazi, posti e attività quotidiane in aula.</p>
+          </div>
+          <div class="resource-grid">
+            <article class="resource-card resource-card--wide">
+              <span class="resource-tag">Disposizione dei banchi</span>
+              <span class="resource-preview">
+                <span class="preview-fallback">Gynzy • Mappa dei posti e pianta dell’aula</span>
+              </span>
+              <h3>Gynzy</h3>
+              <p>Lavagna interattiva con strumenti per la gestione della classe. La funzione Classroom Seating Chart permette di creare la pianta dell’aula, trascinare e ruotare i banchi, assegnare i posti agli studenti, salvare più configurazioni e stamparle.</p>
+              <div class="resource-links">
+                <a class="resource-link" href="https://www.gynzy.com/" target="_blank" rel="noopener noreferrer">Apri Gynzy ↗</a>
+                <a class="resource-link" href="https://www.gynzy.com/en/library/items/classroom-seating-chart" target="_blank" rel="noopener noreferrer">Mappa dei posti ↗</a>
+              </div>
+            </article>
+          </div>
+        `;
+        interactiveSection.parentNode.insertBefore(section, interactiveSection);
+      }
+    }
   }
 
   const footerNav = document.querySelector('.site-footer nav');

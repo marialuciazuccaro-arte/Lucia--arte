@@ -1,0 +1,11 @@
+AGGIORNAMENTO v27 - GYNZY
+
+Carica nella radice del repository Lucia--arte la cartella assets,
+sostituendo il file esistente assets/js/site-ui.js.
+
+Effetto:
+- aggiunge in Strumenti una nuova sezione "Gestione della classe";
+- aggiunge la scheda Gynzy;
+- mette in evidenza Classroom Seating Chart per la disposizione dei banchi;
+- include due pulsanti: "Apri Gynzy" e "Mappa dei posti";
+- non carica immagini o contenuti di Gynzy automaticamente, quindi non aggiunge nuove richieste esterne finché non si clicca.
