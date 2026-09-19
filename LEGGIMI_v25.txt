@@ -1,0 +1,10 @@
+AGGIORNAMENTO v25 - LINK AREA DOCENTE
+
+Carica nella radice del repository Lucia--arte la cartella assets contenuta qui,
+sostituendo il file esistente.
+
+Effetto:
+- aggiunge automaticamente nel footer del sito il link "🔒 Area docente"
+- il link apre /admin/
+- non modifica il menu principale
+- non cambia i contenuti del sito
