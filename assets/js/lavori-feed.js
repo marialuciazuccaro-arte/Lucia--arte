@@ -7,17 +7,26 @@
     .replaceAll('>', '&gt;')
     .replaceAll('"', '&quot;');
 
+  const assetUrl = (value) => {
+    const src = String(value ?? '').trim();
+    if (!src) return '';
+    if (/^(https?:)?\/\//i.test(src) || src.startsWith('data:') || src.startsWith('blob:')) return src;
+    return src.replace(/^\/(?:Lucia--arte\/)?/, '');
+  };
+
   const workUrl = (item) => item.url || `lavoro.html?id=${encodeURIComponent(item.id || '')}`;
 
   const homeCard = (item) => {
-    const slides = Array.isArray(item.slides) && item.slides.length ? item.slides : [item.cover];
-    const slideAttr = esc(slides.filter(Boolean).join('|'));
+    const rawSlides = Array.isArray(item.slides) && item.slides.length ? item.slides : [item.cover];
+    const slides = rawSlides.map(assetUrl).filter(Boolean);
+    const cover = assetUrl(item.cover);
+    const slideAttr = esc(slides.join('|'));
     const counter = slides.length > 1 ? `<span class="latest-card__counter" aria-hidden="true">1/${slides.length}</span>` : '';
     const hint = slides.length > 1 ? '<span class="latest-card__hint">Passa il mouse per vedere i lavori</span>' : '';
     return `
       <a class="latest-card" href="${esc(workUrl(item))}">
         <span class="latest-card__visual" data-latest-slides="${slideAttr}">
-          <img class="latest-card__image" src="${esc(item.cover)}" alt="${esc(item.alt || item.title)}">
+          <img class="latest-card__image" src="${esc(cover)}" alt="${esc(item.alt || item.title)}">
           ${hint}${counter}
         </span>
         <span class="latest-card__copy">
@@ -28,9 +37,11 @@
       </a>`;
   };
 
-  const archiveCard = (item) => `
+  const archiveCard = (item) => {
+    const cover = assetUrl(item.cover);
+    return `
     <a class="archive-work-card" href="${esc(workUrl(item))}">
-      <span class="archive-work-card__visual"><img src="${esc(item.cover)}" alt="${esc(item.alt || item.title)}"></span>
+      <span class="archive-work-card__visual"><img src="${esc(cover)}" alt="${esc(item.alt || item.title)}"></span>
       <span class="archive-work-card__copy">
         <small>${esc(item.classLabel)} • ${esc(item.category)}</small>
         <strong>${esc(item.title)}</strong>
@@ -38,6 +49,7 @@
         <span class="archive-work-card__link">Apri la raccolta →</span>
       </span>
     </a>`;
+  };
 
   const setupRotation = () => {
     const supportsHover = window.matchMedia('(hover: hover) and (pointer: fine)').matches;

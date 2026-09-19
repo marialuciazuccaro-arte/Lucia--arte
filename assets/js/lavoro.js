@@ -5,6 +5,13 @@
     .replaceAll('>', '&gt;')
     .replaceAll('"', '&quot;');
 
+  const assetUrl = (value) => {
+    const src = String(value ?? '').trim();
+    if (!src) return '';
+    if (/^(https?:)?\/\//i.test(src) || src.startsWith('data:') || src.startsWith('blob:')) return src;
+    return src.replace(/^\/(?:Lucia--arte\/)?/, '');
+  };
+
   const page = document.getElementById('work-page');
   const params = new URLSearchParams(location.search);
   const id = params.get('id');
@@ -23,7 +30,8 @@
       const item = works.find((work) => String(work.id) === id && work.published !== false);
       if (!item) throw new Error('not-found');
 
-      const slides = Array.isArray(item.slides) ? item.slides.filter(Boolean) : [];
+      const slides = Array.isArray(item.slides) ? item.slides.filter(Boolean).map(assetUrl) : [];
+      const cover = assetUrl(item.cover);
       const gallery = slides.length
         ? `<section class="work-gallery-section"><h2>Galleria dei lavori</h2><div class="work-gallery">${slides.map((src, index) => `<a href="${esc(src)}" target="_blank" rel="noopener"><img src="${esc(src)}" alt="${esc(item.title)} – elaborato ${index + 1}" loading="lazy"></a>`).join('')}</div></section>`
         : '';
@@ -42,7 +50,7 @@
             <p class="work-description">${esc(item.description || '')}</p>
             ${canva}
           </div>
-          <figure class="work-cover"><img src="${esc(item.cover)}" alt="${esc(item.alt || item.title)}"></figure>
+          <figure class="work-cover"><img src="${esc(cover)}" alt="${esc(item.alt || item.title)}"></figure>
         </section>
         ${gallery}`;
     })

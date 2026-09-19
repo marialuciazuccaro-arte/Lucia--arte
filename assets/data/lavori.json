@@ -1,54 +1,78 @@
 [
   {
-    "id": "bfd3f0b1e25a",
-    "published": true,
-    "homeEligible": true,
-    "classLabel": "Prova",
-    "category": "settembre 2026",
-    "title": "La rivisitazione della Gioconda",
-    "description": "prova",
-    "cover": "/assets/uploads/lavori/IMG_20260108_175045.jpg",
-    "alt": "",
-    "canvaUrl": "",
-    "url": ""
-  },
-  {
     "id": "esame-3e-2026",
-    "published": true,
-    "homeEligible": true,
     "classLabel": "Classe 3E",
     "category": "Esame 2026",
     "title": "Lavori su tela",
     "description": "Raccolta degli elaborati realizzati dalla classe 3E per l’esame 2026.",
+    "url": "lavori-esame-3e-2026.html",
     "cover": "assets/img/esami-3e-2026/elaborato-3e-01.jpg",
-    "alt": "La gioconda",
+    "alt": "La Notte stellata reinterpretata dalla classe 3E",
     "slides": [
-      "https://picsum.photos/id/542/1920/1280.webp"
+      "assets/img/esami-3e-2026/elaborato-3e-01.jpg",
+      "assets/img/esami-3e-2026/elaborato-3e-02.jpg",
+      "assets/img/esami-3e-2026/elaborato-3e-03.jpg",
+      "assets/img/esami-3e-2026/elaborato-3e-04.jpg",
+      "assets/img/esami-3e-2026/elaborato-3e-05.jpg",
+      "assets/img/esami-3e-2026/elaborato-3e-06.jpg",
+      "assets/img/esami-3e-2026/elaborato-3e-07.jpg",
+      "assets/img/esami-3e-2026/elaborato-3e-08.jpg",
+      "assets/img/esami-3e-2026/elaborato-3e-09.jpg",
+      "assets/img/esami-3e-2026/elaborato-3e-10.jpg",
+      "assets/img/esami-3e-2026/elaborato-3e-11.jpg",
+      "assets/img/esami-3e-2026/elaborato-3e-12.jpg",
+      "assets/img/esami-3e-2026/elaborato-3e-13.jpg",
+      "assets/img/esami-3e-2026/elaborato-3e-14.jpg",
+      "assets/img/esami-3e-2026/elaborato-3e-15.jpg",
+      "assets/img/esami-3e-2026/elaborato-3e-16.jpg",
+      "assets/img/esami-3e-2026/elaborato-3e-17.jpg",
+      "assets/img/esami-3e-2026/elaborato-3e-18.jpg",
+      "assets/img/esami-3e-2026/elaborato-3e-19.jpg"
     ],
-    "canvaUrl": "",
-    "url": ""
+    "published": true,
+    "homeEligible": true
   },
   {
     "id": "esame-3c-2026",
-    "published": true,
-    "homeEligible": true,
     "classLabel": "Classe 3C",
     "category": "Esame 2026",
     "title": "Lavori su tela",
-    "description": "settembre 2026",
-    "cover": "/assets/uploads/lavori/IMG_20260108_175045.jpg",
-    "alt": "",
-    "canvaUrl": "",
-    "url": "lavori-esame-3c-2026.html"
+    "description": "Raccolta degli elaborati realizzati dalla classe 3C per l’esame 2026.",
+    "url": "lavori-esame-3c-2026.html",
+    "cover": "assets/img/esami-3c-2026/elaborato-3c-13.jpg",
+    "alt": "Opera di Crali reinterpretata dalla classe 3C",
+    "slides": [
+      "assets/img/esami-3c-2026/elaborato-3c-13.jpg",
+      "assets/img/esami-3c-2026/elaborato-3c-06.jpg",
+      "assets/img/esami-3c-2026/elaborato-3c-01.jpg",
+      "assets/img/esami-3c-2026/elaborato-3c-02.jpg",
+      "assets/img/esami-3c-2026/elaborato-3c-03.jpg",
+      "assets/img/esami-3c-2026/elaborato-3c-04.jpg",
+      "assets/img/esami-3c-2026/elaborato-3c-05.jpg",
+      "assets/img/esami-3c-2026/elaborato-3c-07.jpg",
+      "assets/img/esami-3c-2026/elaborato-3c-08.jpg",
+      "assets/img/esami-3c-2026/elaborato-3c-09.jpg",
+      "assets/img/esami-3c-2026/elaborato-3c-10.jpg",
+      "assets/img/esami-3c-2026/elaborato-3c-11.jpg",
+      "assets/img/esami-3c-2026/elaborato-3c-12.jpg",
+      "assets/img/esami-3c-2026/elaborato-3c-14.jpg",
+      "assets/img/esami-3c-2026/elaborato-3c-15.jpg",
+      "assets/img/esami-3c-2026/elaborato-3c-16.jpg",
+      "assets/img/esami-3c-2026/elaborato-3c-17.jpg",
+      "assets/img/esami-3c-2026/elaborato-3c-18.jpg",
+      "assets/img/esami-3c-2026/elaborato-3c-19.jpg",
+      "assets/img/esami-3c-2026/elaborato-3c-20.jpg"
+    ],
+    "published": true,
+    "homeEligible": true
   },
   {
     "id": "esame-3b-2026",
-    "published": true,
-    "homeEligible": true,
     "classLabel": "Classe 3B",
     "category": "Esame 2026",
     "title": "Lavori su borsetta",
     "description": "Raccolta degli elaborati realizzati dalla classe 3B per l’esame 2026.",
+    "url": "lavori-esame-3b-2026.html",
     "cover": "assets/img/esami-3b-2026/borsetta-04.jpg",
     "alt": "Opera di Franz Marc reinterpretata dalla classe 3B",
     "slides": [
@@ -69,17 +93,16 @@
       "assets/img/esami-3b-2026/borsetta-15.jpg",
       "assets/img/esami-3b-2026/borsetta-16.jpg"
     ],
-    "canvaUrl": "",
-    "url": "lavori-esame-3b-2026.html"
+    "published": true,
+    "homeEligible": true
   },
   {
     "id": "esame-3a-2026",
-    "published": true,
-    "homeEligible": true,
     "classLabel": "Classe 3A",
     "category": "Esame 2026",
     "title": "Lavori su tela",
     "description": "Raccolta degli elaborati realizzati dalla classe 3A per l’esame 2026.",
+    "url": "lavori-esame-3a-2026.html",
     "cover": "assets/img/esami-3a-2026/elaborato-12.jpg",
     "alt": "Opera di Picasso reinterpretata dalla classe 3A",
     "slides": [
@@ -100,7 +123,7 @@
       "assets/img/esami-3a-2026/elaborato-15.jpg",
       "assets/img/esami-3a-2026/elaborato-16.jpg"
     ],
-    "canvaUrl": "",
-    "url": "lavori-esame-3a-2026.html"
+    "published": true,
+    "homeEligible": true
   }
 ]

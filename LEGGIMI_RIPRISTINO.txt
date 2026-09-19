@@ -1,0 +1,11 @@
+RIPRISTINO AREA DOCENTE v23
+
+Carica nella radice del repository Lucia--arte la cartella assets contenuta qui,
+sostituendo i file esistenti.
+
+Questo aggiornamento:
+- elimina il lavoro di prova dall'elenco dati;
+- ripristina integralmente i 4 lavori Esame 2026;
+- corregge la visualizzazione delle immagini caricate da Sveltia anche quando il percorso inizia con /assets/.
+
+Non modifica le altre pagine del sito.
