@@ -10,8 +10,18 @@ site_url: https://marialuciazuccaro-arte.github.io/Lucia--arte/
 display_url: https://marialuciazuccaro-arte.github.io/Lucia--arte/
 logo_url: https://marialuciazuccaro-arte.github.io/Lucia--arte/assets/img/icons/esplora.png
 
-media_folder: assets/uploads/lavori
-public_folder: assets/uploads/lavori
+media_folder: /assets/uploads/lavori
+public_folder: /Lucia--arte/assets/uploads/lavori
+
+media_libraries:
+  all:
+    slugify_filename: true
+    transformations:
+      raster_image:
+        format: webp
+        quality: 82
+        width: 1600
+        height: 1600
 
 collections:
   - name: dati

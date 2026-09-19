@@ -1,0 +1,20 @@
+AGGIORNAMENTO v24 - MEDIA SVELTIA
+
+Caricare nella radice del repository Lucia--arte:
+- cartella admin
+- cartella assets
+
+Sostituire i file esistenti.
+
+Questo aggiornamento:
+- elimina il nuovo lavoro con immagini mancanti;
+- ripristina i 4 lavori Esame 2026;
+- configura correttamente i percorsi media per GitHub Pages;
+- ridimensiona automaticamente le nuove fotografie a max 1600x1600;
+- converte le nuove fotografie in WebP qualità 82 prima del caricamento;
+- normalizza i nomi dei file.
+
+Dopo il commit:
+1. aprire /admin/
+2. fare un ricaricamento forzato del browser
+3. creare di nuovo il lavoro e caricare le immagini.
