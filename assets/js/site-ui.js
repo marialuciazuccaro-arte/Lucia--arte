@@ -60,6 +60,7 @@
       }
     }
 
+    // Gynzy - gestione della classe e disposizione dei banchi
     if (file === 'strumenti.html' && !document.getElementById('gestione-classe')) {
       const interactiveTitle = document.getElementById('interattiva-title');
       const interactiveSection = interactiveTitle && interactiveTitle.closest('.resource-section');
@@ -96,6 +97,67 @@
           </div>
         `;
         interactiveSection.parentNode.insertBefore(section, interactiveSection);
+      }
+    }
+
+    // Radici di Carta - Educazione civica
+    if (file === 'laboratori.html') {
+      const civicGrid = document.querySelector('#educazione-civica .civic-grid');
+      if (civicGrid && !document.getElementById('radici-di-carta-card')) {
+        if (!document.getElementById('radici-di-carta-style')) {
+          const style = document.createElement('style');
+          style.id = 'radici-di-carta-style';
+          style.textContent = `
+            .civic-card--radici{
+              grid-column:1/-1;
+              grid-template-columns:minmax(260px,38%) minmax(0,1fr);
+              min-height:230px;
+            }
+            .civic-card--radici img{
+              width:100%;
+              height:100%;
+              min-height:210px;
+              object-fit:contain;
+              object-position:center;
+              background:#f7f2e8;
+            }
+            @media(max-width:760px){
+              .civic-card--radici{
+                display:block;
+                min-height:0;
+              }
+              .civic-card--radici img{
+                height:auto;
+                min-height:0;
+                aspect-ratio:16/9;
+                object-fit:cover;
+                margin-bottom:16px;
+              }
+            }
+          `;
+          document.head.appendChild(style);
+        }
+
+        const article = document.createElement('article');
+        article.id = 'radici-di-carta-card';
+        article.className = 'civic-card civic-card--radici';
+        article.innerHTML = `
+          <img src="assets/img/educazione-civica/radici-di-carta/copertina-radici-di-carta.jpg"
+               alt="Copertina del percorso di Educazione civica Radici di Carta"
+               loading="lazy">
+          <div class="civic-card__copy">
+            <span class="eyebrow">Educazione civica • sostenibilità • economia circolare</span>
+            <h4>Radici di Carta</h4>
+            <p>Un percorso che trasforma la carta di scarto in materia viva: dalla riflessione sul consumo e sull’economia circolare alla produzione di carta botanica, fino all’inserimento di semi da piantare. Arte, riciclo e cura del territorio diventano un gesto concreto di cittadinanza attiva.</p>
+            <div class="civic-links">
+              <a class="civic-link"
+                 href="assets/docs/educazione-civica/radici-di-carta/radici-di-carta.pdf"
+                 target="_blank"
+                 rel="noopener noreferrer">Apri la presentazione PDF ↗</a>
+            </div>
+          </div>
+        `;
+        civicGrid.appendChild(article);
       }
     }
   }
