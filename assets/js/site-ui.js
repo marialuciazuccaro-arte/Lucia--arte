@@ -151,9 +151,9 @@
             <p>Un percorso che trasforma la carta di scarto in materia viva: dalla riflessione sul consumo e sull’economia circolare alla produzione di carta botanica, fino all’inserimento di semi da piantare. Arte, riciclo e cura del territorio diventano un gesto concreto di cittadinanza attiva.</p>
             <div class="civic-links">
               <a class="civic-link"
-                 href="assets/docs/educazione-civica/radici-di-carta/radici-di-carta.pdf"
+                 href="https://canva.link/b3vfx64sc280lbe"
                  target="_blank"
-                 rel="noopener noreferrer">Apri la presentazione PDF ↗</a>
+                 rel="noopener noreferrer">Apri la presentazione ↗</a>
             </div>
           </div>
         `;
